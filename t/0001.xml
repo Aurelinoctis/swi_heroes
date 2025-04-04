@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+	<add sel="/language">
+		<!--
+			Ships 	-  	 343001XXXX
+			Engines -  	 343002XXXX
+			Turrets -  	 343003XXXX
+			Shields -  	 343004XXXX
+			Weapons -  	 343005XXXX
+			Modules -  	 343006XXXX
+			Stations - 	 343007XXXX
+			Job Names -  343008XXXX
+			Gamestarts - 343009XXXX
+		-->
+
+		<!--Ships-->
+		<page id="343001" voice="no">
+			<t id="1">\033Y[HERO] Tantive IV</t>
+			<t id="2">Tantive IV was a CR90 corvette in the service of the House of Organa. The ship was a central player in the events at the beginning of the Galactic Civil War, serving as Princess Leia Organa's personal starship in the leadup to the Battle of Yavin.</t>
+			<t id="3">\033Y[HERO] Anakin's Starfighter</t>
+			<t id="4">Anakin Skywalker's personal Eta-2 fighter.</t>
+			<t id="5">\033Y[HERO] Chimaera</t>
+			<t id="6">Chimaera was a modified Imperial I-class Star Destroyer captained by Imperial officer Thrawn during the Galactic Civil War.</t>
+			<t id="7">\033Y[HERO] Orthavan</t>
+			<t id="8">Orthavan is Garm Bel Iblis's personal MC80 Liberty, armed with the best tech available to him.</t>
+			<t id="9">\033Y[HERO] Vader's TIE Advanced</t>
+			<t id="10">Vader's personal TIE Advanced, boasting modifications commissioned by the Sith Lord.</t>
+			<t id="11">\033Y[HERO] Invisible Hand</t>
+			<t id="12">General Grievous' personal flagship. Enhanced with many additional weapons and ion capabilities. </t>
+			<t id="13">\033Y[HERO] Ebon Hawk</t>
+			<t id="14">An ancient yet pivotal ship in the events of the Old Republic.</t>
+			<t id="15">\033Y[HERO] Oppressor</t>
+			<t id="16">A powerful Harrower-class commanded by an ancient Sith during the Old Republic era.</t>
+			<t id="17">\033Y[HERO] Din Djarin's N1</t>
+			<t id="18">A modified N1 with tougher hull and extremely fast engines, modified for use by the Mandalorian.</t>
+			<t id="19">\033Y[HERO] Flame of Ambition</t>
+			<t id="20">A Compellor-class battlecruiser armed with [REDACTED]'s Force-siphoning tech. </t>
+			<t id="21">\033Y[HERO] Red Squadron X-Wing</t>
+			<t id="22">One of twelve legendary T70 X-Wings flown by Red Squadron.</t>
+			<t id="23">\033Y[HERO] Mythosaur</t>
+			<t id="24">The powerful experimental cruiser captained by Moff Gideon.</t>
+			<t id="25">\033Y[HERO] Slave I</t>
+			<t id="26">Boba Fett's legendary Firespray-class.</t>
+			<t id="27">\033Y[HERO] Endurance</t>
+			<t id="28">A Clone-era Venator from Mace Windu's personal fleet.</t>
+			<t id="29">\033Y[HERO] Quaestor</t>
+			<t id="30">A powerful Republic-era Praetor with hardened hull and better construction materials.</t>
+			<t id="31">\033Y[HERO] End of Days</t>
+			<t id="32">An ancient Mandalorian Keldabe-class with better weaponry and faster engines.</t>
+			<t id="33">\033Y[HERO] Soulless One</t>
+			<t id="34">General Grievous' personal Bellubab-22.</t>
+			<t id="35">\033Y[HERO] Millennium Falcon</t>
+			<t id="36">Potentially the most famous ship of all time. You really need a description?</t>
+			<t id="37">\033Y[HERO] Resolute</t>
+			<t id="38">Anakin Skywalker's Venator-class flagship.</t>
+			<t id="39">\033Y[HERO] Redeemer</t>
+			<t id="40">A heroic Venator-class involved in the Clone Wars.</t>
+			<t id="41">\033Y[HERO] Negotiator</t>
+			<t id="42">Obi-Wan Kenobi's Venator-class flagship.</t>
+			<t id="43">\033Y[HERO] Triumphant</t>
+			<t id="44">A heroic Venator-class involved in the Clone Wars.</t>
+			<t id="45">\033Y[HERO] Tranquility</t>
+			<t id="46">A heroic Venator-class involved in the Clone Wars.</t>
+			<t id="47">\033R[LEGEND] Infinity</t>
+			<t id="48">A Procurator-class battlecruiser armed with [REDACTED]'s Force-siphoning tech. </t>
+			<t id="49">\033M[MYTH] Umbra</t>
+			<t id="50">A Resurgent-class battlecruiser armed with [REDACTED]'s Force-siphoning tech. </t>
+			<t id="51">\033Y[HERO] Saak'ak</t>
+			<t id="52">This modified Lucrehulk-class control ship served as the flagship of the Trade Federation blocade of Naboo.</t>
+			<t id="53">\033Y[HERO] Salvation</t>
+			<t id="54">A modified and improved Nebulon-B that assisted many operations for the Rebel Alliance.</t>
+			<t id="55">\033Y[HERO] Phoenix Home</t>
+			<t id="56">A Pelta-2, and a heroic ship of the years preceding the Battle of Yavin.</t>
+			<t id="57">\033Y[HERO] Executor</t>
+			<t id="58">The original Executor owned by Darth Vader. The leftover Sith holocrons create a gravity well effect.</t>
+			<t id="59">\033Y[HERO] Galaxy's Edge</t>
+			<t id="60">An experimental TIE/es developed for Kylo Ren's personal use.</t>
+			<t id="61">\033Y[HERO] Katana</t>
+			<t id="62">The original, namesake flagship of the Katana Fleet Dreadnaughts.</t>
+			<t id="63">\033Y[HERO] Lightmaker</t>
+			<t id="64">Sphyrna Hammerhead used by Rogue One to great effect.</t>
+			<t id="65">\033Y[HERO] Sterdic Star</t>
+			<t id="66">A Sphyrna Hammerhead refitted and used by the New Republic.</t>
+			<t id="67">\033Y[HERO] Lootbug</t>
+			<t id="68">A Probe Droid full of goodies!</t>
+			<t id="69">\033Y[HERO] Protector</t>
+			<t id="70">A Victory-2 that saw great achievement in the Galactic Civil War.</t>
+			<t id="71">\033Y[HERO] Corvus</t>
+			<t id="72">A Raider-2 used by Inferno Squad during the Galactic Civil War.</t>
+			<t id="73">\033Y[HERO] Battle-Forged</t>
+			<t id="74">A Vindicator-class that served the Empire even long after its collapse.</t>
+			<t id="75">\033Y[HERO] Inferno Squadron TIE/ln</t>
+			<t id="76">Four fine-tuned and enhanced TIE fighters piloted by the legendary Inferno Squadron.</t>
+			<t id="77">\033Y[HERO] Profundity</t>
+			<t id="78">The legendary Admiral Raddus' personal MC75.</t>
+			<t id="79">\033M[MYTH] Imperium</t>
+			<t id="80">A lost Mandator-III prototype abandoned to the Maw. Modified by [REDACTED]'s Force-siphon tech.</t>
+			<t id="81">\033Y[HERO] Accuser</t>
+			<t id="82">Captain-turned-Admiral Piett's Allegiance-class heavy star destroyer. Outfitted with extra battleship weapons.</t>
+			<t id="83">\033R[LEGEND] Kronos</t>
+			<t id="84">A lost Titan prototype abandoned to the Maw. Modified by [REDACTED]'s Force-siphon tech.</t>
+			<t id="85">\033Y[HERO] Nightbrother</t>
+			<t id="86">Maul's enhanced Gauntlet starfighter.</t>
+			<t id="87">\033Y[HERO] Vanguard</t>
+			<t id="88">A Bellator-class that was once part of the Byss defense fleet.</t>
+			<t id="89">\033Y[HERO] Nightblade</t>
+			<t id="90">A lost Bellator prototype abandoned to the Maw. Modified by [REDACTED]'s Force-siphon tech.</t>
+			<t id="91">\033Y[HERO] Home One</t>
+			<t id="92">The original Home One, previously owned by the legendary Giel Akbar.</t>
+			<t id="93">\033Y[HERO] Fenelar</t>
+			<t id="94">An ancient, original Kandosii, unearthed from its namesake world.</t>
+			<t id="95">\033Y[HERO] Suneater</t>
+			<t id="96">A Mandator-2 stolen at the beginning of its production line and outfitted with Mandalorian weapons and tech.</t>
+			<t id="97">\033Y[HERO] Galactic</t>
+			<t id="98">An experimental Strident-class designed by NRL forward minds.</t>
+			<t id="99">\033Y[HERO] Moldy Crow</t>
+			<t id="100">\033Y[HERO] Moldy Crow</t>
+			<t id="101">\033Y[HERO] Havoc</t>
+			<t id="102">\033Y[HERO] Havoc</t>
+			<t id="103">\033Y[HERO] Darksaber</t>
+			<t id="104">\033Y[HERO] Darksaber</t>
+			<t id="105">\033Y[HERO] Hardpoint Squadron XJ</t>
+			<t id="106">\033Y[HERO] Hardpoint Squadron XJ</t>
+			<t id="107">\033Y[HERO] Wrath</t>
+			<t id="108">\033Y[HERO] Wrath</t>
+			<t id="109">\033Y[HERO] Base Delta Zero</t>
+			<t id="110">\033Y[HERO] Base Delta Zero</t>
+			<t id="111">\033M[MYTH] Umbral Harrower</t>
+			<t id="112">\033M[MYTH] Umbral Harrower</t>
+			<t id="113">\033M[MYTH] Umbral Terminus</t>
+			<t id="114">\033M[MYTH] Umbral Terminus</t>
+			<t id="115">\033M[MYTH] Umbral Fury</t>
+			<t id="116">\033M[MYTH] Umbral Fury</t>
+			<t id="117">\033Y[HERO] Gilded Aegis</t>
+			<t id="118">\033Y[HERO] Gilded Aegis</t>
+			<t id="119">\033Y[HERO] Pitiless</t>
+			<t id="120">\033Y[HERO] Pitiless</t>
+			<t id="121">\033Y[HERO] Diplomacy</t>
+			<t id="122">\033Y[HERO] Diplomacy</t>
+			<t id="123">\033Y[HERO] Guidance</t>
+			<t id="124">\033Y[HERO] Guidance</t>
+			<t id="125">\033Y[HERO] Devastator</t>
+			<t id="126">\033Y[HERO] Devastator</t>
+			<t id="127">\033R[LEGEND] Aeternum</t>
+			<t id="128">\033R[LEGEND] Aeternum</t>
+			<t id="129">\033Y[HERO] Chancellor</t>
+			<t id="130">\033Y[HERO] Chancellor</t>
+			<t id="131">\033Y[HERO] Cipher</t>
+			<t id="132">\033Y[HERO] Cipher</t>
+			<t id="133">\033Y[HERO] Acclaim</t>
+			<t id="134">\033Y[HERO] Acclaim</t>
+			<t id="135">\033R[LEGEND] Conqueror-class Experimental Superdestroyer</t>
+			<t id="136">\033R[LEGEND] Conqueror-class Experimental Superdestroyer</t>
+			<t id="137">\033Y[HERO] Arbitrator</t>
+			<t id="138">\033Y[HERO] Arbitrator</t>
+			<t id="139">\033Y[HERO] Aurora</t>
+			<t id="140">\033Y[HERO] Aurora</t>
+			<t id="141">\033Y[HERO] Invincible</t>
+			<t id="142">\033Y[HERO] Invincible</t>
+			<t id="143">\033Y[HERO] Liberty</t>
+			<t id="144">\033Y[HERO] Liberty</t>
+			<t id="145">\033Y[HERO] Battalion</t>
+			<t id="146">\033Y[HERO] Battalion</t>
+			<t id="147">\033Y[HERO] Thalassa</t>
+			<t id="148">\033Y[HERO] Thalassa</t>
+			<t id="149">\033Y[HERO] Helmsman</t>
+			<t id="150">\033Y[HERO] Helmsman</t>
+			<t id="151">\033Y[HERO] Banshee</t>
+			<t id="152">\033Y[HERO] Banshee</t>
+			<t id="153">\033R[LEGEND] Truesight-class Experimental Superfighter</t>
+			<t id="154">\033R[LEGEND] Truesight-class Experimental Superfighter</t>
+			<t id="155">\033Y[HERO] Wolfpack Squadron ARC-170</t>
+			<t id="156">\033Y[HERO] Wolfpack Squadron ARC-170</t>
+			<t id="157">\033Y[HERO] Roqoo</t>
+			<t id="158">\033Y[HERO] Roqoo</t>
+			<t id="159">\033Y[HERO] Kamoradon</t>
+			<t id="160">\033Y[HERO] Kamoradon</t>
+			<t id="161">\033Y[HERO] Kyrt'sad</t>
+			<t id="162">\033Y[HERO] Kyrt'sad</t>
+			<t id="163">\033Y[HERO] Nihilus</t>
+			<t id="164">\033Y[HERO] Nihilus</t>
+			<t id="165">\033R[LEGEND] The Answer</t>
+			<t id="166">\033R[LEGEND] The Answer</t>
+			<t id="167">\033R[LEGEND] Legion</t>
+			<t id="168">\033R[LEGEND] Legion</t>
+			<t id="169">\033Y[HERO] Forsaken</t>
+			<t id="170">\033Y[HERO] Forsaken</t>
+			<t id="171">\033Y[HERO] Titan Squadron TIE/d</t>
+			<t id="172">\033Y[HERO] Titan Squadron TIE/d</t>
+			<t id="173">\033Y[HERO] Onyx Squadron TIE/in</t>
+			<t id="174">\033Y[HERO] Onyx Squadron TIE/in</t>
+			<t id="175">\033Y[HERO] Harbinger Squadron TIE Reaper</t>
+			<t id="176">\033Y[HERO] Harbinger Squadron TIE Reaper</t>
+			<t id="177">\033Y[HERO] Gold Squadron Y-Wing</t>
+			<t id="178">\033Y[HERO] Gold Squadron Y-Wing</t>
+			<t id="179">\033Y[HERO] Raven Squadron B-Wing</t>
+			<t id="180">\033Y[HERO] Raven Squadron B-Wing</t>
+
+		</page>		
+	<!--Engines-->
+	    <page id="343002" voice="no">
+			<t id="1">Tantive IV Engine</t>
+			<t id="2">These special engines, commissioned by Bail Organa, give the Tantive a generous speed boost over standard CR90 models.</t>
+			<t id="3">Anakin's Starfighter Engines</t>
+			<t id="4">These engines were custom-tuned by the Chosen One to break speed records for the Eta-2.</t>
+			<t id="5">Din Djarin's N1 Engines</t>
+			<t id="6">These special engines create insane force to propel the Mandalorian towards his next target.</t>
+			<t id="7">Force-Siphoning Engines</t>
+			<t id="8">[REDACTED]'s enhancements and links to the fabric of the Force grant the Flame of Ambition unparalleled speed for its size.</t>
+			<t id="9">Red Squadron Engines</t>
+			<t id="10">Engines for Red Squadron's X-Wings.</t>
+			<t id="11">Mythosaur Engines</t>
+			<t id="12">Powerful engines built with advanced technology from the Dark Trooper program.</t>
+			<t id="13">Heroic Praetor Engines</t>
+			<t id="14">Republic-era engines tuned by an unnamed Jedi.</t>
+			<t id="15">End of Days Engines</t>
+			<t id="16">Ancient Mandalorian engines.</t>	
+			<t id="17">Heroic TIE Engines</t>
+			<t id="18">Heroic TIE Engines</t>
+			<t id="19">Millennium Falcon Engines</t>
+			<t id="20">Who knows where exactly Han picked these up?</t>
+			<t id="21">Heroic Venator Engines</t>
+			<t id="22">Engines standard to Hero Venators, as standard as a hero can be.</t>
+			<t id="23">Force-Siphoning Engines</t>
+			<t id="24">[REDACTED]'s enhancements and links to the fabric of the Force grant the Infinity unparalleled speed for its size.</t>
+			<t id="25">Force-Siphoning Engines</t>
+			<t id="26">[REDACTED]'s enhancements and links to the fabric of the Force grant the Umbra unparalleled speed for its size.</t>
+			<t id="27">Saak'ak Engines</t>
+			<t id="28">Enhanced engines for the modified Lucrehulk flagship Saak'ak.</t>
+			<t id="29">Hero Executor Engines</t>
+			<t id="30">Enhanced and modified engines for Vader's Executor.</t>
+			<t id="31">Galaxy's Edge Engines</t>
+			<t id="32">Modified for speed by the Knights of Ren.</t>
+			<t id="33">Katana Engines</t>
+			<t id="34">Special engines for the Katana.</t>
+			<t id="35">Heroic Hammerhead Engines</t>
+			<t id="36">Engines for all heroic Hammerheads.</t>
+			<t id="37">Corvus Engine</t>
+			<t id="38">Engine for the Raider-2 Corvus.</t>
+			<t id="39">Imperium Force-Siphoning Engine</t>
+			<t id="40">[REDACTED]'s enhancements and links to the fabric of the Force grant the Imperium unparalleled speed for its size.</t>
+			<t id="41">Heroic Allegiance Engines</t>
+			<t id="42">Engines for Hero Allegiances. Possesses nearly instant travel charge.</t>
+			<t id="43">Kronos Engines</t>
+			<t id="44">[REDACTED]'s enhancements and links to the fabric of the Force grant the Kronos unparalleled speed for its size.</t>
+			<t id="45">Vanguard Engines</t>
+			<t id="46">Engines for the Vanguard.</t>
+			<t id="47">Nightblade Engines</t>
+			<t id="48">[REDACTED]'s enhancements and links to the fabric of the Force grant the Nightblade unparalleled speed for its size.</t>
+			<t id="49">Hero Home One Engines</t>
+			<t id="50">Overtuned engines manufactured by MonCal for Home One.</t>
+			<t id="51">Fenelar Engines</t>
+			<t id="52">Ancient, lost-tech engines for the Fenelar dreadnaught.</t>
+			<t id="53">\033YHeroic Mandator-II Engines</t>
+			<t id="54">Enhanced engines for Mandator-IIs.</t>
+			<t id="55">Galactic Engines</t>
+			<t id="56">Enhanced engines for Galactic.</t>
+			<t id="57">\033YHeroic ISD Engines</t>
+			<t id="58">\033YHeroic ISD Engines</t>
+			<t id="59">Base Delta Zero Engines</t>
+			<t id="60">Base Delta Zero Engines</t>
+			<t id="61">\033YHeroic Harrower Engines</t>
+			<t id="62">\033YHeroic Harrower Engines</t>
+			<t id="63">\033YHeroic Large Engines</t>
+			<t id="64">\033YHeroic Large Engines</t>
+			<t id="65">Gilded Aegis Engines</t>
+			<t id="66">Gilded Aegis Engines</t>
+			<t id="67">Pitiless Engines</t>
+			<t id="68">Pitiless Engines</t>
+			<t id="69">Cipher Engines</t>
+			<t id="70">Cipher Engines</t>
+			<t id="71">\033YHeroic MC80 Engines</t>
+			<t id="72">\033YHeroic MC80 Engines</t>
+			<t id="73">\033YHeroic Mandalorian Proto-Venator Engines</t>
+			<t id="74">\033YHeroic Mandalorian Proto-Venator Engines</t>
+			<t id="75">\033YHeroic Harrower-II Engines</t>
+			<t id="76">\033YHeroic Harrower-II Engines</t>
+			<t id="77">\033YHeroic Eclipse Engines</t>
+			<t id="78">\033YHeroic Eclipse Engines</t>
+			<t id="79">\033YHeroic Proto-Venator Engines</t>
+			<t id="80">\033YHeroic Proto-Venator Engines</t>
+			
+
+        </page>		
+	<!--Shields-->	
+	    <page id="343004" voice="no">
+			<t id="1">Tantive IV Shields</t>
+			<t id="2">These special shield generators, commissioned by Bail Organa, give the Tantive a generous shield boost over standard CR90 models.</t>
+			<t id="3">R2D2</t>
+			<t id="4">Anakin's personal R2 Astromech is fine-tuned for plot armor level protection.</t>
+			<t id="5">Chimaera Shields</t>
+			<t id="6">Thrawn's personal shield generators, modified with powerful outer-rim Chiss tech.</t>
+			<t id="7">Orthavan Shields</t>
+			<t id="8">Garm Bel Iblis's custom-tuned shields.</t>
+			<t id="9">Vader's TIE Shields</t>
+			<t id="10">Vader's custom-tuned shields.</t>
+			<t id="11">T3-M4</t>
+			<t id="12">Ebon Hawk's resident maintenance droid.</t>
+			<t id="13">\033YHeroic XLL Shields</t>
+			<t id="14">\033YHeroic XLL Shields</t>
+			<t id="15">Force-Siphoning Shields</t>
+			<t id="16">[REDACTED] has given the Flame of Ambition a barrier that absorbs and repurposes energy.</t>
+			<t id="17">Red Squadron Astromech</t>
+			<t id="18">Custom-tuned, plot-armored astromechs unique to Red Squadron X-Wings.</t>
+			<t id="19">\033YHeroic Large Heavy Shields</t>
+			<t id="20">Heroic Large Heavy Shields</t>
+			<t id="21">Hero Venator Shields</t>
+			<t id="22">Custom-tuned shields for the heroic Venators.</t>
+			<t id="23">\033YHeroic XLH Shields</t>
+			<t id="24">Hero XLH Shields</t>
+			<t id="25">End of Days Shields</t>
+			<t id="26">End of Days' unique shields.</t>
+			<t id="27">Soulless One Shields</t>
+			<t id="28">Grievous' special shields.</t>
+			<t id="29">Millennium Falcon Shields</t>
+			<t id="30">Han and Chewie bribed a few dozen engineers to overclock these generators.</t>
+			<t id="31">Force-Siphoning Shields</t>
+			<t id="32">[REDACTED] has given the Infinity a barrier that absorbs and repurposes energy.</t>
+			<t id="33">Force-Siphoning Shields</t>
+			<t id="34">[REDACTED] has given the Umbra a barrier that absorbs and repurposes energy.</t>
+			<t id="35">Saak'ak Shields</t>
+			<t id="36">Heavily improved shields for Saak'ak.</t>
+			<t id="37">Salvation Shields</t>
+			<t id="38">Enhanced shields tuned for the Rebel ship Salvation.</t>
+			<t id="39">Phoenix Home Shields</t>
+			<t id="40">Improved shields for the Pelta-2 Phoenix Home.</t>
+			<t id="41">Heroic Executor Shields</t>
+			<t id="42">Enhanced and modified shields for Vader's Executor.</t>
+			<t id="43">Galaxy's Edge Shields</t>
+			<t id="44">Modified for strength by the Knights of Ren.</t>
+			<t id="45">\033YHeroic LL Shields</t>
+			<t id="46">Hero LL Shields</t>
+			<t id="47">\033YMedium Hero Shields</t>
+			<t id="48">Unified and enhanced shields for medium Heroes.</t>
+			<t id="49">Protector Shields</t>
+			<t id="50">Powerful shields for the Victory-2 Protector.</t>
+			<t id="51">Battle-Forged Shields</t>
+			<t id="52">Shields for the combat-experienced Battle-Forged.</t>
+			<t id="53">Inferno Squadron TIE Shields</t>
+			<t id="54">Extra-layered shields for the Inferno Squadron TIEs.</t>
+			<t id="55">Profundity Shields</t>
+			<t id="56">Shields for Raddus' mighty MC75.</t>
+			<t id="57">Imperium Force-Siphoning Shields</t>
+			<t id="58">[REDACTED] has given the Imperium a barrier that absorbs and repurposes energy.</t>
+			<t id="59">Heroic Allegiance Shields</t>
+			<t id="60">Enhanced shield domes for Hero Allegiances.</t>
+			<t id="61">Kronos Shields</t>
+			<t id="62">[REDACTED] has given the Kronos a barrier that absorbs and repurposes energy.</t>
+			<t id="63">Vanguard Shields</t>
+			<t id="64">Shield generators for Vanguard.</t>
+			<t id="65">Nightblade Shields</t>
+			<t id="66">[REDACTED] has given the Nightblade a barrier that absorbs and repurposes energy.</t>
+			<t id="67">Hero Home One Shields</t>
+			<t id="68">Massive, overtuned, redundant shielding for Akbar's Home One.</t>
+			<t id="69">Fenelar Shields</t>
+			<t id="70">Powerful and ancient shields for the Fenelar dreadnaught.</t>
+			<t id="71">\033YHeroic Mandator-II Shields</t>
+			<t id="72">Enhanced shields for Suneater.</t>
+			<t id="73">Galactic Shields</t>
+			<t id="74">Enhanced shields for Galactic.</t>
+			<t id="75">\033YSmall Hero Shields</t>
+			<t id="76">Small Hero Shields</t>
+			<t id="77">\033YHeroic ISD Shields</t>
+			<t id="78">Heroic ISD Shields</t>
+			<t id="79">Base Delta Zero Shields</t>
+			<t id="80">Base Delta Zero Shields</t>
+			<t id="81">\033YHeroic ISD2 Shields</t>
+			<t id="82">Heroic ISD2 Shields</t>
+			<t id="83">\033YHeroic Harrower-II Shields</t>
+			<t id="84">\033YHeroic Harrower-II Shields</t>
+			<t id="85">\033YHeroic Eclipse Shields</t>
+			<t id="86">\033YHeroic Eclipse Shields</t>
+
+		</page>	
+	<!--Weapons-->		
+		 <page id="343005" voice="no">
+		 	<t id="1">Red Squadron Lasers</t>
+			<t id="2">These unique KX10s are tuned specifically for Red Squadron X-Wings.</t>
+			<t id="3">Djarin's N1 Lasers</t>
+			<t id="4">Modified by The Mandalorian to possess much enhanced cooling.</t>
+			<t id="5">Endurance Turbolaser</t>
+			<t id="6">Massive, oversized turrets built specifically for Endurance.</t>
+			<t id="7">\033MForce-Siphoning Small Turret</t>
+			<t id="8">\033MForce-Siphoning laser tech reverse engineered by Umbra.</t>
+			<t id="9">\033MForce-Siphoning Medium Turret</t>
+			<t id="10">\033MForce-Siphoning laser tech reverse engineered by Umbra.</t>
+			<t id="11">\033MForce-Siphoning Large Turret</t>
+			<t id="12">\033MForce-Siphoning laser tech reverse engineered by Umbra.</t>
+			<t id="13">\033MForce-Siphoning Extra Large Turret</t>
+			<t id="14">\033MForce-Siphoning laser tech reverse engineered by Umbra.</t>
+			<t id="15">\033RAeternal Superlaser</t>
+			<t id="16">\033RAeternal Superlaser</t>
+			<t id="17">\033MDroid-Assisted Point Defence Emplacement</t>
+			<t id="18">\033MDroid-Assisted Point Defence Emplacement</t>
+		</page>	
+		<!--Job Names-->
+		 <page id="343006" voice="no">
+		 	<t id="1">Heroic Fleet</t>
+		</page>	
+
+		<!-- Researches -->
+		 	<page id="343007" voice="no">
+				<t id="1">Rebel Alliance Hero Research</t>
+				<t id="2">Galactic Empire Hero Research</t>
+				<t id="3">Ascendancy Hero Research</t>
+				<t id="4">New Republic Hero Research</t>
+				<t id="6">ICG Hero Research</t>
+				<t id="7">Sith Hero Research</t>
+				<t id="8">Mandalorian Hero Research</t>
+				<t id="9">CSA/Kamino Hero Research</t>
+				<t id="10">\033MUmbra</t>
+				<t id="11">After your titanic battle with the Sith capital ship, your sensors barely managed to detect a flickering Force Essence drifting through space. Bringing it on board, you quickly discover a small core presumably once part of Umbra. It whirs to life, and within is a trapped and tortured Force spirit, sharing a namesake with the ship you just destroyed. In exchange for freeing her, she offers you a choice — she can assist you in researching either a replica of her crowning ship, or the Force-draining weaponry it utilized…</t>
+				<t id="12">\033MUmbra Research</t>
+				<t id="13">Choose wisely...</t>
+				<t id="14">\033MUmbratech Weapons Research</t>
+				<t id="15">Choose wisely...</t>
+				<t id="16">\033YVestige of Fate</t>
+				<t id="17">Forgotten fragments left behind by a Hero's destruction.</t>
+				<t id="18">\033MExperimental Droid Core</t>
+				<t id="19">A new Ascendancy technology, this hyperintelligent droid core powered the mighty Mandator-3 dreadnaught. Perhaps its exotic subroutines can be repurposed...</t>
+				<t id="20">\033RAeternum, the Forever-Mind</t>
+				<t id="21">\033RYour simplistic synapses cannot comprehend the gravity of your actions.</t>
+				<t id="22">\033YTier 1 Hero Mods</t>
+				<t id="23">Unlocks the Tier 1 Heroic upgrades.</t>
+				<t id="24">\033MTier 2 Hero Mods</t>
+				<t id="25">Unlocks the Tier 2 Mythic upgrades.</t>
+				<t id="26">\033RYou have what you need.</t>
+				<t id="27">\033REmbrace my knowledge. Embrace the infinite.</t>
+			</page>
+
+			<!-- Mods -->
+			<page id="343008" voice="no">
+				<t id="1">\033YHeroic Ship Hull</t>
+				<t id="2">Upgrades this ship to Heroic tier.</t>
+				<t id="3">\033YHeroic Ship Engine</t>
+				<t id="4">Upgrades this ship to Heroic tier.</t>
+				<t id="5">\033MMythic Ship Hull</t>
+				<t id="6">Upgrades this ship to Mythic tier.</t>
+				<t id="7">\033MMythic Ship Engine</t>
+				<t id="8">Upgrades this ship to Mythic tier.</t>
+				<t id="9">\033RLegendary Ship Hull</t>
+				<t id="10">Upgrades this ship to Legendary tier.</t>
+				<t id="11">\033RLegendary Ship Engine</t>
+				<t id="12">Upgrades this ship to Legendary tier.</t>
+
+			</page>	
+
+			
+			<!-- Gamestarts -->
+			<page id="343009" voice="no">
+				<t id="1">\033YHeroic Ship Hull</t>
+				
+				
+			</page>
+
+	</add>
+</diff>

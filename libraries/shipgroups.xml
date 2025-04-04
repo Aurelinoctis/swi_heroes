@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/groups">
+			<group name="hero_tantive_m">
+				<select macro="heroes_tantive_macro"/>
+			</group>
+			<group name="hero_redsquadron_s">
+				<select macro="heroes_red_squadron_macro"/>
+			</group>			
+			<group name="hero_chimaera_xl">
+				<select macro="heroes_chimaera_macro"/>
+			</group>			
+			<group name="hero_orthavan_xl">
+				<select macro="heroes_orthavan_macro"/>
+			</group>							
+			<group name="hero_hand_xl">
+				<select macro="heroes_hand_macro"/>
+			</group>
+			<group name="hero_oppressor_xl">
+				<select macro="heroes_oppressor_macro"/>
+			</group>						
+			<group name="hero_mythosaur_l">
+				<select macro="heroes_mythosaur_macro"/>
+			</group>
+			<group name="hero_endurance_xl">
+				<select macro="heroes_endurance_macro"/>
+			</group>
+			<group name="hero_quaestor_xl">
+				<select macro="heroes_quaestor_macro"/>
+			</group>
+			<group name="hero_endofdays_xl">
+				<select macro="heroes_endofdays_macro"/>
+			</group>
+			<group name="hero_falcon_m">
+				<select macro="heroes_falcon_macro"/>
+			</group>		
+			<group name="hero_resolute_xl">
+				<select macro="heroes_resolute_macro"/>
+			</group>
+			<group name="hero_negotiator_xl">
+					<select macro="heroes_negotiator_macro"/>
+			</group>
+			<group name="hero_salvation_l">
+				<select macro="heroes_salvation_macro"/>
+			</group>
+			<group name="hero_phoenix_l">
+				<select macro="heroes_phoenix_macro"/>
+			</group>
+			<group name="hero_saakak_xl">
+				<select macro="heroes_saakak_macro"/>
+			</group>
+			<group name="hero_umbra_xl">
+				<select macro="heroes_umbra_macro"/>
+			</group>
+			<group name="hero_katana_l">
+				<select macro="heroes_katana_macro"/>
+			</group>
+			<group name="hero_lightmaker_m">
+				<select macro="heroes_lightmaker_macro"/>
+			</group>
+			<group name="hero_sterdicstar_m">
+				<select macro="heroes_sterdicstar_macro"/>
+			</group>
+			<group name="hero_lootbug_s">
+				<select macro="heroes_lootbug_macro"/>
+			</group>
+			<group name="hero_protector_l">
+				<select macro="heroes_protector_macro"/>
+			</group>
+			<group name="hero_corvus_m">
+				<select macro="heroes_corvus_macro"/>
+			</group>
+			<group name="hero_battleforged_l">
+				<select macro="heroes_battleforged_macro"/>
+			</group>
+			<group name="hero_inferno_s">
+				<select macro="heroes_inferno_macro"/>
+			</group>
+			<group name="hero_profundity_xl">
+				<select macro="heroes_profundity_macro"/>
+			</group>
+			<group name="hero_executor_xl">
+				<select macro="heroes_executor_macro"/>
+			</group>
+			<group name="hero_umbral_harrower_xl">
+				<select macro="heroes_umbral_harrower_macro"/>
+			</group>
+			<group name="hero_umbral_terminus_l">
+				<select macro="heroes_umbral_terminus_macro"/>
+			</group>
+			<group name="hero_umbral_fury_s">
+				<select macro="heroes_umbral_fury_macro"/>
+			</group>
+			<group name="hero_lootbug_s">
+				<select macro="heroes_lootbug_macro"/>
+			</group>
+			<group name="hero_accuser_xl">
+				<select macro="heroes_accuser_macro"/>
+			</group>
+			<group name="hero_aegis_xl">
+				<select macro="heroes_aegis_macro"/>
+			</group>
+			<group name="hero_ambition_xl">
+				<select macro="heroes_ambition_macro"/>
+			</group>
+			<group name="hero_delta_xl">
+				<select macro="heroes_delta_macro"/>
+			</group>
+			<group name="hero_devastator_xl">
+				<select macro="heroes_devastator_macro"/>
+			</group>
+			<group name="hero_fenelar_xl">
+				<select macro="heroes_fenelar_macro"/>
+			</group>
+			<group name="hero_galactic_xl">
+				<select macro="heroes_galactic_macro"/>
+			</group>
+			<group name="hero_homeone_xl">
+				<select macro="heroes_homeone_macro"/>
+			</group>
+			<group name="hero_imperium_xl">
+				<select macro="heroes_imperium_macro"/>
+			</group>
+			<group name="hero_infinity_xl">
+				<select macro="heroes_infinity_macro"/>
+			</group>
+			<group name="hero_kronos_xl">
+				<select macro="heroes_kronos_macro"/>
+			</group>
+			<group name="hero_mandalore_xl">
+				<select macro="heroes_mandalore_macro"/>
+			</group>
+			<group name="hero_nightblade_xl">
+				<select macro="heroes_nightblade_macro"/>
+			</group>
+			<group name="hero_vanguard_xl">
+				<select macro="heroes_vanguard_macro"/>
+			</group>
+			<group name="hero_wrath_xl">
+				<select macro="heroes_wrath_macro"/>
+			</group>
+			<group name="hero_aeternum_xl">
+				<select macro="heroes_aeternum_macro"/>
+			</group>
+			<group name="hero_lusankya_xl">
+				<select macro="heroes_lusankya_macro"/>
+			</group>
+
+			<group name="hero_aurora_xl">
+				<select macro="heroes_aurora_macro"/>
+			</group>
+			<group name="hero_invincible_xl">
+				<select macro="heroes_invincible_macro"/>
+			</group>
+			<group name="hero_liberty_xl">
+				<select macro="heroes_liberty_macro"/>
+			</group>
+			<group name="hero_battalion_xl">
+				<select macro="heroes_battalion_macro"/>
+			</group>
+			<group name="hero_thalassa_xl">
+				<select macro="heroes_thalassa_macro"/>
+			</group>
+			<group name="hero_helmsman_xl">
+				<select macro="heroes_helmsman_macro"/>
+			</group>
+
+			<group name="hero_truesight_s">
+				<select macro="heroes_truesight_macro"/>
+			</group>
+			<group name="hero_conqueror_xl">
+				<select macro="heroes_conqueror_macro"/>
+			</group>
+			<group name="hero_legion_xl">
+				<select macro="heroes_legion_macro"/>
+			</group>
+			<group name="hero_forsaken_xl">
+				<select macro="heroes_forsaken_macro"/>
+			</group>
+
+	</add>
+</diff>

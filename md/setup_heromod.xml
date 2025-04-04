@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="script_heroes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\x4 extract\libraries\md.xsd">
+	<cues>
+		<cue name="Limit_Heroes" instantiate="false" version="4">
+			<conditions>
+				<check_any>
+					<event_cue_signalled cue="md.Setup.GameStart"/>
+					<event_game_loaded/>
+				</check_any>
+				<check_value value="player.galaxy.macro == macro.swi_galaxy_macro" comment="only in main-galaxy"/>
+			</conditions>
+			<actions>
+				<set_userdata name="'limited_blueprint_heroes_chimaera'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_orthavan'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_hand'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_oppressor'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_endurance'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_quaestor'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_endofdays'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_mythosaur'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_tantive'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_ebon'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_anakin'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_vader'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_djarin'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_red_squadron'" value="12"/>
+				<set_userdata name="'limited_blueprint_heroes_fett'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_soulless'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_falcon'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_resolute'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_negotiator'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_infinity'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_umbra'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_saakak'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_salvation'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_phoenix'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_heroexecutor'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_galaxysedge'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_katana'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_lightmaker'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_sterdicstar'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_protector'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_lootbug'" value="10"/>
+				<set_userdata name="'limited_blueprint_heroes_corvus'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_battleforged'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_inferno'" value="48"/>
+				<set_userdata name="'limited_blueprint_heroes_profundity'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_imperium'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_accuser'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_kronos'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_nightbrother'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_vanguard'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_nightblade'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_homeone'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_fenelar'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_mandalore'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_galactic'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_moldycrow'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_havoc'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_darksaber'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_hardpoint'" value="24"/>
+				<set_userdata name="'limited_blueprint_heroes_wrath'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_delta'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_umbral_harrower'" value="10"/>
+				<set_userdata name="'limited_blueprint_heroes_umbral_terminus'" value="20"/>
+				<set_userdata name="'limited_blueprint_heroes_pitiless'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_diplomacy'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_guidance'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_devastator'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_cipher'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_aegis'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_chancellor'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_aurora'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_liberty'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_invincible'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_battalion'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_thalassa'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_helmsman'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_lusankya'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_banshee'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_acclaim'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_roqoo'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_wolfpack'" value="12"/>
+				<set_userdata name="'limited_blueprint_heroes_kamoradon'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_kyrtsad'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_nihilus'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_legion'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_forsaken'" value="1"/>
+				<set_userdata name="'limited_blueprint_heroes_titan'" value="12"/>
+				<set_userdata name="'limited_blueprint_heroes_onyx'" value="12"/>
+				<set_userdata name="'limited_blueprint_heroes_harbinger'" value="12"/>
+				<set_userdata name="'limited_blueprint_heroes_gold'" value="24"/>
+				<set_userdata name="'limited_blueprint_heroes_raven'" value="12"/>
+
+				<add_encyclopedia_entry type="researchables" item="'research_hero_rebels'"/>
+				<add_encyclopedia_entry type="researchables" item="'research_hero_empire'"/>
+				<add_encyclopedia_entry type="researchables" item="'research_hero_ascendancy'"/>
+				<add_encyclopedia_entry type="researchables" item="'research_hero_newrepublic'"/>
+				<add_encyclopedia_entry type="researchables" item="'research_hero_icg'"/>
+				<add_encyclopedia_entry type="researchables" item="'research_hero_sith'"/>
+				<add_encyclopedia_entry type="researchables" item="'research_hero_mando'"/>
+				<add_encyclopedia_entry type="researchables" item="'research_hero_csa'"/>
+				<add_encyclopedia_entry type="researchables" item="'research_hero_umbra'"/>
+				<add_encyclopedia_entry type="researchables" item="'research_hero_tier1'"/>
+				<add_encyclopedia_entry type="researchables" item="'research_hero_tier2'"/>
+				<add_encyclopedia_entry type="researchables" item="'research_hero_tier3'"/>
+
+			</actions>
+		</cue>
+		<cue name="Research_Finished_hero_rebels" instantiate="true">
+			<conditions>
+				<event_player_research_unlocked ware="ware.research_hero_rebels"/>
+			</conditions>
+			<actions>
+				<add_blueprints wares="[ware.heroes_salvation]"/>
+				<add_blueprints wares="[ware.heroes_red_squadron]"/>
+				<add_blueprints wares="[ware.heroes_phoenix]"/>
+				<add_blueprints wares="[ware.heroes_tantive]"/>
+				<add_blueprints wares="[ware.heroes_lightmaker]"/>
+				<add_blueprints wares="[ware.heroes_lootbug]"/>
+				<add_blueprints wares="[ware.heroes_shield_m_tantive]"/>
+				<add_blueprints wares="[ware.heroes_shield_s_redsquadron]"/>
+				<add_blueprints wares="[ware.heroes_shield_salvation]"/>
+				<add_blueprints wares="[ware.heroes_shield_phoenix]"/>
+				<add_blueprints wares="[ware.heroes_weapon_redsquadron]"/>
+				<add_blueprints wares="[ware.heroes_engine_tantive]"/>
+				<add_blueprints wares="[ware.heroes_engine_redsquadron]"/>
+				<add_blueprints wares="[ware.heroes_engine_herohammerhead]"/>
+				<add_blueprints wares="[ware.heroes_moldycrow]"/>
+				<add_blueprints wares="[ware.heroes_homeone]"/>
+				<add_blueprints wares="[ware.heroes_gold]"/>
+				<add_blueprints wares="[ware.heroes_raven]"/>
+				<add_blueprints wares="[ware.heroes_engine_herohomeone]"/>
+				<add_blueprints wares="[ware.heroes_shield_herohomeone]"/>
+				<add_blueprints wares="[ware.heroes_shield_heros]"/>
+				<add_blueprints wares="[ware.heroes_shield_herom]"/>
+				<add_blueprints wares="[ware.heroes_shield_ll]"/>
+				<add_blueprints wares="[ware.heroes_shield_lh]"/>
+				<add_blueprints wares="[ware.heroes_shield_xll]"/>
+				<add_blueprints wares="[ware.heroes_shield_xlh]"/>
+				<add_blueprints wares="[ware.heroes_engine_l]"/>
+			</actions>
+		</cue>
+
+		<cue name="Research_Finished_hero_empire" instantiate="true">
+			<conditions>
+				<event_player_research_unlocked ware="ware.research_hero_empire"/>
+			</conditions>
+			<actions>
+				<add_blueprints wares="[ware.heroes_protector]"/>
+				<add_blueprints wares="[ware.heroes_battleforged]"/>
+				<add_blueprints wares="[ware.heroes_corvus]"/>
+				<add_blueprints wares="[ware.heroes_vader]"/>
+				<add_blueprints wares="[ware.heroes_inferno]"/>
+				<add_blueprints wares="[ware.heroes_titan]"/>
+				<add_blueprints wares="[ware.heroes_onyx]"/>
+				<add_blueprints wares="[ware.heroes_harbinger]"/>
+				<add_blueprints wares="[ware.heroes_lootbug]"/>
+				<add_blueprints wares="[ware.heroes_devastator]"/>
+				<add_blueprints wares="[ware.heroes_shield_protector]"/>
+				<add_blueprints wares="[ware.heroes_shield_heroisd]"/>
+				<add_blueprints wares="[ware.heroes_shield_isd2]"/>
+				<add_blueprints wares="[ware.heroes_shield_battleforged]"/>
+				<add_blueprints wares="[ware.heroes_shield_s_vader]"/>
+				<add_blueprints wares="[ware.heroes_engine_vader]"/>
+				<add_blueprints wares="[ware.heroes_engine_heroisd]"/>
+				<add_blueprints wares="[ware.heroes_engine_corvus]"/>
+				<add_blueprints wares="[ware.heroes_accuser]"/>
+				<add_blueprints wares="[ware.heroes_engine_accuser]"/>
+				<add_blueprints wares="[ware.heroes_shield_accuser]"/>
+				<add_blueprints wares="[ware.heroes_shield_heros]"/>
+				<add_blueprints wares="[ware.heroes_shield_herom]"/>
+				<add_blueprints wares="[ware.heroes_shield_ll]"/>
+				<add_blueprints wares="[ware.heroes_shield_lh]"/>
+				<add_blueprints wares="[ware.heroes_shield_xll]"/>
+				<add_blueprints wares="[ware.heroes_shield_xlh]"/>
+				<add_blueprints wares="[ware.heroes_engine_l]"/>
+			</actions>
+		</cue>
+
+		<cue name="Research_Finished_hero_ascendancy" instantiate="true">
+			<conditions>
+				<event_player_research_unlocked ware="ware.research_hero_ascendancy"/>
+			</conditions>
+			<actions>
+				<add_blueprints wares="[ware.heroes_chimaera]"/>
+				
+				<add_blueprints wares="[ware.heroes_mythosaur]"/>
+				<add_blueprints wares="[ware.heroes_galaxysedge]"/>
+				<add_blueprints wares="[ware.heroes_ambition]"/>
+				<add_blueprints wares="[ware.heroes_lootbug]"/>
+				<add_blueprints wares="[ware.heroes_shield_heroisd]"/>
+				<add_blueprints wares="[ware.heroes_shield_xl_chimaera]"/>
+				<add_blueprints wares="[ware.heroes_shield_lh_mythosaur]"/>
+				
+				<add_blueprints wares="[ware.heroes_shield_galaxysedge]"/>
+				<add_blueprints wares="[ware.heroes_engine_mythosaur]"/>
+				
+				<add_blueprints wares="[ware.heroes_engine_galaxysedge]"/>
+				<add_blueprints wares="[ware.heroes_engine_ambition]"/>
+				<add_blueprints wares="[ware.heroes_shield_isd2]"/>
+				<add_blueprints wares="[ware.heroes_vanguard]"/>
+				<add_blueprints wares="[ware.heroes_nightblade]"/>
+				<add_blueprints wares="[ware.heroes_engine_vanguard]"/>
+				<add_blueprints wares="[ware.heroes_shield_vanguard]"/>
+				<add_blueprints wares="[ware.heroes_shield_ambition]"/>
+				<add_blueprints wares="[ware.heroes_engine_nightblade]"/>
+				<add_blueprints wares="[ware.heroes_shield_nightblade]"/>
+				<add_blueprints wares="[ware.heroes_engine_heroisd]"/>
+				<add_blueprints wares="[ware.heroes_shield_heros]"/>
+				<add_blueprints wares="[ware.heroes_shield_herom]"/>
+				<add_blueprints wares="[ware.heroes_shield_ll]"/>
+				<add_blueprints wares="[ware.heroes_shield_lh]"/>
+				<add_blueprints wares="[ware.heroes_shield_xll]"/>
+				<add_blueprints wares="[ware.heroes_shield_xlh]"/>
+				<add_blueprints wares="[ware.heroes_engine_l]"/>
+			</actions>
+		</cue>
+
+		<cue name="Research_Finished_hero_newrepublic" instantiate="true">
+			<conditions>
+				<event_player_research_unlocked ware="ware.research_hero_newrepublic"/>
+			</conditions>
+			<actions>
+				<add_blueprints wares="[ware.heroes_orthavan]"/>
+				<add_blueprints wares="[ware.heroes_aurora]"/>
+				<add_blueprints wares="[ware.heroes_invincible]"/>
+				<add_blueprints wares="[ware.heroes_liberty]"/>
+				<add_blueprints wares="[ware.heroes_profundity]"/>
+				<add_blueprints wares="[ware.heroes_katana]"/>
+				<add_blueprints wares="[ware.heroes_sterdicstar]"/>
+				<add_blueprints wares="[ware.heroes_lootbug]"/>
+				<add_blueprints wares="[ware.heroes_shield_xl_orthavan]"/>
+				<add_blueprints wares="[ware.heroes_shield_katana]"/>
+				<add_blueprints wares="[ware.heroes_shield_profundity]"/>
+				<add_blueprints wares="[ware.heroes_engine_katana]"/>
+				<add_blueprints wares="[ware.heroes_engine_heromc80]"/>
+				<add_blueprints wares="[ware.heroes_engine_herohammerhead]"/>
+				<add_blueprints wares="[ware.heroes_galactic]"/>
+				<add_blueprints wares="[ware.heroes_hardpoint]"/>
+				<add_blueprints wares="[ware.heroes_engine_galactic]"/>
+				<add_blueprints wares="[ware.heroes_shield_galactic]"/>
+				<add_blueprints wares="[ware.heroes_shield_heros]"/>
+				<add_blueprints wares="[ware.heroes_shield_herom]"/>
+				<add_blueprints wares="[ware.heroes_shield_ll]"/>
+				<add_blueprints wares="[ware.heroes_shield_lh]"/>
+				<add_blueprints wares="[ware.heroes_shield_xll]"/>
+				<add_blueprints wares="[ware.heroes_shield_xlh]"/>
+				<add_blueprints wares="[ware.heroes_engine_l]"/>
+			</actions>
+		</cue>
+
+		<cue name="Research_Finished_hero_icg" instantiate="true">
+			<conditions>
+				<event_player_research_unlocked ware="ware.research_hero_icg"/>
+			</conditions>
+			<actions>
+				<add_blueprints wares="[ware.heroes_hand]"/>
+				<add_blueprints wares="[ware.heroes_saakak]"/>
+				<add_blueprints wares="[ware.heroes_soulless]"/>
+				<add_blueprints wares="[ware.heroes_lootbug]"/>
+				<add_blueprints wares="[ware.heroes_aegis]"/>
+				<add_blueprints wares="[ware.heroes_shield_soulless]"/>
+				<add_blueprints wares="[ware.heroes_shield_saakak]"/>
+				<add_blueprints wares="[ware.heroes_engine_saakak]"/>
+				<add_blueprints wares="[ware.heroes_engine_aegis]"/>
+				<add_blueprints wares="[ware.heroes_shield_heros]"/>
+				<add_blueprints wares="[ware.heroes_shield_herom]"/>
+				<add_blueprints wares="[ware.heroes_shield_ll]"/>
+				<add_blueprints wares="[ware.heroes_shield_lh]"/>
+				<add_blueprints wares="[ware.heroes_shield_xll]"/>
+				<add_blueprints wares="[ware.heroes_shield_xlh]"/>
+				<add_blueprints wares="[ware.heroes_engine_l]"/>
+			</actions>
+		</cue>
+
+		<cue name="Research_Finished_hero_sith" instantiate="true">
+			<conditions>
+				<event_player_research_unlocked ware="ware.research_hero_sith"/>
+			</conditions>
+			<actions>
+				<add_blueprints wares="[ware.heroes_oppressor]"/>
+				<add_blueprints wares="[ware.heroes_chancellor]"/>
+				<add_blueprints wares="[ware.heroes_cipher]"/>
+				<add_blueprints wares="[ware.heroes_lootbug]"/>
+				<add_blueprints wares="[ware.heroes_shield_xl_oppressor]"/>
+				<add_blueprints wares="[ware.heroes_shield_heros]"/>
+				<add_blueprints wares="[ware.heroes_shield_herom]"/>
+				<add_blueprints wares="[ware.heroes_shield_ll]"/>
+				<add_blueprints wares="[ware.heroes_shield_lh]"/>
+				<add_blueprints wares="[ware.heroes_shield_xll]"/>
+				<add_blueprints wares="[ware.heroes_shield_xlh]"/>
+				<add_blueprints wares="[ware.heroes_engine_l]"/>
+				<add_blueprints wares="[ware.heroes_engine_heroharrower]"/>
+				<add_blueprints wares="[ware.heroes_engine_cipher]"/>
+			</actions>
+		</cue>
+
+		<cue name="Research_Finished_hero_mando" instantiate="true">
+			<conditions>
+				<event_player_research_unlocked ware="ware.research_hero_mando"/>
+			</conditions>
+			<actions>
+				<add_blueprints wares="[ware.heroes_endofdays]"/>
+				<add_blueprints wares="[ware.heroes_djarin]"/>
+				<add_blueprints wares="[ware.heroes_lootbug]"/>
+				<add_blueprints wares="[ware.heroes_shield_endofdays]"/>
+				<add_blueprints wares="[ware.heroes_weapon_djarin]"/>
+				<add_blueprints wares="[ware.heroes_engine_djarin]"/>
+				<add_blueprints wares="[ware.heroes_shield_heros]"/>
+				<add_blueprints wares="[ware.heroes_nightbrother]"/>
+				<add_blueprints wares="[ware.heroes_fenelar]"/>
+				<add_blueprints wares="[ware.heroes_kyrtsad]"/>
+				<add_blueprints wares="[ware.heroes_pitiless]"/>
+				<add_blueprints wares="[ware.heroes_mandalore]"/>
+				<add_blueprints wares="[ware.heroes_darksaber]"/>
+				<add_blueprints wares="[ware.heroes_engine_fenelar]"/>
+				<add_blueprints wares="[ware.heroes_shield_fenelar_left]"/>
+				<add_blueprints wares="[ware.heroes_shield_fenelar_right]"/>
+				<add_blueprints wares="[ware.heroes_engine_mandalore]"/>
+				<add_blueprints wares="[ware.heroes_engine_kyrtsad]"/>
+				<add_blueprints wares="[ware.heroes_shield_mandalore]"/>
+				<add_blueprints wares="[ware.heroes_shield_heros]"/>
+				<add_blueprints wares="[ware.heroes_shield_herom]"/>
+				<add_blueprints wares="[ware.heroes_shield_ll]"/>
+				<add_blueprints wares="[ware.heroes_shield_lh]"/>
+				<add_blueprints wares="[ware.heroes_shield_xll]"/>
+				<add_blueprints wares="[ware.heroes_shield_xlh]"/>
+				<add_blueprints wares="[ware.heroes_engine_l]"/>
+			</actions>
+		</cue>
+
+		<cue name="Research_Finished_hero_csa" instantiate="true">
+			<conditions>
+				<event_player_research_unlocked ware="ware.research_hero_csa"/>
+			</conditions>
+			<actions>
+				<add_blueprints wares="[ware.heroes_quaestor]"/>
+				<add_blueprints wares="[ware.heroes_wolfpack]"/>
+				<add_blueprints wares="[ware.heroes_battalion]"/>
+				<add_blueprints wares="[ware.heroes_thalassa]"/>
+				<add_blueprints wares="[ware.heroes_helmsman]"/>
+				<add_blueprints wares="[ware.heroes_anakin]"/>
+				<add_blueprints wares="[ware.heroes_lootbug]"/>
+				<add_blueprints wares="[ware.heroes_guidance]"/>
+				<add_blueprints wares="[ware.heroes_diplomacy]"/>
+				<add_blueprints wares="[ware.heroes_endurance]"/>
+				<add_blueprints wares="[ware.heroes_resolute]"/>
+				<add_blueprints wares="[ware.heroes_negotiator]"/>
+				<add_blueprints wares="[ware.heroes_kamoradon]"/>
+				<add_blueprints wares="[ware.heroes_acclaim]"/>
+				<add_blueprints wares="[ware.heroes_wolfpack]"/>
+				<add_blueprints wares="[ware.heroes_engine_herovenator]"/>
+				<add_blueprints wares="[ware.heroes_engine_kamoradon]"/>
+				<add_blueprints wares="[ware.heroes_shield_s_anakin]"/>
+				<add_blueprints wares="[ware.heroes_shield_quaestor]"/>
+				<add_blueprints wares="[ware.heroes_engine_anakin]"/>
+				<add_blueprints wares="[ware.heroes_engine_quaestor]"/>
+				<add_blueprints wares="[ware.heroes_shield_heros]"/>
+				<add_blueprints wares="[ware.heroes_shield_herom]"/>
+				<add_blueprints wares="[ware.heroes_shield_ll]"/>
+				<add_blueprints wares="[ware.heroes_shield_lh]"/>
+				<add_blueprints wares="[ware.heroes_shield_xll]"/>
+				<add_blueprints wares="[ware.heroes_shield_xlh]"/>
+				<add_blueprints wares="[ware.heroes_engine_l]"/>
+			</actions>
+		</cue>
+		<cue name="Research_Finished_hero_umbra" instantiate="true">
+			<conditions>
+				<event_player_research_unlocked ware="ware.research_hero_umbra"/>
+			</conditions>
+			<actions>
+				<add_blueprints wares="[ware.heroes_umbra]"/>
+				<add_blueprints wares="[ware.heroes_shield_umbra]"/>
+				<add_blueprints wares="[ware.heroes_engine_umbra]"/>
+				<add_blueprints wares="[ware.heroes_turret_umbrasmall]"/>
+				<add_blueprints wares="[ware.heroes_turret_umbramedium]"/>
+				<add_blueprints wares="[ware.heroes_turret_umbralarge]"/>
+				<add_blueprints wares="[ware.heroes_turret_umbraxl]"/>
+			</actions>
+		</cue>		
+		
+
+		<cue name="Research_Finished_hero_tier1" instantiate="true">
+			<conditions>
+				<event_player_research_unlocked ware="ware.research_hero_tier1"/>
+			</conditions>
+			<actions>
+				<add_blueprints wares="[ware.heroes_mod_ship_tier1]"/>
+				<add_blueprints wares="[ware.heroes_mod_engine_tier1]"/>
+			</actions>
+		</cue>	
+
+		<cue name="Research_Finished_hero_tier2" instantiate="true">
+			<conditions>
+				<event_player_research_unlocked ware="ware.research_hero_tier2"/>
+			</conditions>
+			<actions>
+				<add_blueprints wares="[ware.heroes_mod_ship_tier2]"/>
+				<add_blueprints wares="[ware.heroes_mod_engine_tier2]"/>
+				<add_blueprints wares="[ware.heroes_engine_imperium]"/>
+				<add_blueprints wares="[ware.heroes_shield_imperium]"/>
+				<add_blueprints wares="[ware.heroes_imperium]"/>
+				<add_blueprints wares="[ware.heroes_turret_imperium]"/>
+			</actions>
+		</cue>	
+
+		<cue name="Research_Finished_hero_tier3" instantiate="true">
+			<conditions>
+				<event_player_research_unlocked ware="ware.research_hero_tier3"/>
+			</conditions>
+			<actions>
+				<add_blueprints wares="[ware.heroes_mod_ship_tier3]"/>
+				<add_blueprints wares="[ware.heroes_mod_engine_tier3]"/>
+				<add_blueprints wares="[ware.heroes_conqueror]"/>
+				<add_blueprints wares="[ware.heroes_engine_accuser]"/>
+				<add_blueprints wares="[ware.heroes_shield_accuser]"/>
+				<add_blueprints wares="[ware.heroes_aeternum]"/>
+				<add_blueprints wares="[ware.heroes_kronos]"/>
+				<add_blueprints wares="[ware.heroes_engine_kronos]"/>
+				<add_blueprints wares="[ware.heroes_shield_kronos]"/>
+				<add_blueprints wares="[ware.heroes_weapon_aeternum]"/>
+				<add_blueprints wares="[ware.heroes_engine_heroexecutor]"/>
+				<add_blueprints wares="[ware.heroes_shield_heroexecutor]"/>
+				<add_blueprints wares="[ware.heroes_infinity]"/>
+				<add_blueprints wares="[ware.heroes_engine_infinity]"/>
+				<add_blueprints wares="[ware.heroes_shield_infinity]"/>
+			</actions>
+		</cue>	
+		
+			
+	</cues>
+</mdscript>

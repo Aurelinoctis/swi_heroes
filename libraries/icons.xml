@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+	<add sel="/icons">
+		<icon name="icon_hero_xxl" texture="extensions\swi_heroes\assets\fx\gui\textures\shipicon\icon_hero.tga" height="300" width="300" />
+		<icon name="icon_hero_small" texture="extensions\swi_heroes\assets\fx\gui\textures\shipicon\icon_hero_small.tga" height="200" width="200" />
+		<icon name="icon_hero_medium" texture="extensions\swi_heroes\assets\fx\gui\textures\shipicon\icon_hero_medium.tga" height="250" width="250" />
+		<icon name="icon_hero_large" texture="extensions\swi_heroes\assets\fx\gui\textures\shipicon\icon_hero_large.tga" height="300" width="300" />
+		<icon name="icon_hero_xl" texture="extensions\swi_heroes\assets\fx\gui\textures\shipicon\icon_hero_xl.tga" height="300" width="300" />
+		<icon name="icon_hero_boss" texture="extensions\swi_heroes\assets\fx\gui\textures\shipicon\icon_hero_boss.tga" height="500" width="500" />
+	</add>
+</diff>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/index">
+
+		<!--Ships-->
+		<entry name="heroes_tantive" value="extensions\swi_heroes\assets\units\size_m\heroes_tantive" />
+		<entry name="heroes_anakin" value="extensions\swi_heroes\assets\units\size_s\heroes_anakin" />
+		<entry name="heroes_chimaera" value="extensions\swi_heroes\assets\units\size_xl\heroes_chimaera" />
+		<entry name="heroes_orthavan" value="extensions\swi_heroes\assets\units\size_xl\heroes_orthavan" />
+		<entry name="heroes_vader" value="extensions\swi_heroes\assets\units\size_s\heroes_vader" />
+		<entry name="heroes_hand" value="extensions\swi_heroes\assets\units\size_xl\heroes_hand" />
+		<entry name="heroes_ebon" value="extensions\swi_heroes\assets\units\size_m\heroes_ebon" />
+		<entry name="heroes_oppressor" value="extensions\swi_heroes\assets\units\size_xl\heroes_oppressor" />
+		<entry name="heroes_djarin" value="extensions\swi_heroes\assets\units\size_s\heroes_djarin" />
+		 <entry name="heroes_ambition" value="extensions\swi_heroes\assets\units\size_xl\heroes_ambition" />
+		<entry name="heroes_red_squadron" value="extensions\swi_heroes\assets\units\size_s\heroes_red_squadron" />
+		<entry name="heroes_mythosaur" value="extensions\swi_heroes\assets\units\size_l\heroes_mythosaur" />
+		<entry name="heroes_fett" value="extensions\swi_heroes\assets\units\size_s\heroes_fett" />
+		<entry name="heroes_endurance" value="extensions\swi_heroes\assets\units\size_xl\heroes_endurance" />
+		<entry name="heroes_quaestor" value="extensions\swi_heroes\assets\units\size_xxl\heroes_quaestor" />
+		<entry name="heroes_endofdays" value="extensions\swi_heroes\assets\units\size_xl\heroes_endofdays" />
+		<entry name="heroes_soulless" value="extensions\swi_heroes\assets\units\size_s\heroes_soulless" />
+		<entry name="heroes_falcon" value="extensions\swi_heroes\assets\units\size_m\heroes_falcon" />
+		<entry name="heroes_resolute" value="extensions\swi_heroes\assets\units\size_xl\heroes_resolute" />
+		<entry name="heroes_negotiator" value="extensions\swi_heroes\assets\units\size_xl\heroes_negotiator" />
+		<entry name="heroes_infinity" value="extensions\swi_heroes\assets\units\size_xl\heroes_infinity" />
+		<entry name="heroes_umbra" value="extensions\swi_heroes\assets\units\size_xl\heroes_umbra" />
+		<entry name="heroes_saakak" value="extensions\swi_heroes\assets\units\size_xl\heroes_saakak" />
+		<entry name="heroes_salvation" value="extensions\swi_heroes\assets\units\size_l\heroes_salvation" />
+		<entry name="heroes_phoenix" value="extensions\swi_heroes\assets\units\size_l\heroes_phoenix" />
+		<entry name="heroes_executor" value="extensions\swi_heroes\assets\units\size_xxl\heroes_executor" />
+		<entry name="heroes_galaxysedge" value="extensions\swi_heroes\assets\units\size_s\heroes_galaxysedge" />
+		<entry name="heroes_katana" value="extensions\swi_heroes\assets\units\size_l\heroes_katana" />
+		<entry name="heroes_lightmaker" value="extensions\swi_heroes\assets\units\size_m\heroes_lightmaker" />
+		<entry name="heroes_sterdicstar" value="extensions\swi_heroes\assets\units\size_m\heroes_sterdicstar" />
+		<entry name="heroes_lootbug" value="extensions\swi_heroes\assets\units\size_s\heroes_lootbug" />
+		<entry name="heroes_protector" value="extensions\swi_heroes\assets\units\size_l\heroes_protector" />
+		<entry name="heroes_corvus" value="extensions\swi_heroes\assets\units\size_m\heroes_corvus" />
+		<entry name="heroes_battleforged" value="extensions\swi_heroes\assets\units\size_l\heroes_battleforged" />
+		<entry name="heroes_inferno" value="extensions\swi_heroes\assets\units\size_s\heroes_inferno" />
+		<entry name="heroes_profundity" value="extensions\swi_heroes\assets\units\size_xl\heroes_profundity" />
+		<entry name="heroes_imperium" value="extensions\swi_heroes\assets\units\size_xl\heroes_imperium" />
+		<entry name="heroes_accuser" value="extensions\swi_heroes\assets\units\size_xl\heroes_accuser" />
+		<entry name="heroes_kronos" value="extensions\swi_heroes\assets\units\size_xl\heroes_kronos" />
+		<entry name="heroes_nightbrother" value="extensions\swi_heroes\assets\units\size_s\heroes_nightbrother" />
+		<entry name="heroes_vanguard" value="extensions\swi_heroes\assets\units\size_xl\heroes_vanguard" />
+		<entry name="heroes_nightblade" value="extensions\swi_heroes\assets\units\size_xl\heroes_nightblade" />
+		<entry name="heroes_homeone" value="extensions\swi_heroes\assets\units\size_xl\heroes_homeone" />
+		<entry name="heroes_fenelar" value="extensions\swi_heroes\assets\units\size_xl\heroes_fenelar" />
+		<entry name="heroes_mandalore" value="extensions\swi_heroes\assets\units\size_xl\heroes_mandalore" />
+		<entry name="heroes_galactic" value="extensions\swi_heroes\assets\units\size_xl\heroes_galactic" />
+		<entry name="heroes_moldycrow" value="extensions\swi_heroes\assets\units\size_s\heroes_moldycrow" />
+		<entry name="heroes_havoc" value="extensions\swi_heroes\assets\units\size_s\heroes_havoc" />
+		<entry name="heroes_darksaber" value="extensions\swi_heroes\assets\units\size_s\heroes_darksaber" />
+		<entry name="heroes_hardpoint" value="extensions\swi_heroes\assets\units\size_s\heroes_hardpoint" />
+		<entry name="heroes_wrath" value="extensions\swi_heroes\assets\units\size_xl\heroes_wrath" />
+		<entry name="heroes_delta" value="extensions\swi_heroes\assets\units\size_xl\heroes_delta" />
+		<entry name="heroes_umbral_harrower" value="extensions\swi_heroes\assets\units\size_xl\heroes_umbral_harrower" />
+		<entry name="heroes_umbral_terminus" value="extensions\swi_heroes\assets\units\size_l\heroes_umbral_terminus" />
+		<entry name="heroes_umbral_fury" value="extensions\swi_heroes\assets\units\size_s\heroes_umbral_fury" />
+		<entry name="heroes_aegis" value="extensions\swi_heroes\assets\units\size_xl\heroes_aegis" />
+		<entry name="heroes_pitiless" value="extensions\swi_heroes\assets\units\size_l\heroes_pitiless" />
+		<entry name="heroes_diplomacy" value="extensions\swi_heroes\assets\units\size_m\heroes_diplomacy" />
+		<entry name="heroes_guidance" value="extensions\swi_heroes\assets\units\size_s\heroes_guidance" />
+		<entry name="heroes_devastator" value="extensions\swi_heroes\assets\units\size_xl\heroes_devastator" />
+		<entry name="heroes_aeternum" value="extensions\swi_heroes\assets\units\size_xxl\heroes_aeternum" />
+		<entry name="heroes_chancellor" value="extensions\swi_heroes\assets\units\size_s\heroes_chancellor" />
+		<entry name="heroes_cipher" value="extensions\swi_heroes\assets\units\size_m\heroes_cipher" />
+		<entry name="heroes_acclaim" value="extensions\swi_heroes\assets\units\size_l\heroes_acclaim" />
+		<entry name="heroes_conqueror" value="extensions\swi_heroes\assets\units\size_xl\heroes_conqueror" />
+		<entry name="heroes_lusankya" value="extensions\swi_heroes\assets\units\size_xxl\heroes_lusankya" />
+		<entry name="heroes_battalion" value="extensions\swi_heroes\assets\units\size_xxl\heroes_battalion" />
+		<entry name="heroes_thalassa" value="extensions\swi_heroes\assets\units\size_xxl\heroes_thalassa" />
+		<entry name="heroes_helmsman" value="extensions\swi_heroes\assets\units\size_xxl\heroes_helmsman" />
+		<entry name="heroes_aurora" value="extensions\swi_heroes\assets\units\size_xl\heroes_aurora" />
+		<entry name="heroes_invincible" value="extensions\swi_heroes\assets\units\size_xl\heroes_invincible" />
+		<entry name="heroes_liberty" value="extensions\swi_heroes\assets\units\size_xl\heroes_liberty" />
+		<entry name="heroes_banshee" value="extensions\swi_heroes\assets\units\size_m\heroes_banshee" />
+		<entry name="heroes_truesight" value="extensions\swi_heroes\assets\units\size_s\heroes_truesight" />
+		<entry name="heroes_wolfpack" value="extensions\swi_heroes\assets\units\size_s\heroes_wolfpack" />
+		<entry name="heroes_roqoo" value="extensions\swi_heroes\assets\units\size_l\heroes_roqoo" />
+		<entry name="heroes_kamoradon" value="extensions\swi_heroes\assets\units\size_xl\heroes_kamoradon" />
+		<entry name="heroes_kyrtsad" value="extensions\swi_heroes\assets\units\size_xl\heroes_kyrtsad" />
+		<entry name="heroes_nihilus" value="extensions\swi_heroes\assets\units\size_xl\heroes_nihilus" />
+		<entry name="heroes_answer" value="extensions\swi_heroes\assets\units\size_xl\heroes_answer" />
+		<entry name="heroes_legion" value="extensions\swi_heroes\assets\units\size_xl\heroes_legion" />
+		<entry name="heroes_forsaken" value="extensions\swi_heroes\assets\units\size_xl\heroes_forsaken" />
+		<entry name="heroes_titan" value="extensions\swi_heroes\assets\units\size_s\heroes_titan" />
+		<entry name="heroes_onyx" value="extensions\swi_heroes\assets\units\size_s\heroes_onyx" />
+		<entry name="heroes_harbinger" value="extensions\swi_heroes\assets\units\size_s\heroes_harbinger" />
+		<entry name="heroes_gold" value="extensions\swi_heroes\assets\units\size_s\heroes_gold" />
+		<entry name="heroes_raven" value="extensions\swi_heroes\assets\units\size_s\heroes_raven" />
+
+		<!--Engines-->
+		<entry name="heroes_engine_tantive" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_tantive" />
+		<entry name="heroes_engine_anakin" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_anakin" />
+		<entry name="heroes_engine_vader" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_vader" />
+		<entry name="heroes_engine_djarin" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_djarin" />
+		<entry name="heroes_engine_ambition" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_ambition" /> 
+		<entry name="heroes_engine_redsquadron" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_redsquadron" />
+		<entry name="heroes_engine_mythosaur" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_mythosaur" />
+		<entry name="heroes_engine_quaestor" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_quaestor" />
+		<entry name="heroes_engine_endofdays" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_endofdays" />
+		<entry name="heroes_engine_falcon" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_falcon" />
+		<entry name="heroes_engine_herovenator" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_herovenator" />
+		<entry name="heroes_engine_infinity" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_infinity" />
+		<entry name="heroes_engine_umbra" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_umbra" />
+		<entry name="heroes_engine_saakak" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_saakak" />
+		<entry name="heroes_engine_heroexecutor" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_heroexecutor" />
+		<entry name="heroes_engine_galaxysedge" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_galaxysedge" />
+		<entry name="heroes_engine_katana" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_katana" />
+		<entry name="heroes_engine_herohammerhead" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_herohammerhead" />
+		<entry name="heroes_engine_corvus" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_corvus" />
+		<entry name="heroes_engine_imperium" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_imperium" />
+		<entry name="heroes_engine_accuser" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_accuser" />
+		<entry name="heroes_engine_kronos" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_kronos" />
+		<entry name="heroes_engine_vanguard" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_vanguard" />
+		<entry name="heroes_engine_nightblade" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_nightblade" />
+		<entry name="heroes_engine_herohomeone" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_herohomeone" />
+		<entry name="heroes_engine_fenelar" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_fenelar" />
+		<entry name="heroes_engine_mandalore" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_mandalore" />
+		<entry name="heroes_engine_galactic" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_galactic" />
+		<entry name="heroes_engine_heroisd" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_heroisd" />
+		<entry name="heroes_engine_delta" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_delta" />
+		<entry name="heroes_engine_heroharrower" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_heroharrower" />
+		<entry name="heroes_engine_l" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_l" />
+		<entry name="heroes_engine_aegis" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_aegis" />
+		<entry name="heroes_engine_pitiless" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_pitiless" />
+		<entry name="heroes_engine_cipher" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_cipher" />
+		<entry name="heroes_engine_heromc80" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_heromc80" />
+		<entry name="heroes_engine_eclipse" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_eclipse" />
+		<entry name="heroes_engine_nihilus" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_nihilus" />
+		<entry name="heroes_engine_kyrtsad" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_kyrtsad" />
+		<entry name="heroes_engine_kamoradon" value="extensions\swi_heroes\assets\props\Engines\heroes_engine_kamoradon" />
+
+		<!--Weapons-->
+		<entry name="heroes_weapon_redsquadron" value="extensions\swi_heroes\assets\props\WeaponSystems\heroes_weapon_redsquadron" />
+		<entry name="heroes_weapon_djarin" value="extensions\swi_heroes\assets\props\WeaponSystems\heroes_weapon_djarin" />
+		<entry name="heroes_turret_endurance" value="extensions\swi_heroes\assets\props\WeaponSystems\heroes_turret_endurance" />
+		<entry name="heroes_weapon_aeternum" value="extensions\swi_heroes\assets\props\WeaponSystems\heroes_weapon_aeternum" />
+
+
+		<!--Weapons Bullets-->
+		<!--Turrets-->
+		<entry name="heroes_turret_umbrasmall" value="extensions\swi_heroes\assets\props\WeaponSystems\heroes_turret_umbrasmall" />
+		<entry name="heroes_turret_umbramedium" value="extensions\swi_heroes\assets\props\WeaponSystems\heroes_turret_umbramedium" />
+		<entry name="heroes_turret_umbralarge" value="extensions\swi_heroes\assets\props\WeaponSystems\heroes_turret_umbralarge" />
+		<entry name="heroes_turret_umbraxl" value="extensions\swi_heroes\assets\props\WeaponSystems\heroes_turret_umbraxl" />
+		<entry name="heroes_turret_imperium" value="extensions\swi_heroes\assets\props\WeaponSystems\heroes_turret_imperium" />
+
+		<!--Bullets-->
+
+
+		<!--Missile Turrets-->
+
+		<!--Missiles-->
+
+
+		<!--Shields-->
+		<entry name="heroes_shield_m_tantive" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_m_tantive" />
+		<entry name="heroes_shield_s_anakin" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_s_anakin" />
+		<entry name="heroes_shield_xl_chimaera" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_xl_chimaera" />
+		<entry name="heroes_shield_xl_orthavan" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_xl_orthavan" />
+		<entry name="heroes_shield_s_vader" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_s_vader" />
+		<entry name="heroes_shield_s_ebon" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_s_ebon" />
+		<entry name="heroes_shield_xll" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_xll" />
+		<entry name="heroes_shield_xxl_ambition" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_xxl_ambition" />
+		<entry name="heroes_shield_s_redsquadron" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_s_redsquadron" />
+		<entry name="heroes_shield_lh" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_lh" />
+		<entry name="heroes_shield_endurance" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_endurance" />
+		<entry name="heroes_shield_xlh" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_xlh" />
+		<entry name="heroes_shield_endofdays" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_endofdays" />
+		<entry name="heroes_shield_soulless" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_soulless" />
+		<entry name="heroes_shield_falcon" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_falcon" />
+		<entry name="heroes_shield_infinity" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_infinity" />
+		<entry name="heroes_shield_umbra" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_umbra" />
+		<entry name="heroes_shield_saakak" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_saakak" />
+		<entry name="heroes_shield_salvation" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_salvation" />
+		<entry name="heroes_shield_phoenix" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_phoenix" />
+		<entry name="heroes_shield_heroexecutor" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_heroexecutor" />
+		<entry name="heroes_shield_galaxysedge" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_galaxysedge" />
+		<entry name="heroes_shield_ll" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_ll" />
+		<entry name="heroes_shield_herom" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_herom" />
+		<entry name="heroes_shield_protector" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_protector" />
+		<entry name="heroes_shield_battleforged" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_battleforged" />
+		<entry name="heroes_shield_inferno" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_inferno" />
+		<entry name="heroes_shield_profundity" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_profundity" />
+		<entry name="heroes_shield_imperium" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_imperium" />
+		<entry name="heroes_shield_accuser" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_accuser" />
+		<entry name="heroes_shield_kronos" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_kronos" />
+		<entry name="heroes_shield_vanguard" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_vanguard" />
+		<entry name="heroes_shield_nightblade" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_nightblade" />
+		<entry name="heroes_shield_herohomeone" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_herohomeone" />
+		<entry name="heroes_shield_fenelar_left" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_fenelar_left" />
+		<entry name="heroes_shield_fenelar_right" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_fenelar_right" />
+		<entry name="heroes_shield_mandalore" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_mandalore" />
+		<entry name="heroes_shield_galactic" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_galactic" />
+		<entry name="heroes_shield_heros" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_heros" />
+		<entry name="heroes_shield_heroisd" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_heroisd" />
+		<entry name="heroes_shield_delta" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_delta" />
+		<entry name="heroes_shield_isd2" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_isd2" />
+		<entry name="heroes_shield_eclipse" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_eclipse" />
+		<entry name="heroes_shield_nihilus" value="extensions\swi_heroes\assets\props\SurfaceElements\heroes_shield_nihilus" />
+
+
+		<!--Dock Areas-->
+
+
+		<!--Docking Bays-->
+
+
+		<!--Modules-->
+
+
+		<!--Bridges-->
+
+
+	</add>
+</diff>

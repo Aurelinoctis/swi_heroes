@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/ships">
+			<ship id="hero_tantive_m" group="hero_tantive_m">
+				<category tags="[military, tantive, mission]" faction="rebelalliance" size="ship_m" />
+				<pilot>
+					<select faction="rebelalliance" tags="elitepilot" />
+				</pilot>
+				<drop ref="heroes_tier1" />
+				<people ref="rebelalliance_military_crew" />
+			</ship>
+	<ship id="hero_redsquadron_s" group="hero_redsquadron_s">
+        <category tags="[military, fighter, redsquadron, mission]" faction="[rebelalliance]" size="ship_s" />
+        <pilot>
+          <select faction="rebelalliance" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="rebelalliance_elite_military_crew" />
+      </ship>
+      <ship id="hero_chimaera_xl" group="hero_chimaera_xl">
+        <category tags="[military, chimaera, mission]" faction="ascendancy" size="ship_xl" />
+        <pilot>
+          <select faction="ascendancy" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="ascendancy_elite_military_crew" />
+      </ship>
+      <ship id="hero_orthavan_xl" group="hero_orthavan_xl">
+        <category tags="[military, orthavan, mission]" faction="newrepublic" size="ship_xl" />
+        <pilot>
+          <select faction="newrepublic" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="newrepublic_elite_military_crew" />
+      </ship>	  	  
+      <ship id="hero_aurora_xl" group="hero_aurora_xl">
+        <category tags="[military, aurora, mission]" faction="newrepublic" size="ship_xl" />
+        <pilot>
+          <select faction="newrepublic" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="newrepublic_elite_military_crew" />
+      </ship>	  	
+      <ship id="hero_invincible_xl" group="hero_invincible_xl">
+        <category tags="[military, invincible, mission]" faction="newrepublic" size="ship_xl" />
+        <pilot>
+          <select faction="newrepublic" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="newrepublic_elite_military_crew" />
+      </ship>	  	   
+      <ship id="hero_liberty_xl" group="hero_liberty_xl">
+        <category tags="[military, heroliberty, mission]" faction="newrepublic" size="ship_xl" />
+        <pilot>
+          <select faction="newrepublic" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="newrepublic_elite_military_crew" />
+      </ship>	  	  
+      <ship id="hero_hand_xl" group="hero_hand_xl">
+        <category tags="[military, hand, mission]" faction="commerceguild" size="ship_xl" />
+        <pilot>
+          <select faction="commerceguild" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="commerceguild_elite_military_crew" />
+      </ship>	  	  	  
+      <ship id="hero_oppressor_xl" group="hero_oppressor_xl">
+        <category tags="[military, oppressor, mission]" faction="sith" size="ship_xl" />
+        <pilot>
+          <select faction="sith" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="sith_elite_military_crew" />
+      </ship>	  
+      <ship id="hero_mythosaur_l" group="hero_mythosaur_l">
+        <category tags="[military, mythosaur, mission]" faction="ascendancy" size="ship_l" />
+        <pilot>
+          <select faction="ascendancy" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="ascendancy_elite_military_crew" />
+      </ship>
+      <ship id="hero_endurance_xl" group="hero_endurance_xl">
+        <category tags="[military, endurance, mission]" faction="kamino" size="ship_xl" />
+        <pilot>
+          <select faction="kamino" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="kamino_elite_military_crew" />
+      </ship>
+      <ship id="hero_quaestor_xl" group="hero_quaestor_xl">
+        <category tags="[military, quaestor, mission]" faction="corporate" size="ship_xl" />
+        <pilot>
+          <select faction="corporate" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="corporate_elite_military_crew" />
+      </ship>
+      <ship id="hero_battalion_xl" group="hero_battalion_xl">
+        <category tags="[military, battalion, mission]" faction="corporate" size="ship_xl" />
+        <pilot>
+          <select faction="corporate" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="corporate_elite_military_crew" />
+      </ship>
+      <ship id="hero_thalassa_xl" group="hero_thalassa_xl">
+        <category tags="[military, thalassa, mission]" faction="corporate" size="ship_xl" />
+        <pilot>
+          <select faction="corporate" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="corporate_elite_military_crew" />
+      </ship>
+      <ship id="hero_helmsman_xl" group="hero_helmsman_xl">
+        <category tags="[military, helmsman, mission]" faction="corporate" size="ship_xl" />
+        <pilot>
+          <select faction="corporate" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="corporate_elite_military_crew" />
+      </ship>
+      <ship id="hero_endofdays_xl" group="hero_endofdays_xl">
+        <category tags="[military, endofdays, mission]" faction="mandodw" size="ship_xl" />
+        <pilot>
+          <select faction="mandodw" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="mandodw_elite_military_crew" />
+      </ship>
+      <ship id="hero_falcon_m" group="hero_falcon_m">
+        <category tags="[military, falcon, mission]" faction="huttcartel" size="ship_m" />
+        <pilot>
+          <select faction="huttcartel" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="huttcartel_military_crew" />    
+      </ship> 
+
+      <ship id="hero_resolute_xl" group="hero_resolute_xl">
+        <category tags="[military, resolute, mission]" faction="kamino" size="ship_xl" />
+        <pilot>
+          <select faction="kamino" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="kamino_elite_military_crew" />
+      </ship>
+
+      <ship id="hero_negotiator_xl" group="hero_negotiator_xl">
+        <category tags="[military, negotiator, mission]" faction="kamino" size="ship_xl" />
+        <pilot>
+          <select faction="kamino" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="kamino_elite_military_crew" />
+      </ship>
+
+      <ship id="hero_salvation_l" group="hero_salvation_l">
+				<category tags="[military, salvation, mission]" faction="rebelalliance" size="ship_l" />
+				<pilot>
+					<select faction="rebelalliance" tags="elitepilot" />
+				</pilot>
+				<drop ref="heroes_tier1" />
+				<people ref="rebelalliance_elite_military_crew" />
+			</ship>
+
+      <ship id="hero_phoenix_l" group="hero_phoenix_l">
+				<category tags="[military, phoenix, mission]" faction="rebelalliance" size="ship_l" />
+				<pilot>
+					<select faction="rebelalliance" tags="elitepilot" />
+				</pilot>
+				<drop ref="heroes_tier1" />
+				<people ref="rebelalliance_elite_military_crew" />
+			</ship>
+
+      <ship id="hero_saakak_xl" group="hero_saakak_xl">
+        <category tags="[military, saakak, mission]" faction="commerceguild" size="ship_xl" />
+        <pilot>
+          <select faction="commerceguild" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1_xxl" />
+        <people ref="commerceguild_elite_military_crew" />
+      </ship>	  	
+
+      <ship id="hero_umbra_xl" group="hero_umbra_xl" capturable="false">
+        <category tags="[umbra]" faction="sith" size="ship_xl" />
+        <pilot>
+          <select faction="sith" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_boss_umbra" />
+        <people ref="sith_elite_military_crew" />
+      </ship>	  	
+
+      <ship id="hero_katana_l" group="hero_katana_l">
+        <category tags="[military, katana, mission]" faction="newrepublic" size="ship_l" />
+        <pilot>
+          <select faction="newrepublic" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="newrepublic_elite_military_crew" />
+      </ship>	  	
+
+      <ship id="hero_lightmaker_m" group="hero_lightmaker_m">
+        <category tags="[military, lightmaker, mission]" faction="rebelalliance" size="ship_m" />
+        <pilot>
+          <select faction="rebelalliance" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="rebelalliance_military_crew" />
+      </ship>	  	
+
+      <ship id="hero_sterdicstar_m" group="hero_sterdicstar_m">
+        <category tags="[military, sterdicstar, mission]" faction="newrepublic" size="ship_m" />
+        <pilot>
+          <select faction="newrepublic" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="newrepublic_military_crew" />
+      </ship>	  	
+
+      <ship id="hero_protector_l" group="hero_protector_l">
+        <category tags="[military, protector, mission]" faction="galempire" size="ship_l" />
+        <pilot>
+          <select faction="galempire" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="galempire_elite_military_crew" />
+      </ship>	  
+
+      <ship id="hero_corvus_m" group="hero_corvus_m">
+        <category tags="[military, corvus, mission]" faction="galempire" size="ship_m" />
+        <pilot>
+          <select faction="galempire" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="galempire_military_crew" />
+      </ship>	  	
+
+      <ship id="hero_battleforged_l" group="hero_battleforged_l">
+        <category tags="[military, battleforged, mission]" faction="galempire" size="ship_l" />
+        <pilot>
+          <select faction="galempire" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="galempire_elite_military_crew" />
+      </ship>	  
+
+      <ship id="hero_inferno_s" group="hero_inferno_s">
+        <category tags="[military, inferno, mission]" faction="galempire" size="ship_s" />
+        <pilot>
+          <select faction="galempire" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="galempire_elite_military_crew" />
+      </ship>	 
+
+      <ship id="hero_profundity_xl" group="hero_profundity_xl">
+        <category tags="[military, profundity, mission]" faction="newrepublic" size="ship_xl" />
+        <pilot>
+          <select faction="newrepublic" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="newrepublic_elite_military_crew" />
+      </ship>	  	
+
+      <ship id="hero_executor_xl" group="hero_executor_xl" capturable="false">
+        <category tags="[military, executor, mission]" faction="galempire" size="ship_xl" />
+        <pilot>
+          <select faction="galempire" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1_xxl" />
+        <people ref="galempire_elite_military_crew" />
+      </ship>	  	
+
+            <ship id="hero_umbral_harrower_xl" group="hero_umbral_harrower_xl" capturable="false">
+        <category tags="[military, umbralharrower, mission]" faction="sith" size="ship_xl" />
+        <pilot>
+          <select faction="sith" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="sith_elite_military_crew" />
+      </ship>	 
+
+                  <ship id="hero_umbral_terminus_l" group="hero_umbral_terminus_l" capturable="false">
+        <category tags="[military, umbralterminus, mission]" faction="sith" size="ship_l" />
+        <pilot>
+          <select faction="sith" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="sith_elite_military_crew" />
+      </ship>	 
+
+                        <ship id="hero_umbral_fury_s" group="hero_umbral_fury_s" capturable="false">
+        <category tags="[military, umbralfury, mission]" faction="sith" size="ship_s" />
+        <pilot>
+          <select faction="sith" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="sith_elite_military_crew" />
+      </ship>	 
+
+                    <ship id="hero_lootbug_icg_s" group="hero_lootbug_s" capturable="false">
+        <category tags="[military, lootbug, mission]" faction="commerceguild" size="ship_s" />
+        <pilot>
+          <select faction="commerceguild" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="commerceguild_elite_military_crew" />
+      </ship>	 
+                          <ship id="hero_lootbug_csa_s" group="hero_lootbug_s" capturable="false">
+        <category tags="[military, lootbug, mission]" faction="corporate" size="ship_s" />
+        <pilot>
+          <select faction="corporate" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="corporate_elite_military_crew" />
+      </ship>	 
+       <ship id="hero_lootbug_imp_s" group="hero_lootbug_s" capturable="false">
+        <category tags="[military, lootbug, mission]" faction="galempire" size="ship_s" />
+        <pilot>
+          <select faction="galempire" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="galempire_elite_military_crew" />
+      </ship>	 
+
+      <ship id="hero_lootbug_nrl_s" group="hero_lootbug_s" capturable="false">
+        <category tags="[military, lootbug, mission]" faction="newrepublic" size="ship_s" />
+        <pilot>
+          <select faction="newrepublic" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="newrepublic_elite_military_crew" />
+      </ship>	 
+
+            <ship id="hero_accuser_xl" group="hero_accuser_xl" capturable="false">
+        <category tags="[military, accuser, mission]" faction="galempire" size="ship_xl" />
+        <pilot>
+          <select faction="galempire" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="galempire_elite_military_crew" />
+      </ship>	  	
+
+            <ship id="hero_devastator_xl" group="hero_devastator_xl" capturable="false">
+        <category tags="[military, devastator, mission]" faction="galempire" size="ship_xl" />
+        <pilot>
+          <select faction="galempire" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="galempire_elite_military_crew" />
+      </ship>	  	
+      
+      <ship id="hero_vanguard_xl" group="hero_vanguard_xl" capturable="false">
+        <category tags="[military, vanguard, mission]" faction="galempire" size="ship_xl" />
+        <pilot>
+          <select faction="galempire" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1_xxl" />
+        <people ref="galempire_elite_military_crew" />
+      </ship>	  	
+
+            <ship id="hero_homeone_xl" group="hero_homeone_xl">
+        <category tags="[military, herohomeone, mission]" faction="newrepublic" size="ship_xl" />
+        <pilot>
+          <select faction="newrepublic" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1_xxl" />
+        <people ref="newrepublic_elite_military_crew" />
+      </ship>	  	
+            
+            <ship id="hero_galactic_xl" group="hero_galactic_xl">
+        <category tags="[military, galactic, mission]" faction="newrepublic" size="ship_xl" />
+        <pilot>
+          <select faction="newrepublic" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1_xxl" />
+        <people ref="newrepublic_elite_military_crew" />
+      </ship>	  
+      
+      <ship id="hero_ambition_xl" group="hero_ambition_xl">
+        <category tags="[military, ambition, mission]" faction="ascendancy" size="ship_xl" />
+        <pilot>
+          <select faction="ascendancy" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1_xxl" />
+        <people ref="ascendancy_elite_military_crew" />
+      </ship>	
+
+      <ship id="hero_delta_xl" group="hero_delta_xl">
+        <category tags="[military, delta, mission]" faction="ascendancy" size="ship_xl" />
+        <pilot>
+          <select faction="ascendancy" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1_xxl" />
+        <people ref="ascendancy_elite_military_crew" />
+      </ship>
+
+      <ship id="hero_imperium_xl" group="hero_imperium_xl" capturable="false">
+        <category tags="[imperium]" faction="ascendancy" size="ship_xl" />
+        <pilot>
+          <select faction="ascendancy" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_boss_imperium" />
+        <people ref="ascendancy_elite_military_crew" />
+      </ship>
+
+      <ship id="hero_infinity_xl" group="hero_infinity_xl">
+        <category tags="[military, infinity, mission]" faction="ascendancy" size="ship_xl" />
+        <pilot>
+          <select faction="ascendancy" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1_xxl" />
+        <people ref="ascendancy_elite_military_crew" />
+      </ship>
+
+      <ship id="hero_kronos_xl" group="hero_kronos_xl">
+        <category tags="[military, kronos, mission]" faction="ascendancy" size="ship_xl" />
+        <pilot>
+          <select faction="ascendancy" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1_xxl" />
+        <people ref="ascendancy_elite_military_crew" />
+      </ship>
+
+      <ship id="hero_nightblade_xl" group="hero_nightblade_xl">
+        <category tags="[military, nightblade, mission]" faction="ascendancy" size="ship_xl" />
+        <pilot>
+          <select faction="ascendancy" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1_xxl" />
+        <people ref="ascendancy_elite_military_crew" />
+      </ship>
+
+      <ship id="hero_aegis_xl" group="hero_aegis_xl">
+        <category tags="[military, aegis, mission]" faction="commerceguild" size="ship_xl" />
+        <pilot>
+          <select faction="commerceguild" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="commerceguild_elite_military_crew" />
+      </ship>	
+
+      <ship id="hero_fenelar_xl" group="hero_fenelar_xl">
+        <category tags="[military, fenelar, mission]" faction="mandodw" size="ship_xl" />
+        <pilot>
+          <select faction="mandodw" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="mandodw_elite_military_crew" />
+      </ship>  	
+
+      <ship id="hero_mandalore_xl" group="hero_mandalore_xl">
+        <category tags="[military, mandalore, mission]" faction="mandodw" size="ship_xl" />
+        <pilot>
+          <select faction="mandodw" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1_xxl" />
+        <people ref="mandodw_elite_military_crew" />
+      </ship>
+
+      <ship id="hero_conqueror_xl" group="hero_conqueror_xl" capturable="false">
+        <category tags="[military, conqueror, mission]" faction="galempire" size="ship_xl" />
+        <pilot>
+          <select faction="galempire" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1_xxl" />
+        <people ref="galempire_elite_military_crew" />
+      </ship>
+
+      <ship id="hero_truesight_s" group="hero_truesight_s" capturable="false">
+        <category tags="[military, fighter, truesight, mission]" faction="[galempire]" size="ship_s" />
+        <pilot>
+          <select faction="galempire" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="galempire_elite_military_crew" />
+      </ship>
+
+      <ship id="hero_aeternum_xl" group="hero_aeternum_xl" capturable="false">
+        <category tags="[aeternum]" faction="galempire" size="ship_xl" />
+        <pilot>
+          <select faction="galempire" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_boss_aeternum" />
+        <people ref="galempire_elite_military_crew" />
+      </ship>
+
+      <ship id="hero_legion_xl" group="hero_legion_xl">
+        <category tags="[military, legion, mission]" faction="kamino" size="ship_xl" />
+        <pilot>
+          <select faction="kamino" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_boss_legion" />
+        <people ref="kamino_elite_military_crew" />
+      </ship>
+
+      <ship id="hero_forsaken_xl" group="hero_forsaken_xl">
+        <category tags="[military, forsaken, mission]" faction="kamino" size="ship_xl" />
+        <pilot>
+          <select faction="kamino" tags="elitepilot" />
+        </pilot>
+        <drop ref="heroes_tier1" />
+        <people ref="kamino_elite_military_crew" />
+      </ship>
+      
+
+	</add>
+</diff>

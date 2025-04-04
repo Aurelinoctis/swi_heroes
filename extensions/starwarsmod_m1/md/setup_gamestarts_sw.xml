@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<diff>
+  <replace sel="//create_ship[@name='$venator']/@macro">heroes_forsaken_macro</replace>
+</diff>

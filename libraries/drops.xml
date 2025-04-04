@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff> 
+<add sel="/droplists">
+  <droplist id="heroes_boss_umbra">
+    <drop macro="sm_gen_wares_rare_01_macro" chance="100">
+      <collectable>
+        <wares selection="random">
+          <select weight="100">
+            <ware ware="heroes_inv_umbra" amount="1"/>
+          </select>
+        </wares>
+      </collectable>
+    </drop>
+  </droplist>
+
+  <droplist id="heroes_boss_imperium">
+    <drop macro="sm_gen_wares_rare_01_macro" chance="100">
+      <collectable>
+        <wares selection="random">
+          <select weight="100">
+            <ware ware="heroes_inv_imperium" amount="1"/>
+          </select>
+        </wares>
+      </collectable>
+    </drop>
+  </droplist>
+
+  <droplist id="heroes_boss_aeternum">
+    <drop macro="sm_gen_wares_rare_01_macro" chance="100">
+      <collectable>
+        <wares selection="random">
+          <select weight="100">
+            <ware ware="heroes_inv_aeternum" amount="1"/>
+          </select>
+        </wares>
+      </collectable>
+    </drop>
+  </droplist>
+
+  <droplist id="heroes_tier1">
+    <drop macro="sm_gen_wares_rare_01_macro" chance="100">
+      <collectable>
+        <wares selection="random">
+          <select weight="100">
+            <ware ware="heroes_inv_tier1" amount="1"/>
+          </select>
+        </wares>
+      </collectable>
+    </drop>
+  </droplist>
+  <droplist id="heroes_tier1_xxl">
+    <drop macro="sm_gen_wares_rare_01_macro" chance="100">
+      <collectable>
+        <wares selection="random">
+          <select weight="100">
+            <ware ware="heroes_inv_tier1" amount="5"/>
+          </select>
+        </wares>
+      </collectable>
+    </drop>
+  </droplist>
+
+  <droplist id="heroes_boss_legion">
+    <drop macro="sm_gen_wares_rare_01_macro" chance="100">
+      <collectable>
+        <wares selection="random">
+          <select weight="100">
+            <ware ware="heroes_inv_tier1" amount="30"/>
+          </select>
+        </wares>
+      </collectable>
+    </drop>
+  </droplist>
+</add>
+</diff>

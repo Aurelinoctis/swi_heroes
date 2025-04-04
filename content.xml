@@ -1,0 +1,5 @@
+<?xml version="1.1" encoding="utf-8"?>
+<content id="swi_heroes" name="Heroes for SWI" description="Adds historical and lore-famous Heroic ships to SWI, along with some custom ones" author="Aurelinoctis" version="753" date="2025-03-28" save="0" enabled="1">
+  <dependency id="SW Interworlds" name="SW Interworlds" optional="false"/>
+  <dependency id="sov_dreadnaughts" name="Dreadnaughts and Battlecruisers" optional="false" version="502" />
+</content>

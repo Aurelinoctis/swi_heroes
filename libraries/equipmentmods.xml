@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- NB:
+      chance is a float from 0 to 1
+      entering a min with no max or max with no min can result in a value below min or above max.
+      the min property in <bonus min=""/> doesn't do anything.
+      min and max for capacity mods such as countermeasurecapacity require ints.-->
+<diff>
+  <add sel="/equipmentmods/ship">
+    <mass ware="heroes_mod_ship_tier1" quality="1" min="0.75" max="0.75">
+      <bonus chance="1.0" max="3">
+        <maxhull min="1.25" max="1.25" weight="1"/>
+        <radarrange min="1.25" max="1.25" weight="1"/>
+        <countermeasurecapacity min="25" max="25" weight="1"/>
+      </bonus>
+    </mass>
+
+        <mass ware="heroes_mod_ship_tier2" quality="2" min="0.5" max="0.5">
+      <bonus chance="1.0" max="3">
+        <maxhull min="1.5" max="1.5" weight="1"/>
+        <radarrange min="1.5" max="1.5" weight="1"/>
+        <countermeasurecapacity min="50" max="50" weight="1"/>
+      </bonus>
+    </mass>
+
+        <mass ware="heroes_mod_ship_tier3" quality="3" min="0.33" max="0.33">
+      <bonus chance="1.0" max="3">
+        <maxhull min="2" max="2" weight="1"/>
+        <radarrange min="2" max="2" weight="1"/>
+        <countermeasurecapacity min="100" max="100" weight="1"/>
+      </bonus>
+    </mass>
+  </add>
+
+    <add sel="/equipmentmods/engine">
+    <travelthrust ware="heroes_mod_engine_tier1" quality="1" min="1.25" max="1.25">
+      <bonus chance="1.0" max="8">
+        <forwardthrust min="1.25" max="1.25"/>
+        <travelstartthrust min="2.0" max="2.0"/>
+        <travelattacktime min="0.75" max="0.75"/>
+        <travelchargetime min="0.75" max="0.75"/>
+        <travelreleasetime min="2.0" max="2.0"/>
+        <rotationthrust min="1.25" max="1.25"/>
+        <strafethrust min="1.25" max="1.25"/>
+        <boostthrust min="1.25" max="1.25"/>
+      </bonus>
+    </travelthrust>
+
+        <travelthrust ware="heroes_mod_engine_tier2" quality="2" min="1.50" max="1.50">
+      <bonus chance="1.0" max="8">
+        <forwardthrust min="1.50" max="1.25"/>
+        <travelstartthrust min="2.0" max="2.0"/>
+        <travelattacktime min="0.5" max="0.5"/>
+        <travelchargetime min="0.50" max="0.50"/>
+        <travelreleasetime min="2.0" max="2.0"/>
+        <rotationthrust min="1.50" max="1.50"/>
+        <strafethrust min="1.50" max="1.50"/>
+        <boostthrust min="1.50" max="1.50"/>
+      </bonus>
+    </travelthrust>
+
+        <travelthrust ware="heroes_mod_engine_tier3" quality="3" min="2" max="2">
+      <bonus chance="1.0" max="8">
+        <forwardthrust min="2" max="2"/>
+        <travelstartthrust min="2.0" max="2.0"/>
+        <travelattacktime min="0.1" max="0.1"/>
+        <travelchargetime min="0.1" max="0.1"/>
+        <travelreleasetime min="2.0" max="2.0"/>
+        <rotationthrust min="2" max="2"/>
+        <strafethrust min="2" max="2"/>
+        <boostthrust min="2" max="2"/>
+      </bonus>
+    </travelthrust>
+  </add>
+
+
+
+
+
+</diff>

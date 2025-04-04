@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/index">
+
+		<!--Ships-->
+		<entry name="heroes_tantive_macro" value="extensions\swi_heroes\assets\units\size_m\macros\heroes_tantive_macro" />
+		<entry name="heroes_anakin_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_anakin_macro" />
+		<entry name="heroes_chimaera_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_chimaera_macro" />
+		<entry name="heroes_orthavan_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_orthavan_macro" />
+		<entry name="heroes_vader_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_vader_macro" />
+		<entry name="heroes_hand_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_hand_macro" />
+		<entry name="heroes_ebon_macro" value="extensions\swi_heroes\assets\units\size_m\macros\heroes_ebon_macro" />
+		<entry name="heroes_oppressor_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_oppressor_macro" />
+		<entry name="heroes_djarin_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_djarin_macro" />
+		<entry name="heroes_ambition_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_ambition_macro" /> 
+		<entry name="heroes_red_squadron_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_red_squadron_macro" />
+		<entry name="heroes_mythosaur_macro" value="extensions\swi_heroes\assets\units\size_l\macros\heroes_mythosaur_macro" />
+		<entry name="heroes_fett_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_fett_macro" />
+		<entry name="heroes_endurance_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_endurance_macro" />
+		<entry name="heroes_quaestor_macro" value="extensions\swi_heroes\assets\units\size_xxl\macros\heroes_quaestor_macro" />
+		<entry name="heroes_endofdays_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_endofdays_macro" />
+		<entry name="heroes_soulless_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_soulless_macro" />
+		<entry name="heroes_falcon_macro" value="extensions\swi_heroes\assets\units\size_m\macros\heroes_falcon_macro" />
+		<entry name="heroes_resolute_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_resolute_macro" />
+		<entry name="heroes_negotiator_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_negotiator_macro" />
+		<entry name="heroes_infinity_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_infinity_macro" />
+		<entry name="heroes_umbra_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_umbra_macro" />
+		<entry name="heroes_saakak_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_saakak_macro" />
+		<entry name="heroes_salvation_macro" value="extensions\swi_heroes\assets\units\size_l\macros\heroes_salvation_macro" />
+		<entry name="heroes_phoenix_macro" value="extensions\swi_heroes\assets\units\size_l\macros\heroes_phoenix_macro" />
+		<entry name="heroes_executor_macro" value="extensions\swi_heroes\assets\units\size_xxl\macros\heroes_executor_macro" />
+		<entry name="heroes_galaxysedge_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_galaxysedge_macro" />
+		<entry name="heroes_katana_macro" value="extensions\swi_heroes\assets\units\size_l\macros\heroes_katana_macro" />
+		<entry name="heroes_lightmaker_macro" value="extensions\swi_heroes\assets\units\size_m\macros\heroes_lightmaker_macro" />
+		<entry name="heroes_sterdicstar_macro" value="extensions\swi_heroes\assets\units\size_m\macros\heroes_sterdicstar_macro" />
+		<entry name="heroes_lootbug_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_lootbug_macro" />
+		<entry name="heroes_protector_macro" value="extensions\swi_heroes\assets\units\size_l\macros\heroes_protector_macro" />
+		<entry name="heroes_corvus_macro" value="extensions\swi_heroes\assets\units\size_m\macros\heroes_corvus_macro" />
+		<entry name="heroes_battleforged_macro" value="extensions\swi_heroes\assets\units\size_l\macros\heroes_battleforged_macro" />
+		<entry name="heroes_inferno_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_inferno_macro" />
+		<entry name="heroes_profundity_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_profundity_macro" />
+		<entry name="heroes_imperium_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_imperium_macro" />
+		<entry name="heroes_accuser_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_accuser_macro" />
+		<entry name="heroes_kronos_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_kronos_macro" />
+		<entry name="heroes_nightbrother_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_nightbrother_macro" />
+		<entry name="heroes_vanguard_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_vanguard_macro" />
+		<entry name="heroes_nightblade_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_nightblade_macro" />
+		<entry name="heroes_homeone_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_homeone_macro" />
+		<entry name="heroes_fenelar_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_fenelar_macro" />
+		<entry name="heroes_mandalore_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_mandalore_macro" />
+		<entry name="heroes_galactic_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_galactic_macro" />
+		<entry name="heroes_moldycrow_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_moldycrow_macro" />
+		<entry name="heroes_havoc_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_havoc_macro" />
+		<entry name="heroes_darksaber_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_darksaber_macro" />
+		<entry name="heroes_hardpoint_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_hardpoint_macro" />
+		<entry name="heroes_wrath_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_wrath_macro" />
+		<entry name="heroes_delta_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_delta_macro" />
+		<entry name="heroes_umbral_harrower_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_umbral_harrower_macro" />
+		<entry name="heroes_umbral_terminus_macro" value="extensions\swi_heroes\assets\units\size_l\macros\heroes_umbral_terminus_macro" />
+		<entry name="heroes_umbral_fury_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_umbral_fury_macro" />
+		<entry name="heroes_aegis_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_aegis_macro" />
+		<entry name="heroes_pitiless_macro" value="extensions\swi_heroes\assets\units\size_l\macros\heroes_pitiless_macro" />
+		<entry name="heroes_diplomacy_macro" value="extensions\swi_heroes\assets\units\size_m\macros\heroes_diplomacy_macro" />
+		<entry name="heroes_guidance_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_guidance_macro" />
+		<entry name="heroes_devastator_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_devastator_macro" />
+		<entry name="heroes_aeternum_macro" value="extensions\swi_heroes\assets\units\size_xxl\macros\heroes_aeternum_macro" />
+		<entry name="heroes_chancellor_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_chancellor_macro" />
+		<entry name="heroes_cipher_macro" value="extensions\swi_heroes\assets\units\size_m\macros\heroes_cipher_macro" />
+		<entry name="heroes_acclaim_macro" value="extensions\swi_heroes\assets\units\size_l\macros\heroes_acclaim_macro" />
+		<entry name="heroes_conqueror_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_conqueror_macro" />
+		<entry name="heroes_lusankya_macro" value="extensions\swi_heroes\assets\units\size_xxl\macros\heroes_lusankya_macro" />
+		<entry name="heroes_battalion_macro" value="extensions\swi_heroes\assets\units\size_xxl\macros\heroes_battalion_macro" />
+		<entry name="heroes_thalassa_macro" value="extensions\swi_heroes\assets\units\size_xxl\macros\heroes_thalassa_macro" />
+		<entry name="heroes_helmsman_macro" value="extensions\swi_heroes\assets\units\size_xxl\macros\heroes_helmsman_macro" />
+		<entry name="heroes_aurora_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_aurora_macro" />
+		<entry name="heroes_invincible_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_invincible_macro" />
+		<entry name="heroes_liberty_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_liberty_macro" />
+		<entry name="heroes_banshee_macro" value="extensions\swi_heroes\assets\units\size_m\macros\heroes_banshee_macro" />
+		<entry name="heroes_truesight_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_truesight_macro" />
+		<entry name="heroes_wolfpack_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_wolfpack_macro" />
+		<entry name="heroes_roqoo_macro" value="extensions\swi_heroes\assets\units\size_l\macros\heroes_roqoo_macro" />
+		<entry name="heroes_kamoradon_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_kamoradon_macro" />
+		<entry name="heroes_kyrtsad_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_kyrtsad_macro" />
+		<entry name="heroes_answer_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_answer_macro" />
+		<entry name="heroes_nihilus_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_nihilus_macro" />
+		<entry name="heroes_legion_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_legion_macro" />
+		<entry name="heroes_forsaken_macro" value="extensions\swi_heroes\assets\units\size_xl\macros\heroes_forsaken_macro" />
+		<entry name="heroes_onyx_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_onyx_macro" />
+		<entry name="heroes_titan_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_titan_macro" />
+		<entry name="heroes_harbinger_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_harbinger_macro" />
+		<entry name="heroes_gold_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_gold_macro" />
+		<entry name="heroes_raven_macro" value="extensions\swi_heroes\assets\units\size_s\macros\heroes_raven_macro" />
+
+		<!--Ship Menu Alternates-->
+
+		<!--Engines-->
+		<entry name="heroes_engine_tantive_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_tantive_macro" />
+		<entry name="heroes_engine_anakin_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_anakin_macro" />
+		<entry name="heroes_engine_vader_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_vader_macro" />
+		<entry name="heroes_engine_djarin_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_djarin_macro" />
+		<entry name="heroes_engine_ambition_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_ambition_macro" />
+		<entry name="heroes_engine_redsquadron_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_redsquadron_macro" />
+		<entry name="heroes_engine_mythosaur_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_mythosaur_macro" />
+		<entry name="heroes_engine_quaestor_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_quaestor_macro" />
+		<entry name="heroes_engine_endofdays_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_endofdays_macro" />
+		<entry name="heroes_engine_falcon_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_falcon_macro" />
+		<entry name="heroes_engine_herovenator_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_herovenator_macro" />
+		<entry name="heroes_engine_infinity_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_infinity_macro" />
+		<entry name="heroes_engine_umbra_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_umbra_macro" />
+		<entry name="heroes_engine_saakak_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_saakak_macro" />
+		<entry name="heroes_engine_heroexecutor_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_heroexecutor_macro" />
+		<entry name="heroes_engine_galaxysedge_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_galaxysedge_macro" />
+		<entry name="heroes_engine_katana_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_katana_macro" />
+		<entry name="heroes_engine_herohammerhead_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_herohammerhead_macro" />
+		<entry name="heroes_engine_corvus_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_corvus_macro" />
+		<entry name="heroes_engine_imperium_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_imperium_macro" />
+		<entry name="heroes_engine_accuser_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_accuser_macro" />
+		<entry name="heroes_engine_kronos_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_kronos_macro" />
+		<entry name="heroes_engine_vanguard_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_vanguard_macro" />
+		<entry name="heroes_engine_nightblade_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_nightblade_macro" />
+		<entry name="heroes_engine_herohomeone_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_herohomeone_macro" />
+		<entry name="heroes_engine_fenelar_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_fenelar_macro" />
+		<entry name="heroes_engine_mandalore_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_mandalore_macro" />
+		<entry name="heroes_engine_galactic_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_galactic_macro" />
+		<entry name="heroes_engine_heroisd_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_heroisd_macro" />
+		<entry name="heroes_engine_delta_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_delta_macro" />
+		<entry name="heroes_engine_heroharrower_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_heroharrower_macro" />
+		<entry name="heroes_engine_l_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_l_macro" />
+		<entry name="heroes_engine_aegis_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_aegis_macro" />
+		<entry name="heroes_engine_pitiless_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_pitiless_macro" />
+		<entry name="heroes_engine_cipher_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_cipher_macro" />
+		<entry name="heroes_engine_heromc80_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_heromc80_macro" />
+		<entry name="heroes_engine_kamoradon_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_kamoradon_macro" />
+		<entry name="heroes_engine_kyrtsad_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_kyrtsad_macro" />
+		<entry name="heroes_engine_eclipse_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_eclipse_macro" />
+		<entry name="heroes_engine_nihilus_macro" value="extensions\swi_heroes\assets\props\Engines\macros\heroes_engine_nihilus_macro" />
+
+		<!--Weapon-->
+		<entry name="heroes_weapon_redsquadron_macro" value="extensions\swi_heroes\assets\props\WeaponSystems\macros\heroes_weapon_redsquadron_macro" />
+		<entry name="heroes_weapon_djarin_macro" value="extensions\swi_heroes\assets\props\WeaponSystems\macros\heroes_weapon_djarin_macro" />
+		<entry name="heroes_turret_endurance_macro" value="extensions\swi_heroes\assets\props\WeaponSystems\macros\heroes_turret_endurance_macro" />
+		<entry name="heroes_weapon_aeternum_macro" value="extensions\swi_heroes\assets\props\WeaponSystems\macros\heroes_weapon_aeternum_macro" />
+
+
+		<!--Weapon Bullets-->
+
+
+		<!--Turrets-->
+		<entry name="heroes_turret_umbrasmall_macro" value="extensions\swi_heroes\assets\props\WeaponSystems\macros\heroes_turret_umbrasmall_macro" />
+		<entry name="heroes_turret_umbramedium_macro" value="extensions\swi_heroes\assets\props\WeaponSystems\macros\heroes_turret_umbramedium_macro" />
+		<entry name="heroes_turret_umbralarge_macro" value="extensions\swi_heroes\assets\props\WeaponSystems\macros\heroes_turret_umbralarge_macro" />
+		<entry name="heroes_turret_umbraxl_macro" value="extensions\swi_heroes\assets\props\WeaponSystems\macros\heroes_turret_umbraxl_macro" />
+		<entry name="heroes_turret_imperium_macro" value="extensions\swi_heroes\assets\props\WeaponSystems\macros\heroes_turret_imperium_macro" />
+
+
+		<!--Turret Bullets-->
+		<entry name="heroes_bullet_umbrasmall_macro" value="extensions\swi_heroes\assets\fx\weaponFx\macros\heroes_bullet_umbrasmall_macro" />
+		<entry name="heroes_bullet_umbramedium_macro" value="extensions\swi_heroes\assets\fx\weaponFx\macros\heroes_bullet_umbramedium_macro" />
+		<entry name="heroes_bullet_umbralarge_macro" value="extensions\swi_heroes\assets\fx\weaponFx\macros\heroes_bullet_umbralarge_macro" />
+		<entry name="heroes_bullet_umbraxl_macro" value="extensions\swi_heroes\assets\fx\weaponFx\macros\heroes_bullet_umbraxl_macro" />
+		<entry name="heroes_bullet_aeternum_macro" value="extensions\swi_heroes\assets\fx\weaponFx\macros\heroes_bullet_aeternum_macro" />
+		<entry name="heroes_bullet_imperium_macro" value="extensions\swi_heroes\assets\fx\weaponFx\macros\heroes_bullet_imperium_macro" />
+
+
+		<!--Missile Turrets-->
+
+
+		<!--Missiles-->
+
+
+		<!--Shields-->
+		<entry name="heroes_shield_m_tantive_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_m_tantive_macro" />
+		<entry name="heroes_shield_s_anakin_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_s_anakin_macro" />
+		<entry name="heroes_shield_xl_chimaera_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_xl_chimaera_macro" />
+		<entry name="heroes_shield_xl_orthavan_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_xl_orthavan_macro" />
+		<entry name="heroes_shield_s_vader_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_s_vader_macro" />
+		<entry name="heroes_shield_s_ebon_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_s_ebon_macro" />
+		<entry name="heroes_shield_xll_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_xll_macro" />
+		<entry name="heroes_shield_xxl_ambition_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_xxl_ambition_macro" />
+		<entry name="heroes_shield_s_redsquadron_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_s_redsquadron_macro" />
+		<entry name="heroes_shield_lh_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_lh_macro" />
+		<entry name="heroes_shield_endurance_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_endurance_macro" />
+		<entry name="heroes_shield_xlh_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_xlh_macro" />
+		<entry name="heroes_shield_endofdays_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_endofdays_macro" />
+		<entry name="heroes_shield_soulless_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_soulless_macro" />
+		<entry name="heroes_shield_falcon_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_falcon_macro" />
+		<entry name="heroes_shield_infinity_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_infinity_macro" />
+		<entry name="heroes_shield_umbra_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_umbra_macro" />
+		<entry name="heroes_shield_saakak_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_saakak_macro" />
+		<entry name="heroes_shield_salvation_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_salvation_macro" />
+		<entry name="heroes_shield_phoenix_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_phoenix_macro" />
+		<entry name="heroes_shield_heroexecutor_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_heroexecutor_macro" />
+		<entry name="heroes_shield_galaxysedge_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_galaxysedge_macro" />
+		<entry name="heroes_shield_ll_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_ll_macro" />
+		<entry name="heroes_shield_herom_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_herom_macro" />
+		<entry name="heroes_shield_protector_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_protector_macro" />
+		<entry name="heroes_shield_battleforged_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_battleforged_macro" />
+		<entry name="heroes_shield_inferno_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_inferno_macro" />
+		<entry name="heroes_shield_profundity_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_profundity_macro" />
+		<entry name="heroes_shield_imperium_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_imperium_macro" />
+		<entry name="heroes_shield_accuser_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_accuser_macro" />
+		<entry name="heroes_shield_kronos_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_kronos_macro" />
+		<entry name="heroes_shield_vanguard_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_vanguard_macro" />
+		<entry name="heroes_shield_nightblade_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_nightblade_macro" />
+		<entry name="heroes_shield_herohomeone_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_herohomeone_macro" />
+		<entry name="heroes_shield_fenelar_left_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_fenelar_left_macro" />
+		<entry name="heroes_shield_fenelar_right_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_fenelar_right_macro" />
+		<entry name="heroes_shield_mandalore_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_mandalore_macro" />
+		<entry name="heroes_shield_galactic_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_galactic_macro" />
+		<entry name="heroes_shield_heros_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_heros_macro" />
+		<entry name="heroes_shield_heroisd_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_heroisd_macro" />
+		<entry name="heroes_shield_delta_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_delta_macro" />
+		<entry name="heroes_shield_isd2_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_isd2_macro" />
+		<entry name="heroes_shield_eclipse_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_eclipse_macro" />
+		<entry name="heroes_shield_nihilus_macro" value="extensions\swi_heroes\assets\props\SurfaceElements\macros\heroes_shield_nihilus_macro" />
+
+		<!--Dock Areas-->
+
+
+		<!--Docking Bays-->
+
+		<!--Modules-->
+
+
+		<!--Misc-->
+
+
+		<!--Bridges-->
+
+
+	</add>
+</diff>

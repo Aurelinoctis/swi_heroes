@@ -1,0 +1,1931 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+
+	<add sel="/jobs">
+
+			<!-- JOB TAGS
+			for patrol coord center (without invasions): commandeerable=true, military
+			for invasions: commandeerable=true, factionlogic, military, 
+			for economy factionlogic: factionlogic, freighter (miner, tug, trader)
+			for expedition: expedition, military -->
+
+			<job id="hero_tantive_patrol_m" name="{343006, 1}">
+				<modifiers  commandeerable="true"/>
+				<orders>
+				  <order order="Patrol" default="true">
+					<param name="range" value="class.cluster"/>
+				  </order>
+				</orders>
+				<category faction="rebelalliance" tags="[military, tantive]" size="ship_m"/>
+				<quota galaxy="1" maxgalaxy="1" sector="1"/>
+				<location class="sector" macro="swi_clusteralderaan_sector001_macro" matchextension="false"/>
+				<!-- <location class="galaxy" macro="swi_galaxy_macro" faction="rebelalliance" relation="self" comparison="exact" matchextension="false"/> -->
+				<environment buildatshipyard="true"/>
+				<ship>
+					<select faction="rebelalliance" tags="[military, tantive]" size="ship_m"/>
+					<loadout>
+					<level exact="1.0"/>
+					</loadout>
+					<owner exact="rebelalliance" overridenpc="true"/>
+				</ship>
+					<subordinates>
+					<subordinate job="hero_redsquadron_escort_s" />
+				</subordinates>
+			</job>
+
+		<job id="hero_redsquadron_escort_s" name="{343006,1}" startactive="false">
+        <orders>
+          <order order="Escort" default="true">
+            <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
+          </order>
+        </orders>
+        <quota wing="12" />
+        <category faction="rebelalliance" tags="[military, redsquadron]" size="ship_s" />
+        <location class="galaxy" macro="swi_galaxy_macro" matchextension="false" />
+        <environment buildatshipyard="true" />
+        <modifiers subordinate="true" />
+        <ship>
+          <select faction="rebelalliance" tags="[military, redsquadron]" size="ship_s" />
+          <loadout>
+            <level exact="1" />
+          </loadout>
+          <owner exact="rebelalliance" overridenpc="true" />
+        </ship>
+      </job>
+
+      <job id="hero_chimaera_patrol_xl" name="{343006,1}">
+        <modifiers  commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>
+        <category faction="ascendancy" tags="[factionlogic, military, chimaera, patrol]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" sector="1" />
+       <location class="galaxy" macro="swi_galaxy_macro" faction="ascendancy" relation="self" comparison="exact" matchextension="false"/>
+        <environment buildatshipyard="true" />
+        <ship>
+          <select faction="ascendancy" tags="[military, chimaera]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="ascendancy" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="ascendancy_tief_trio_leader" />
+          <subordinate job="ascendancy_tief_trio_leader" />
+          <subordinate job="ascendancy_tief_trio_leader" />
+          <subordinate job="ascendancy_tiei_trio_leader" />
+          <subordinate job="ascendancy_tiei_trio_leader" />
+          <subordinate job="ascendancy_tiei_trio_leader" />
+          <subordinate job="ascendancy_tieb_trio_leader" />
+          <subordinate job="ascendancy_tieb_trio_leader" />
+          <subordinate job="ascendancy_tieb_trio_leader" />
+          <subordinate job="ascendancy_tiea_trio_leader" />
+          <subordinate job="ascendancy_tief_trio_leader" />
+          <subordinate job="ascendancy_tied_trio_leader" />
+          <subordinate job="ascendancy_procursator_escort" />
+          <subordinate job="ascendancy_heavyescort_escort_l" />
+          <subordinate job="ascendancy_heavyescort_escort_l" />
+          <subordinate job="ascendancy_lancerfrigate_escort_l" />
+        </subordinates>
+      </job>
+    
+	  <job id="hero_orthavan_patrol" name="{343006,1}">
+        <modifiers  commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>
+        <category faction="newrepublic" tags="[factionlogic, military, orthavan, patrol]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" sector="1" />
+        <location class="galaxy" macro="swi_galaxy_macro" faction="newrepublic" relation="self" comparison="exact" matchextension="false"/> 
+        <environment buildatshipyard="true" />
+        <ship>
+          <select faction="newrepublic" tags="[military, orthavan]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="newrepublic" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="newrepublic_mc40_escort_l" />
+          <subordinate job="newrepublic_mc40_escort_l" />
+          <subordinate job="newrepublic_mixedfighters_escort" />
+          <subordinate job="newrepublic_mixedfighters_escort" />
+          <subordinate job="newrepublic_mixedfighters_escort" />
+          <subordinate job="newrepublic_xwing_trio" />
+          <subordinate job="newrepublic_xwing_trio" />
+          <subordinate job="newrepublic_ywing_trio" />
+          <subordinate job="newrepublic_ywing_trio" />
+          <subordinate job="newrepublic_bwing_trio" />
+          <subordinate job="newrepublic_bwing_trio" />
+          <subordinate job="newrepublic_awing_trio" />
+          <subordinate job="newrepublic_awing_trio" />
+          <subordinate job="newrepublic_mc80l_escort_xl" />
+          <subordinate job="newrepublic_mc80l_escort_xl" />
+          <subordinate job="newrepublic_resupplier_escort" />
+        </subordinates>
+      </job>
+
+      <job id="hero_aurora_patrol" name="{343006,1}">
+        <modifiers  commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>
+        <category faction="newrepublic" tags="[factionlogic, military, aurora, patrol]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" sector="1" />
+        <location class="galaxy" macro="swi_galaxy_macro" faction="newrepublic" relation="self" comparison="exact" matchextension="false"/> 
+        <environment buildatshipyard="true" />
+        <ship>
+          <select faction="newrepublic" tags="[military, aurora]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="newrepublic" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="newrepublic_mc40_escort_l" />
+          <subordinate job="newrepublic_mc40_escort_l" />
+          <subordinate job="newrepublic_mixedfighters_escort" />
+          <subordinate job="newrepublic_mixedfighters_escort" />
+          <subordinate job="newrepublic_mixedfighters_escort" />
+          <subordinate job="newrepublic_xwing_trio" />
+          <subordinate job="newrepublic_xwing_trio" />
+          <subordinate job="newrepublic_ywing_trio" />
+          <subordinate job="newrepublic_ywing_trio" />
+          <subordinate job="newrepublic_bwing_trio" />
+          <subordinate job="newrepublic_bwing_trio" />
+          <subordinate job="newrepublic_awing_trio" />
+          <subordinate job="newrepublic_awing_trio" />
+          <subordinate job="newrepublic_mc80l_escort_xl" />
+          <subordinate job="newrepublic_mc80l_escort_xl" />
+          <subordinate job="newrepublic_resupplier_escort" />
+        </subordinates>
+      </job>
+
+      <job id="hero_invincible_patrol" name="{343006,1}">
+        <modifiers  commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>
+        <category faction="newrepublic" tags="[factionlogic, military, invincible, patrol]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" sector="1" />
+        <location class="galaxy" macro="swi_galaxy_macro" faction="newrepublic" relation="self" comparison="exact" matchextension="false"/> 
+        <environment buildatshipyard="true" />
+        <ship>
+          <select faction="newrepublic" tags="[military, invincible]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="newrepublic" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="newrepublic_mc40_escort_l" />
+          <subordinate job="newrepublic_mc40_escort_l" />
+          <subordinate job="newrepublic_mixedfighters_escort" />
+          <subordinate job="newrepublic_mixedfighters_escort" />
+          <subordinate job="newrepublic_mixedfighters_escort" />
+          <subordinate job="newrepublic_xwing_trio" />
+          <subordinate job="newrepublic_xwing_trio" />
+          <subordinate job="newrepublic_ywing_trio" />
+          <subordinate job="newrepublic_ywing_trio" />
+          <subordinate job="newrepublic_bwing_trio" />
+          <subordinate job="newrepublic_bwing_trio" />
+          <subordinate job="newrepublic_awing_trio" />
+          <subordinate job="newrepublic_awing_trio" />
+          <subordinate job="newrepublic_mc80l_escort_xl" />
+          <subordinate job="newrepublic_mc80l_escort_xl" />
+          <subordinate job="newrepublic_resupplier_escort" />
+        </subordinates>
+      </job>
+
+      <job id="hero_liberty_patrol" name="{343006,1}">
+        <modifiers  commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>
+        <category faction="newrepublic" tags="[factionlogic, military, heroliberty, patrol]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" sector="1" />
+        <location class="galaxy" macro="swi_galaxy_macro" faction="newrepublic" relation="self" comparison="exact" matchextension="false"/> 
+        <environment buildatshipyard="true" />
+        <ship>
+          <select faction="newrepublic" tags="[military, heroliberty]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="newrepublic" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="newrepublic_mc40_escort_l" />
+          <subordinate job="newrepublic_mc40_escort_l" />
+          <subordinate job="newrepublic_mixedfighters_escort" />
+          <subordinate job="newrepublic_mixedfighters_escort" />
+          <subordinate job="newrepublic_mixedfighters_escort" />
+          <subordinate job="newrepublic_xwing_trio" />
+          <subordinate job="newrepublic_xwing_trio" />
+          <subordinate job="newrepublic_ywing_trio" />
+          <subordinate job="newrepublic_ywing_trio" />
+          <subordinate job="newrepublic_bwing_trio" />
+          <subordinate job="newrepublic_bwing_trio" />
+          <subordinate job="newrepublic_awing_trio" />
+          <subordinate job="newrepublic_awing_trio" />
+          <subordinate job="newrepublic_mc80l_escort_xl" />
+          <subordinate job="newrepublic_mc80l_escort_xl" />
+          <subordinate job="newrepublic_resupplier_escort" />
+        </subordinates>
+      </job>
+
+      <job id="hero_hand_patrol" name="{343006,1}">
+        <modifiers  commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>
+        <category faction="commerceguild" tags="[factionlogic, military, hand, patrol]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" sector="1" />
+        <location class="galaxy" macro="swi_galaxy_macro" faction="commerceguild" relation="self" comparison="exact" matchextension="false"/> 
+        <environment buildatshipyard="true" />
+        <ship>
+          <select faction="commerceguild" tags="[military, hand]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="commerceguild" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="commerceguild_munificent_escort_xl" />
+          <subordinate job="commerceguild_munificent_escort_xl" />
+          <subordinate job="commerceguild_vulture_group" />
+          <subordinate job="commerceguild_vulture_group" />
+          <subordinate job="commerceguild_vulture_group" />
+          <subordinate job="commerceguild_vulture_group" />
+          <subordinate job="commerceguild_vulture_group" />
+          <subordinate job="commerceguild_vulture_group" />
+          <subordinate job="commerceguild_vulture_group" />
+          <subordinate job="commerceguild_vulture_group" />
+          <subordinate job="commerceguild_hyena_group" />
+          <subordinate job="commerceguild_hyena_group" />
+          <subordinate job="commerceguild_hyena_group" />
+          <subordinate job="commerceguild_hyena_group" />
+        </subordinates>
+      </job>
+
+	        <job id="hero_oppressor_patrol" name="{343006,1}">
+        <modifiers  commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.sector" />
+          </order>
+        </orders>
+        <category faction="sith" tags="[military, oppressor]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" sector="1" />
+        <location class="sector" macro="swi_clusterziost_sector001_macro" matchextension="false"/>
+        <environment buildatshipyard="true" />
+        <ship>
+          <select faction="sith" tags="[military, oppressor]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="sith" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="sith_fighter_escort" />
+          <subordinate job="sith_fighter_escort" />
+          <subordinate job="sith_fighter_escort" />
+          <subordinate job="sith_fighter_escort" />
+          <subordinate job="sith_fighter_escort" />
+          <subordinate job="sith_fighter_escort" />
+          <subordinate job="sith_fighter_escort" />
+          <subordinate job="sith_terminus_escort_l" />
+          <subordinate job="sith_terminus_escort_l" />
+        </subordinates>
+      </job>
+
+	  		<job id="hero_mythosaur_patrol_l" name="{343006, 1}">
+				<modifiers  commandeerable="true"/>
+				<orders>
+				  <order order="Patrol" default="true">
+					<param name="range" value="class.cluster"/>
+				  </order>
+				</orders>
+				<category faction="ascendancy" tags="[military, mythosaur]" size="ship_l"/>
+				<quota galaxy="1" maxgalaxy="1" sector="1"/>
+        <location class="galaxy" macro="swi_galaxy_macro" faction="ascendancy" relation="self" comparison="exact" matchextension="false"/>
+				<environment buildatshipyard="true"/>
+				<ship>
+					<select faction="ascendancy" tags="[military, mythosaur]" size="ship_l"/>
+					<loadout>
+					<level exact="1.0"/>
+					</loadout>
+					<owner exact="ascendancy" overridenpc="true"/>
+				</ship>
+		</job>	 
+
+    <job id="hero_endurance_patrol" name="{343006,1}">
+      <modifiers  commandeerable="true" />
+      <orders>
+        <order order="Patrol" default="true">
+          <param name="range" value="class.cluster" />
+        </order>
+      </orders>  
+      <category faction="kamino" tags="[military, endurance]" size="ship_xl" />
+      <quota galaxy="1" sector="1" />
+      <location class="sector" macro="swi_clusterkamino_sector001_macro" matchextension="false"/>
+      <environment buildatshipyard="true" />
+      <ship>
+        <select faction="kamino" tags="[military, endurance]" size="ship_xl" />
+        <loadout>
+          <level exact="1.0" />
+          <variation exact="0" />
+        </loadout>
+        <owner exact="kamino" overridenpc="true" />
+      </ship>
+      <subordinates>
+        <subordinate job="kamino_ywing_s_escort" />
+        <subordinate job="kamino_ywing_s_escort" />
+        <subordinate job="kamino_ywing_s_escort" />
+        <subordinate job="kamino_ywing_s_escort" />
+        <subordinate job="kamino_interceptros_s_escort" />
+        <subordinate job="kamino_interceptros_s_escort" />
+        <subordinate job="kamino_arc170_s_escort" />
+        <subordinate job="kamino_arc170_s_escort" />
+        <subordinate job="kamino_arc170_s_escort" />
+        <subordinate job="kamino_arc170_s_escort" />
+        <subordinate job="kamino_arc170_s_escort" />
+        <subordinate job="kamino_acclamator2_escort_l" />
+        <subordinate job="kamino_acclamator2_escort_l" />
+      </subordinates>
+    </job>
+
+      <job id="hero_negotiator_patrol" name="{343006,1}">
+        <modifiers  commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>  
+        <category faction="kamino" tags="[military, negotiator]" size="ship_xl" />
+        <quota galaxy="1" sector="1" />
+        <location class="sector" macro="swi_clusterkamino_sector001_macro" matchextension="false"/>
+        <environment buildatshipyard="true" />
+        <ship>
+          <select faction="kamino" tags="[military, negotiator]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="kamino" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_interceptros_s_escort" />
+          <subordinate job="kamino_interceptros_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_acclamator2_escort_l" />
+          <subordinate job="kamino_acclamator2_escort_l" />
+        </subordinates>
+      </job>
+
+      <job id="hero_resolute_patrol" name="{343006,1}">
+        <modifiers  commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>  
+        <category faction="kamino" tags="[military, resolute]" size="ship_xl" />
+        <quota galaxy="1" sector="1" />
+        <location class="sector" macro="swi_clusterkamino_sector001_macro" matchextension="false"/>
+        <environment buildatshipyard="true" />
+        <ship>
+          <select faction="kamino" tags="[military, resolute]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="kamino" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_interceptros_s_escort" />
+          <subordinate job="kamino_interceptros_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_acclamator2_escort_l" />
+          <subordinate job="kamino_acclamator2_escort_l" />
+        </subordinates>
+      </job>
+
+	        <job id="hero_quaestor_patrol" name="{343006,1}">
+        <modifiers  commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>
+        <category faction="corporate" tags="[factionlogic, military, quaestor, patrol]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" sector="1" />
+        <location class="galaxy" macro="swi_galaxy_macro" faction="corporate" relation="self" comparison="exact" matchextension="false"/> 
+        <environment buildatshipyard="true" preferbuilding="true"/>
+        <ship>
+          <select faction="corporate" tags="[military, quaestor]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="corporate" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="corporate_ywing_s_escort" />
+          <subordinate job="corporate_ywing_s_escort" />
+          <subordinate job="corporate_laat_s_escort" />
+          <subordinate job="corporate_laat_s_escort" />
+          <subordinate job="corporate_arc170_s_escort" />
+          <subordinate job="corporate_arc170_s_escort" />
+          <subordinate job="corporate_venator_escort" />
+          <subordinate job="corporate_acclamator2_escort_l" />
+          <subordinate job="corporate_acclamator2_escort_l" />
+        </subordinates>
+      </job>
+
+      <job id="hero_battalion_patrol" name="{343006,1}">
+        <modifiers  commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>
+        <category faction="corporate" tags="[factionlogic, military, battalion, patrol]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" sector="1" />
+        <location class="galaxy" macro="swi_galaxy_macro" faction="corporate" relation="self" comparison="exact" matchextension="false"/> 
+        <environment buildatshipyard="true" preferbuilding="true"/>
+        <ship>
+          <select faction="corporate" tags="[military, battalion]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="corporate" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="corporate_ywing_s_escort" />
+          <subordinate job="corporate_ywing_s_escort" />
+          <subordinate job="corporate_laat_s_escort" />
+          <subordinate job="corporate_laat_s_escort" />
+          <subordinate job="corporate_arc170_s_escort" />
+          <subordinate job="corporate_arc170_s_escort" />
+          <subordinate job="corporate_venator_escort" />
+          <subordinate job="corporate_acclamator2_escort_l" />
+          <subordinate job="corporate_acclamator2_escort_l" />
+        </subordinates>
+      </job>
+
+      <job id="hero_thalassa_patrol" name="{343006,1}">
+        <modifiers  commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>
+        <category faction="corporate" tags="[factionlogic, military, thalassa, patrol]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" sector="1" />
+        <location class="galaxy" macro="swi_galaxy_macro" faction="corporate" relation="self" comparison="exact" matchextension="false"/> 
+        <environment buildatshipyard="true" preferbuilding="true"/>
+        <ship>
+          <select faction="corporate" tags="[military, thalassa]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="corporate" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="corporate_ywing_s_escort" />
+          <subordinate job="corporate_ywing_s_escort" />
+          <subordinate job="corporate_laat_s_escort" />
+          <subordinate job="corporate_laat_s_escort" />
+          <subordinate job="corporate_arc170_s_escort" />
+          <subordinate job="corporate_arc170_s_escort" />
+          <subordinate job="corporate_venator_escort" />
+          <subordinate job="corporate_acclamator2_escort_l" />
+          <subordinate job="corporate_acclamator2_escort_l" />
+        </subordinates>
+      </job>
+
+      <job id="hero_helmsman_patrol" name="{343006,1}">
+        <modifiers  commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>
+        <category faction="corporate" tags="[factionlogic, military, helmsman, patrol]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" sector="1" />
+        <location class="galaxy" macro="swi_galaxy_macro" faction="corporate" relation="self" comparison="exact" matchextension="false"/> 
+        <environment buildatshipyard="true" preferbuilding="true"/>
+        <ship>
+          <select faction="corporate" tags="[military, helmsman]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="corporate" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="corporate_ywing_s_escort" />
+          <subordinate job="corporate_ywing_s_escort" />
+          <subordinate job="corporate_laat_s_escort" />
+          <subordinate job="corporate_laat_s_escort" />
+          <subordinate job="corporate_arc170_s_escort" />
+          <subordinate job="corporate_arc170_s_escort" />
+          <subordinate job="corporate_venator_escort" />
+          <subordinate job="corporate_acclamator2_escort_l" />
+          <subordinate job="corporate_acclamator2_escort_l" />
+        </subordinates>
+      </job>
+
+	        <job id="hero_endofdays_patrol" name="{343006,1}">
+        <modifiers  commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.zone" />
+          </order>
+        </orders>
+        <category faction="mandodw" tags="[factionlogic, military, endofdays, patrol]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" cluster="1" />
+        <location class="sector" macro="swi_clustermandalore_sector001_macro" matchextension="false"/>
+        <environment buildatshipyard="true" />
+        <ship>
+          <select faction="mandodw" tags="[military, endofdays]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+          </loadout>
+          <owner exact="mandodw" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="mandodw_heavyescort_escort_light_l" />
+          <subordinate job="mandodw_heavyescort_escort_l" />
+          <subordinate job="mandodw_heavyescort_escort_l" />
+          <subordinate job="mandodw_heavyescort_escort_l" />
+          <subordinate job="mandodw_fighter_mixed_s" />
+          <subordinate job="mandodw_fighter_ywing" />
+          <subordinate job="mandodw_fighter_ywing" />
+        </subordinates>
+      </job>
+
+      	  		<job id="hero_falcon_patrol_m" name="{343006, 1}">
+				<modifiers  commandeerable="true"/>
+				<orders>
+				  <order order="Patrol" default="true">
+					<param name="range" value="class.cluster"/>
+				  </order>
+				</orders>
+				<category faction="huttcartel" tags="[military, falcon]" size="ship_m"/>
+				<quota galaxy="1" maxgalaxy="1" sector="1"/>
+				<location class="sector" macro="swi_clusternarshadda_sector001_macro" matchextension="false"/>
+				<environment buildatshipyard="true"/>
+				<ship>
+					<select faction="huttcartel" tags="[military, falcon]" size="ship_m"/>
+					<loadout>
+					<level exact="1.0"/>
+					</loadout>
+					<owner exact="huttcartel" overridenpc="true"/>
+				</ship>
+		</job>	 
+
+    <job id="hero_salvation_patrol_l" name="{343006, 1}">
+      <modifiers  commandeerable="true"/>
+      <orders>
+        <order order="Patrol" default="true">
+        <param name="range" value="class.cluster"/>
+        </order>
+      </orders>
+      <category faction="rebelalliance" tags="[military, salvation]" size="ship_l"/>
+      <quota galaxy="1" maxgalaxy="1" sector="1"/>
+      <location class="sector" macro="swi_clusteralderaan_sector001_macro" matchextension="false"/>
+      <!-- <location class="galaxy" macro="swi_galaxy_macro" faction="rebelalliance" relation="self" comparison="exact" matchextension="false"/> -->
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="rebelalliance" tags="[military, salvation]" size="ship_l"/>
+        <loadout>
+        <level exact="1.0"/>
+        </loadout>
+        <owner exact="rebelalliance" overridenpc="true"/>
+      </ship>
+    </job>
+
+    <job id="hero_phoenix_patrol_l" name="{343006, 1}">
+      <modifiers  commandeerable="true"/>
+      <orders>
+        <order order="Patrol" default="true">
+        <param name="range" value="class.cluster"/>
+        </order>
+      </orders>
+      <category faction="rebelalliance" tags="[military, phoenix]" size="ship_l"/>
+      <quota galaxy="1" maxgalaxy="1" sector="1"/>
+      <location class="sector" macro="swi_clusteralderaan_sector001_macro" matchextension="false"/>
+      <!-- <location class="galaxy" macro="swi_galaxy_macro" faction="rebelalliance" relation="self" comparison="exact" matchextension="false"/> -->
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="rebelalliance" tags="[military, phoenix]" size="ship_l"/>
+        <loadout>
+        <level exact="1.0"/>
+        </loadout>
+        <owner exact="rebelalliance" overridenpc="true"/>
+      </ship>
+    </job>
+
+    <job id="hero_saakak_patrol" name="{343006,1}">
+      <modifiers  commandeerable="true" />
+      <orders>
+        <order order="Patrol" default="true">
+          <param name="range" value="class.cluster" />
+        </order>
+      </orders>
+      <category faction="commerceguild" tags="[factionlogic, military, saakak, patrol]" size="ship_xl" />
+      <quota galaxy="1" maxgalaxy="1" sector="1" />
+      <location class="galaxy" macro="swi_galaxy_macro" faction="commerceguild" relation="self" comparison="exact" matchextension="false"/> 
+      <environment buildatshipyard="true" />
+      <ship>
+        <select faction="commerceguild" tags="[military, saakak]" size="ship_xl" />
+        <loadout>
+          <level exact="1.0" />
+          <variation exact="0" />
+        </loadout>
+        <owner exact="commerceguild" overridenpc="true" />
+      </ship>
+      <subordinates>
+        <subordinate job="commerceguild_munificent_escort_xl" />
+        <subordinate job="commerceguild_munificent_escort_xl" />
+        <subordinate job="commerceguild_vulture_group" />
+        <subordinate job="commerceguild_vulture_group" />
+        <subordinate job="commerceguild_vulture_group" />
+        <subordinate job="commerceguild_vulture_group" />
+        <subordinate job="commerceguild_vulture_group" />
+        <subordinate job="commerceguild_vulture_group" />
+        <subordinate job="commerceguild_vulture_group" />
+        <subordinate job="commerceguild_vulture_group" />
+        <subordinate job="commerceguild_hyena_group" />
+        <subordinate job="commerceguild_hyena_group" />
+        <subordinate job="commerceguild_hyena_group" />
+        <subordinate job="commerceguild_hyena_group" />
+      </subordinates>
+    </job>
+
+    <job id="hero_katana_patrol_l" name="{343006,1}" >
+      <modifiers  commandeerable="true" />
+      <orders>
+        <order order="Patrol" default="true">
+          <param name="range" value="class.cluster" />
+        </order>
+      </orders>
+      <category faction="newrepublic" tags="[factionlogic, military, katana, patrol]" size="ship_l" />
+      <quota galaxy="1" maxgalaxy="1" sector="1" />
+      <location class="galaxy" macro="swi_galaxy_macro" faction="newrepublic" relation="self" comparison="exact" matchextension="false"/> 
+      <environment buildatshipyard="true" />
+      <ship>
+        <select faction="newrepublic" tags="[military, katana]" size="ship_l" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+        <owner exact="newrepublic" overridenpc="true" />
+      </ship>
+      <subordinates>
+        <subordinate job="newrepublic_cr90_escort_m" />
+        <subordinate job="newrepublic_xwing_trio" />
+        <subordinate job="newrepublic_ywing_trio" />
+      </subordinates>
+    </job>
+
+    <job id="hero_sterdicstar_patrol_m" name="{343006,1}" >
+      <modifiers  commandeerable="true" />
+      <orders>
+        <order order="Patrol" default="true">
+          <param name="range" value="class.cluster" />
+        </order>
+      </orders>
+      <category faction="newrepublic" tags="[factionlogic, military, sterdicstar, patrol]" size="ship_m" />
+      <quota galaxy="1" maxgalaxy="1" sector="1" />
+      <location class="galaxy" macro="swi_galaxy_macro" faction="newrepublic" relation="self" comparison="exact" matchextension="false"/> 
+      <environment buildatshipyard="true" />
+      <ship>
+        <select faction="newrepublic" tags="[military, sterdicstar]" size="ship_m" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+        <owner exact="newrepublic" overridenpc="true" />
+      </ship>
+      <subordinates>
+        <subordinate job="newrepublic_xwing_trio" />
+        <subordinate job="newrepublic_ywing_trio" />
+      </subordinates>
+    </job>
+
+    <job id="hero_lightmaker_patrol_m" name="{343006, 1}">
+      <modifiers  commandeerable="true"/>
+      <orders>
+        <order order="Patrol" default="true">
+        <param name="range" value="class.cluster"/>
+        </order>
+      </orders>
+      <category faction="rebelalliance" tags="[military, lightmaker]" size="ship_m"/>
+      <quota galaxy="1" maxgalaxy="1" sector="1"/>
+      <location class="sector" macro="swi_clusteralderaan_sector001_macro" matchextension="false"/>
+      <!-- <location class="galaxy" macro="swi_galaxy_macro" faction="rebelalliance" relation="self" comparison="exact" matchextension="false"/> -->
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="rebelalliance" tags="[military, lightmaker]" size="ship_m"/>
+        <loadout>
+        <level exact="1.0"/>
+        </loadout>
+        <owner exact="rebelalliance" overridenpc="true"/>
+      </ship>
+    </job>
+
+    <job id="hero_protector_patrol_l" name="{343006,1}"> 
+      <modifiers  commandeerable="true"/>
+        <orders>
+          <order order="Patrol" default="true">
+          <param name="range" value="class.cluster"/>
+          </order>
+      </orders>
+      <category faction="galempire" tags="[military, protector]" size="ship_l" />
+      <quota galaxy="1" maxgalaxy="1" sector="1"/>
+      <location class="galaxy" macro="swi_galaxy_macro" faction="galempire" relation="self" comparison="exact" matchextension="false"/> 
+      <environment buildatshipyard="true" />
+      <ship>
+        <select faction="galempire" tags="[military, protector]" size="ship_l" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+        <owner exact="galempire" overridenpc="true" />
+      </ship>
+      <subordinates>
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tiei_trio_leader" />
+        <subordinate job="galempire_tiei_trio_leader" />
+        <subordinate job="galempire_tieb_trio_leader" />
+        <subordinate job="galempire_tieb_trio_leader" />
+        <subordinate job="galempire_scimitar_trio_leader" />
+        <subordinate job="galempire_tierandom_trio_leader" />
+        <subordinate job="galempire_enforcer_escort_l" />
+      </subordinates>
+    </job>
+
+    <job id="hero_battleforged_patrol_l" name="{343006,1}"> 
+      <modifiers  commandeerable="true"/>
+        <orders>
+          <order order="Patrol" default="true">
+          <param name="range" value="class.cluster"/>
+          </order>
+      </orders>
+      <category faction="galempire" tags="[military, battleforged]" size="ship_l" />
+      <quota galaxy="1" maxgalaxy="1" sector="1"/>
+      <location class="galaxy" macro="swi_galaxy_macro" faction="galempire" relation="self" comparison="exact" matchextension="false"/> 
+      <environment buildatshipyard="true" />
+      <ship>
+        <select faction="galempire" tags="[military, battleforged]" size="ship_l" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+        <owner exact="galempire" overridenpc="true" />
+      </ship>
+      <subordinates>
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tiei_trio_leader" />
+        <subordinate job="galempire_tiei_trio_leader" />
+        <subordinate job="galempire_tieb_trio_leader" />
+        <subordinate job="galempire_tieb_trio_leader" />
+        <subordinate job="galempire_scimitar_trio_leader" />
+        <subordinate job="galempire_tierandom_trio_leader" />
+        <subordinate job="galempire_enforcer_escort_l" />
+      </subordinates>
+    </job>
+
+    <job id="hero_corvus_patrol_m" name="{343006,1}"> 
+      <modifiers  commandeerable="true"/>
+        <orders>
+          <order order="Patrol" default="true">
+          <param name="range" value="class.cluster"/>
+          </order>
+      </orders>
+      <category faction="galempire" tags="[military, corvus]" size="ship_m" />
+      <quota galaxy="1" maxgalaxy="1" sector="1"/>
+      <location class="galaxy" macro="swi_galaxy_macro" faction="galempire" relation="self" comparison="exact" matchextension="false"/> 
+      <environment buildatshipyard="true" />
+      <ship>
+        <select faction="galempire" tags="[military, corvus]" size="ship_m" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+        <owner exact="galempire" overridenpc="true" />
+      </ship>
+      <subordinates>
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tief_trio_leader" />
+        <subordinate job="galempire_tiei_trio_leader" />
+        <subordinate job="galempire_tiei_trio_leader" />
+        <subordinate job="galempire_tieb_trio_leader" />
+        <subordinate job="galempire_tieb_trio_leader" />
+      </subordinates>
+    </job>
+
+    <job id="hero_profundity_patrol" name="{343006,1}">
+      <modifiers  commandeerable="true" />
+      <orders>
+        <order order="Patrol" default="true">
+          <param name="range" value="class.cluster" />
+        </order>
+      </orders>
+      <category faction="newrepublic" tags="[factionlogic, military, profundity, patrol]" size="ship_xl" />
+      <quota galaxy="1" maxgalaxy="1" sector="1" />
+      <location class="galaxy" macro="swi_galaxy_macro" faction="newrepublic" relation="self" comparison="exact" matchextension="false"/> 
+      <environment buildatshipyard="true" />
+      <ship>
+        <select faction="newrepublic" tags="[military, profundity]" size="ship_xl" />
+        <loadout>
+          <level exact="1.0" />
+          <variation exact="0" />
+        </loadout>
+        <owner exact="newrepublic" overridenpc="true" />
+      </ship>
+      <subordinates>
+        <subordinate job="newrepublic_mc40_escort_l" />
+        <subordinate job="newrepublic_mc40_escort_l" />
+        <subordinate job="newrepublic_mixedfighters_escort" />
+        <subordinate job="newrepublic_mixedfighters_escort" />
+        <subordinate job="newrepublic_mixedfighters_escort" />
+        <subordinate job="newrepublic_xwing_trio" />
+        <subordinate job="newrepublic_xwing_trio" />
+        <subordinate job="newrepublic_ywing_trio" />
+        <subordinate job="newrepublic_ywing_trio" />
+        <subordinate job="newrepublic_bwing_trio" />
+        <subordinate job="newrepublic_bwing_trio" />
+        <subordinate job="newrepublic_awing_trio" />
+        <subordinate job="newrepublic_awing_trio" />
+        <subordinate job="newrepublic_mc80l_escort_xl" />
+        <subordinate job="newrepublic_mc80l_escort_xl" />
+        <subordinate job="newrepublic_resupplier_escort" />
+      </subordinates>
+    </job>
+
+    			<job id="hero_lootbug_patrol_nrl_s" name="{343006, 1}">
+				<modifiers  commandeerable="true"/>
+				<orders>
+				  <order order="Patrol" default="true">
+					<param name="range" value="class.cluster"/>
+				  </order>
+				</orders>
+				<category faction="newrepublic" tags="[military, lootbug]" size="ship_s"/>
+				<quota galaxy="3" maxgalaxy="3" sector="1"/>
+			 <location class="galaxy" macro="swi_galaxy_macro" faction="newrepublic" relation="self" comparison="exact" matchextension="false"/> 
+				<environment buildatshipyard="true"/>
+				<ship>
+					<select faction="newrepublic" tags="[military, lootbug]" size="ship_s"/>
+					<loadout>
+					<level exact="1.0"/>
+					</loadout>
+					<owner exact="newrepublic" overridenpc="true"/>
+				</ship>
+			</job>
+
+          			<job id="hero_lootbug_patrol_imp_s" name="{343006, 1}">
+				<modifiers  commandeerable="true"/>
+				<orders>
+				  <order order="Patrol" default="true">
+					<param name="range" value="class.cluster"/>
+				  </order>
+				</orders>
+				<category faction="galempire" tags="[military, lootbug]" size="ship_s"/>
+				<quota galaxy="3" maxgalaxy="3" sector="1"/>
+			 <location class="galaxy" macro="swi_galaxy_macro" faction="galempire" relation="self" comparison="exact" matchextension="false"/> 
+				<environment buildatshipyard="true"/>
+				<ship>
+					<select faction="galempire" tags="[military, lootbug]" size="ship_s"/>
+					<loadout>
+					<level exact="1.0"/>
+					</loadout>
+					<owner exact="galempire" overridenpc="true"/>
+				</ship>
+			</job>
+
+                			<job id="hero_lootbug_patrol_csa_s" name="{343006, 1}">
+				<modifiers  commandeerable="true"/>
+				<orders>
+				  <order order="Patrol" default="true">
+					<param name="range" value="class.cluster"/>
+				  </order>
+				</orders>
+				<category faction="corporate" tags="[military, lootbug]" size="ship_s"/>
+				<quota galaxy="3" maxgalaxy="3" sector="1"/>
+			 <location class="galaxy" macro="swi_galaxy_macro" faction="corporate" relation="self" comparison="exact" matchextension="false"/> 
+				<environment buildatshipyard="true"/>
+				<ship>
+					<select faction="corporate" tags="[military, lootbug]" size="ship_s"/>
+					<loadout>
+					<level exact="1.0"/>
+					</loadout>
+					<owner exact="corporate" overridenpc="true"/>
+				</ship>
+			</job>
+
+                      			<job id="hero_lootbug_patrol_icg_s" name="{343006, 1}">
+				<modifiers  commandeerable="true"/>
+				<orders>
+				  <order order="Patrol" default="true">
+					<param name="range" value="class.cluster"/>
+				  </order>
+				</orders>
+				<category faction="commerceguild" tags="[military, lootbug]" size="ship_s"/>
+				<quota galaxy="3" maxgalaxy="3" sector="1"/>
+			 <location class="galaxy" macro="swi_galaxy_macro" faction="commerceguild" relation="self" comparison="exact" matchextension="false"/> 
+				<environment buildatshipyard="true"/>
+				<ship>
+					<select faction="commerceguild" tags="[military, lootbug]" size="ship_s"/>
+					<loadout>
+					<level exact="1.0"/>
+					</loadout>
+					<owner exact="commerceguild" overridenpc="true"/>
+				</ship>
+			</job>
+
+
+
+
+
+<job id="hero_legion_patrol" name="{343006,1}">
+        <modifiers  commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>  
+        <category faction="kamino" tags="[military, legion]" size="ship_xl" />
+        <quota galaxy="1" sector="1" />
+        <location class="sector" macro="swi_clusterkamino_sector001_macro" matchextension="false"/>
+        <environment buildatshipyard="true" />
+        <ship>
+          <select faction="kamino" tags="[military, legion]" size="ship_xl" />
+          <loadout ref="heroes_legion_loadout" />
+          <owner exact="kamino" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_interceptros_s_escort" />
+          <subordinate job="kamino_interceptros_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_acclamator2_escort_l" />
+          <subordinate job="kamino_acclamator2_escort_l" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_interceptros_s_escort" />
+          <subordinate job="kamino_interceptros_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_acclamator2_escort_l" />
+          <subordinate job="kamino_acclamator2_escort_l" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_ywing_s_escort" />
+          <subordinate job="kamino_interceptros_s_escort" />
+          <subordinate job="kamino_interceptros_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_arc170_s_escort" />
+          <subordinate job="kamino_acclamator2_escort_l" />
+          <subordinate job="kamino_acclamator2_escort_l" />
+          <subordinate job="hero_forsaken_escort_xl" />
+        </subordinates>
+      </job>
+
+<job id="hero_umbra_patrol" name="{343006,1}">
+  <modifiers  commandeerable="false" rebuild="false"/>
+  <orders>
+    <order order="Patrol" default="true">
+      <param name="range" value="class.sector" />
+    </order>
+  </orders>
+  <category faction="sith" tags="[umbra]" size="ship_xl" />
+  <quota galaxy="1" maxgalaxy="1" sector="1" />
+  <location class="sector" macro="swi_clusterziost_sector001_macro" matchextension="false"/>
+  <environment buildatshipyard="true" />
+  <ship>  
+    <select faction="sith" tags="[umbra]" size="ship_xl" />
+    <loadout>
+      <level exact="1.0" />
+      <variation exact="0" />
+    </loadout>
+    <owner exact="sith" overridenpc="true" />
+  </ship>
+  <subordinates>
+    <subordinate job="hero_umbral_harrower_escort_xl" />
+    <subordinate job="hero_umbral_terminus_escort_l" />
+    <subordinate job="hero_umbral_fury_escort_s" />
+    <subordinate job="hero_umbral_fury_escort_s" />
+    <subordinate job="hero_umbral_fury_escort_s" />
+    <subordinate job="hero_umbral_fury_escort_s" />
+    <subordinate job="hero_umbral_fury_escort_s" />
+    <subordinate job="hero_umbral_fury_escort_s" />
+    <subordinate job="hero_umbral_fury_escort_s" />
+    <subordinate job="hero_umbral_fury_escort_s" />
+    <subordinate job="hero_umbral_fury_escort_s" />
+    <subordinate job="hero_umbral_fury_escort_s" /> 
+
+  </subordinates>
+</job>
+
+<job id="hero_executor_patrol" name="{343006,1}">
+  <modifiers  commandeerable="true" />
+  <orders>
+    <order order="Patrol" default="true">
+      <param name="range" value="class.cluster" />
+    </order>
+  </orders>
+  <category faction="galempire" tags="[factionlogic, military, executor, patrol]" size="ship_xl" />
+  <quota galaxy="1" maxgalaxy="1" sector="1" />
+  <location class="galaxy" macro="swi_galaxy_macro" faction="galempire" relation="self" comparison="exact" matchextension="false"/> 
+  <environment buildatshipyard="true" />
+  <ship>
+    <select faction="galempire" tags="[military, executor]" size="ship_xl" />
+    <loadout>
+      <level exact="1.0" />
+      <variation exact="0" />
+    </loadout>
+    <owner exact="galempire" overridenpc="true" />
+  </ship>
+  <subordinates>
+    <subordinate job="galempire_tied_trio_leader" />
+    <subordinate job="galempire_tied_trio_leader" />
+    <subordinate job="galempire_tied_trio_leader" />
+    <subordinate job="galempire_tief_trio_leader" />
+    <subordinate job="galempire_tief_trio_leader" />
+    <subordinate job="galempire_tief_trio_leader" />
+    <subordinate job="galempire_tief_trio_leader" />
+    <subordinate job="galempire_tief_trio_leader" />
+    <subordinate job="galempire_tiei_trio_leader" />
+    <subordinate job="galempire_tiei_trio_leader" />
+    <subordinate job="galempire_tiei_trio_leader" />
+    <subordinate job="galempire_tiei_trio_leader" />
+    <subordinate job="galempire_tieb_trio_leader" />
+    <subordinate job="galempire_tieb_trio_leader" />
+    <subordinate job="galempire_scimitar_trio_leader" />
+    <subordinate job="galempire_scimitar_trio_leader" />
+    <subordinate job="galempire_scimitar_trio_leader" />
+    <subordinate job="galempire_scimitar_trio_leader" />
+    <subordinate job="galempire_scimitar_trio_leader" />
+    <subordinate job="galempire_scimitar_trio_leader" />
+    <subordinate job="galempire_tierandom_trio_leader" />
+    <subordinate job="galempire_isd_escort" />
+    <subordinate job="galempire_tied_trio_leader" />
+    <subordinate job="galempire_tied_trio_leader" />
+    <subordinate job="galempire_tied_trio_leader" />
+    <subordinate job="galempire_vindicator_escort_l" />
+  </subordinates>
+</job>
+
+<job id="hero_lusankya_patrol" name="{343006,1}">
+			<modifiers commandeerable="false"/>
+			<orders>
+				<order order="Patrol" default="true">
+					<param name="range" value="class.cluster"/>
+				</order>
+			</orders>
+			<category faction="newrepublic" tags="[factionlogic, military, lusankya]" size="ship_xl"/>
+			<quota galaxy="1" maxgalaxy="1" sector="1"/>
+			<location class="galaxy" macro="swi_galaxy_macro" faction="newrepublic" relation="self" comparison="exact" matchextension="false"/>
+			<environment buildatshipyard="true"/>
+			<ship>
+				<select faction="newrepublic" tags="[military, lusankya]" size="ship_xl"/>
+				<loadout>
+					<level exact="1.0"/>
+					<variation exact="0"/>
+				</loadout>
+				<owner exact="newrepublic" overridenpc="true"/>
+			</ship>
+			<subordinates>
+				<subordinate job="newrepublic_rogue_escort"/>
+				<subordinate job="newrepublic_mc40_escort_l"/>
+				<subordinate job="newrepublic_heavyescort_escort_l"/>
+				<subordinate job="newrepublic_heavyescort_escort_l"/>
+				<subordinate job="newrepublic_mc80c_escort_xl"/>
+				<subordinate job="newrepublic_mc80l_escort_xl"/>
+				<subordinate job="newrepublic_resupplier_escort"/>
+			</subordinates>
+		</job>
+
+		<job id="hero_umbral_harrower_escort_xl" name="{343006,1}" startactive="false">
+        <orders>
+          <order order="Escort" default="true">
+            <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
+          </order>
+        </orders>
+        <quota wing="10" />
+        <category faction="sith" tags="[military, umbralharrower]" size="ship_xl" />
+        <location class="galaxy" macro="swi_galaxy_macro" matchextension="false" />
+        <environment buildatshipyard="true" />
+        <modifiers subordinate="true" />
+        <ship>
+          <select faction="sith" tags="[military, umbralharrower]" size="ship_xl" />
+          <loadout>
+            <level exact="1" />
+          </loadout>
+          <owner exact="sith" overridenpc="true" />
+        </ship>
+      </job>
+
+      		<job id="hero_umbral_terminus_escort_l" name="{343006,1}" startactive="false">
+        <orders>
+          <order order="Escort" default="true">
+            <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
+          </order>
+        </orders>
+        <quota wing="20" />
+        <category faction="sith" tags="[military, umbralterminus]" size="ship_l" />
+        <location class="galaxy" macro="swi_galaxy_macro" matchextension="false" />
+        <environment buildatshipyard="true" />
+        <modifiers subordinate="true" />
+        <ship>
+          <select faction="sith" tags="[military, umbralterminus]" size="ship_l" />
+          <loadout>
+            <level exact="1" />
+          </loadout>
+          <owner exact="sith" overridenpc="true" />
+        </ship>
+      </job>
+
+            		<job id="hero_umbral_fury_escort_s" name="{343006,1}" startactive="false">
+        <orders>
+          <order order="Escort" default="true">
+            <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
+          </order>
+        </orders>
+        <quota wing="20" />
+        <category faction="sith" tags="[military, umbralfury]" size="ship_s" />
+        <location class="galaxy" macro="swi_galaxy_macro" matchextension="false" />
+        <environment buildatshipyard="true" />
+        <modifiers subordinate="true" />
+        <ship>
+          <select faction="sith" tags="[military, umbralfury]" size="ship_s" />
+          <loadout>
+            <level exact="1" />
+          </loadout>
+          <owner exact="sith" overridenpc="true" />
+        </ship>
+      </job>
+
+      <job id="hero_accuser_patrol" name="{343006,1}">
+			<modifiers commandeerable="true"/>
+			<orders>
+				<order order="Patrol" default="true">
+					<param name="range" value="class.cluster"/>
+				</order>
+			</orders>
+			<category faction="galempire" tags="[factionlogic, military, accuser]" size="ship_xl"/>
+			<quota galaxy="1" maxgalaxy="1" sector="1"/>
+			<location class="galaxy" macro="swi_galaxy_macro" faction="galempire" relation="self" comparison="exact" matchextension="false"/>
+			<environment buildatshipyard="true"/>
+			<ship>
+				<select faction="galempire" tags="[military, accuser]" size="ship_xl"/>
+				<loadout>
+					<level exact="1.0"/>
+					<variation exact="0"/>
+				</loadout>
+				<owner exact="galempire" overridenpc="true"/>
+			</ship>
+			<subordinates>
+				<subordinate job="galempire_light_cruiser_escort_l"/>
+				<subordinate job="galempire_lancerfrigate_escort_l"/>
+				<subordinate job="galempire_immobilizer_escort_l"/>
+				<subordinate job="galempire_vindicator_escort_l"/>
+				<subordinate job="galempire_isd_escort"/>
+				<subordinate job="galempire_isd_escort"/>
+				<subordinate job="galempire_resupplier_escort"/>
+			</subordinates>
+		</job>
+
+    <job id="hero_devastator_patrol" name="{343006,1}">
+        <modifiers commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>
+        <category faction="galempire" tags="[factionlogic, military, devastator, patrol]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" sector="1" />
+        <location class="galaxy" macro="swi_galaxy_macro" faction="galempire" relation="self" comparison="exact" matchextension="false" />
+        <environment buildatshipyard="true" />
+        <ship>
+          <select faction="galempire" tags="[military, devastator]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="galempire" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="galempire_tief_trio_leader" />
+          <subordinate job="galempire_tief_trio_leader" />
+          <subordinate job="galempire_tief_trio_leader" />
+          <subordinate job="galempire_tief_trio_leader" />
+          <subordinate job="galempire_tief_trio_leader" />
+          <subordinate job="galempire_tief_trio_leader" />
+          <subordinate job="galempire_tiei_trio_leader" />
+          <subordinate job="galempire_tiei_trio_leader" />
+          <subordinate job="galempire_tiei_trio_leader" />
+          <subordinate job="galempire_tiei_trio_leader" />
+          <subordinate job="galempire_tieb_trio_leader" />
+          <subordinate job="galempire_tieb_trio_leader" />
+          <subordinate job="galempire_tieb_trio_leader" />
+          <subordinate job="galempire_tieb_trio_leader" />
+          <subordinate job="galempire_scimitar_trio_leader" />
+          <subordinate job="galempire_scimitar_trio_leader" />
+          <subordinate job="galempire_tierandom_trio_leader" />
+          <subordinate job="galempire_immobilizer_escort_l" />
+          <subordinate job="galempire_vindicator_escort_l" />
+          <subordinate job="galempire_isd_escort" />
+          <subordinate job="galempire_isd_escort" />
+          <subordinate job="galempire_isd_escort" />
+          <subordinate job="galempire_isd_escort" />
+          <subordinate job="galempire_isd_escort" />
+          <subordinate job="galempire_lancerfrigate_escort_l" />
+        </subordinates>
+      </job>
+
+      <job id="hero_vanguard_patrol" name="{343006,1}">
+        <modifiers commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>
+        <category faction="galempire" tags="[factionlogic, military, vanguard, patrol]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" sector="1" />
+        <location class="galaxy" macro="swi_galaxy_macro" faction="galempire" relation="self" comparison="exact" matchextension="false" />
+        <environment buildatshipyard="true" />
+        <ship>
+          <select faction="galempire" tags="[military, vanguard]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="galempire" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="galempire_tief_trio_leader" />
+          <subordinate job="galempire_tief_trio_leader" />
+          <subordinate job="galempire_tief_trio_leader" />
+          <subordinate job="galempire_tief_trio_leader" />
+          <subordinate job="galempire_tief_trio_leader" />
+          <subordinate job="galempire_tief_trio_leader" />
+          <subordinate job="galempire_tiei_trio_leader" />
+          <subordinate job="galempire_tiei_trio_leader" />
+          <subordinate job="galempire_tiei_trio_leader" />
+          <subordinate job="galempire_tiei_trio_leader" />
+          <subordinate job="galempire_tieb_trio_leader" />
+          <subordinate job="galempire_tieb_trio_leader" />
+          <subordinate job="galempire_tieb_trio_leader" />
+          <subordinate job="galempire_tieb_trio_leader" />
+          <subordinate job="galempire_scimitar_trio_leader" />
+          <subordinate job="galempire_scimitar_trio_leader" />
+          <subordinate job="galempire_tierandom_trio_leader" />
+          <subordinate job="galempire_immobilizer_escort_l" />
+          <subordinate job="galempire_vindicator_escort_l" />
+          <subordinate job="galempire_isd_escort" />
+          <subordinate job="galempire_isd_escort" />
+          <subordinate job="galempire_isd_escort" />
+          <subordinate job="galempire_isd_escort" />
+          <subordinate job="galempire_isd_escort" />
+          <subordinate job="galempire_lancerfrigate_escort_l" />
+        </subordinates>
+      </job>
+
+      <job id="hero_homeone_patrol" name="{343006,1}">
+        <modifiers commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>
+        <category faction="newrepublic" tags="[factionlogic, military, herohomeone, patrol]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" />
+        <location class="galaxy" macro="swi_galaxy_macro" faction="newrepublic" relation="self" comparison="exact" matchextension="false" />
+        <environment buildatshipyard="true" />
+        <ship>
+          <select faction="newrepublic" tags="[military, herohomeone]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+          </loadout>
+          <owner exact="newrepublic" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="newrepublic_heavyescort_escort_l" />
+          <subordinate job="newrepublic_heavyescort_escort_l" />
+          <subordinate job="newrepublic_heavyescort_escort_l" />
+          <subordinate job="newrepublic_heavyescort_escort_l" />
+          <subordinate job="newrepublic_rogue_escort" />
+          <subordinate job="newrepublic_mixedfighters_escort" />
+          <subordinate job="newrepublic_mixedfighters_escort" />
+          <subordinate job="newrepublic_mc80l_escort_xl" />
+          <subordinate job="newrepublic_mc80c_escort_xl" />
+        </subordinates>
+      </job>
+
+      <job id="hero_galactic_patrol" name="{343006,1}">
+			<modifiers commandeerable="true"/>
+			<orders>
+				<order order="Patrol" default="true">
+					<param name="range" value="class.cluster"/>
+				</order>
+			</orders>
+			<category faction="newrepublic" tags="[factionlogic, military, galactic]" size="ship_xl"/>
+			<quota galaxy="1" maxgalaxy="1" sector="1"/>
+			<location class="galaxy" macro="swi_galaxy_macro" faction="newrepublic" relation="self" comparison="exact" matchextension="false"/>
+			<environment buildatshipyard="true"/>
+			<ship>
+				<select faction="newrepublic" tags="[military, galactic]" size="ship_xl"/>
+				<loadout>
+					<level exact="1.0"/>
+					<variation exact="0"/>
+				</loadout>
+				<owner exact="newrepublic" overridenpc="true"/>
+			</ship>
+			<subordinates>
+				<subordinate job="newrepublic_rogue_escort"/>
+				<subordinate job="newrepublic_mc40_escort_l"/>
+				<subordinate job="newrepublic_heavyescort_escort_l"/>
+				<subordinate job="newrepublic_heavyescort_escort_l"/>
+				<subordinate job="newrepublic_mc80c_escort_xl"/>
+				<subordinate job="newrepublic_mc80l_escort_xl"/>
+				<subordinate job="newrepublic_resupplier_escort"/>
+			</subordinates>
+		</job>
+
+    <job id="hero_delta_patrol" name="{343006, 1}">
+			<modifiers commandeerable="true"/>
+			<orders>
+				<order order="Patrol" default="true">
+					<param name="range" value="class.cluster"/>
+				</order>
+			</orders>
+			<category faction="ascendancy" tags="[factionlogic, military, delta]" size="ship_xl"/>
+			<quota galaxy="1" maxgalaxy="1" sector="1"/>
+			<location class="galaxy" macro="swi_galaxy_macro" faction="ascendancy" relation="self" comparison="exact" matchextension="false"/>
+			<environment buildatshipyard="true"/>
+			<ship>
+				<select faction="ascendancy" tags="[military, delta]" size="ship_xl"/>
+				<loadout>
+					<level exact="1.0"/>
+					<variation exact="0"/>
+				</loadout>
+				<owner exact="ascendancy" overridenpc="true"/>
+			</ship>
+			<subordinates>
+				<subordinate job="ascendancy_tief_trio_leader"/>
+				<subordinate job="ascendancy_tief_trio_leader"/>
+				<subordinate job="ascendancy_tief_trio_leader"/>
+				<subordinate job="ascendancy_tief_trio_leader"/>
+				<subordinate job="ascendancy_tiei_trio_leader"/>
+				<subordinate job="ascendancy_tiei_trio_leader"/>
+				<subordinate job="ascendancy_tieb_trio_leader"/>
+				<subordinate job="ascendancy_tieb_trio_leader"/>
+				<subordinate job="ascendancy_tied_trio_leader"/>
+				<subordinate job="ascendancy_tied_trio_leader"/>
+				<subordinate job="ascendancy_tied_trio_leader"/>
+				<subordinate job="ascendancy_tied_trio_leader"/>
+				<subordinate job="ascendancy_heavyescort_escort_l"/>
+				<subordinate job="ascendancy_light_cruiser_escort_l"/>
+				<subordinate job="ascendancy_light_cruiser_escort_l"/>
+				<subordinate job="ascendancy_enforcer_escort_l"/>
+				<subordinate job="ascendancy_enforcer_escort_l"/>
+				<subordinate job="dabc_ascendancy_isd_escort"/>
+			</subordinates>
+		</job>
+
+    
+
+    <!--<job id="hero_infinity_patrol" name="{343006, 1}">
+			<modifiers commandeerable="true"/>
+			<orders>
+				<order order="Patrol" default="true">
+					<param name="range" value="class.cluster"/>
+				</order>
+			</orders>
+			<category faction="ascendancy" tags="[factionlogic, military, infinity]" size="ship_xl"/>
+			<quota galaxy="1" maxgalaxy="1" sector="1"/>
+			<location class="galaxy" macro="swi_galaxy_macro" faction="ascendancy" relation="self" comparison="exact" matchextension="false"/>
+			<environment buildatshipyard="true"/>
+			<ship>
+				<select faction="ascendancy" tags="[military, infinity]" size="ship_xl"/>
+				<loadout>
+					<level exact="1.0"/>
+					<variation exact="0"/>
+				</loadout>
+				<owner exact="ascendancy" overridenpc="true"/>
+			</ship>
+			<subordinates>
+				<subordinate job="ascendancy_tief_trio_leader"/>
+				<subordinate job="ascendancy_tief_trio_leader"/>
+				<subordinate job="ascendancy_tief_trio_leader"/>
+				<subordinate job="ascendancy_tief_trio_leader"/>
+				<subordinate job="ascendancy_tiei_trio_leader"/>
+				<subordinate job="ascendancy_tiei_trio_leader"/>
+				<subordinate job="ascendancy_tiei_trio_leader"/>
+				<subordinate job="ascendancy_tiei_trio_leader"/>
+				<subordinate job="ascendancy_tieb_trio_leader"/>
+				<subordinate job="ascendancy_tieb_trio_leader"/>
+				<subordinate job="ascendancy_tieb_trio_leader"/>
+				<subordinate job="ascendancy_tieb_trio_leader"/>
+				<subordinate job="ascendancy_tied_trio_leader"/>
+				<subordinate job="ascendancy_tied_trio_leader"/>
+				<subordinate job="ascendancy_tied_trio_leader"/>
+				<subordinate job="ascendancy_tied_trio_leader"/>
+				<subordinate job="ascendancy_customs_escort_m"/>
+				<subordinate job="ascendancy_gozanti_escort_m"/>
+				<subordinate job="ascendancy_raider_escort_m"/>
+				<subordinate job="ascendancy_raider_escort_m"/>
+				<subordinate job="ascendancy_procursator_escort"/>
+				<subordinate job="dabc_ascendancy_isd_escort"/>
+			</subordinates>
+		</job>-->
+
+    <!-- <job id="hero_kronos_patrol" name="{343006, 1}">
+			<modifiers commandeerable="true"/>
+			<orders>
+				<order order="Patrol" default="true">
+					<param name="range" value="class.cluster"/>
+				</order>
+			</orders>
+			<category faction="ascendancy" tags="[factionlogic, military, kronos]" size="ship_xl"/>
+			<quota galaxy="1" maxgalaxy="1" sector="1"/>
+			<location class="galaxy" macro="swi_galaxy_macro" faction="ascendancy" relation="self" comparison="exact" matchextension="false"/>
+			<environment buildatshipyard="true"/>
+			<ship>
+				<select faction="ascendancy" tags="[military, kronos]" size="ship_xl"/>
+				<loadout>
+					<level exact="1.0"/>
+					<variation exact="0"/>
+				</loadout>
+				<owner exact="ascendancy" overridenpc="true"/>
+			</ship>
+			<subordinates>
+				<subordinate job="ascendancy_enforcer_escort_l"/>
+				<subordinate job="ascendancy_lancerfrigate_escort_l"/>
+				<subordinate job="ascendancy_lancerfrigate_escort_l"/>
+				<subordinate job="ascendancy_procursator_escort"/>
+				<subordinate job="dabc_ascendancy_isd_escort"/>
+			</subordinates>
+		</job> -->
+
+     <job id="hero_nightblade_patrol" name="{343006,1}" >
+        <modifiers commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>
+        <category faction="ascendancy" tags="[factionlogic, military, nightblade, patrol]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" sector="1" />
+        <location class="galaxy" macro="swi_galaxy_macro" faction="ascendancy" relation="self" comparison="exact" matchextension="false" />
+        <environment buildatshipyard="true" preferbuilding="true"/>
+        <ship>
+          <select faction="ascendancy" tags="[military, nightblade]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="ascendancy" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="ascendancy_tief_trio_leader" />
+          <subordinate job="ascendancy_tief_trio_leader" />
+          <subordinate job="ascendancy_tief_trio_leader" />
+          <subordinate job="ascendancy_tiei_trio_leader" />
+          <subordinate job="ascendancy_tiei_trio_leader" />
+          <subordinate job="ascendancy_tiei_trio_leader" />
+          <subordinate job="ascendancy_tieb_trio_leader" />
+          <subordinate job="ascendancy_tieb_trio_leader" />
+          <subordinate job="ascendancy_tieb_trio_leader" />
+          <subordinate job="ascendancy_tiea_trio_leader" />
+          <subordinate job="ascendancy_tief_trio_leader" />
+          <subordinate job="ascendancy_tied_trio_leader" />
+          <subordinate job="ascendancy_procursator_escort" />
+          <subordinate job="ascendancy_heavyescort_escort_l" />
+          <subordinate job="ascendancy_heavyescort_escort_l" />
+          <subordinate job="ascendancy_heavyescort_escort_l" />
+        </subordinates>
+      </job>
+
+      <job id="hero_aegis_patrol" name="{343006,1}">
+        <modifiers commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.cluster" />
+          </order>
+        </orders>
+        <category faction="commerceguild" tags="[factionlogic, military, aegis]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" cluster="1" />
+        <location class="galaxy" macro="swi_galaxy_macro" faction="commerceguild" relation="self" comparison="exact" matchextension="false" />
+        <environment buildatshipyard="true" />
+        <ship>
+          <select faction="commerceguild" tags="[military, aegis]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+            <variation exact="0" />
+          </loadout>
+          <owner exact="commerceguild" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="commerceguild_munificent_escort_xl" />
+          <subordinate job="commerceguild_heavyescort_escort_l" />
+          <subordinate job="commerceguild_heavyescort_escort_l" />
+          <subordinate job="commerceguild_vulture_group" />
+          <subordinate job="commerceguild_vulture_group" />
+          <subordinate job="commerceguild_vulture_group" />
+          <subordinate job="commerceguild_vulture_group" />
+          <subordinate job="commerceguild_hyena_group" />
+          <subordinate job="commerceguild_hyena_group" />
+          <subordinate job="commerceguild_hyena_group" />
+        </subordinates>
+      </job>
+
+       <job id="hero_fenelar_patrol" name="{343006,1}">
+        <modifiers commandeerable="true" />
+        <orders>
+          <order order="Patrol" default="true">
+            <param name="range" value="class.sector" />
+          </order>
+        </orders>
+        <category faction="mandodw" tags="[factionlogic, military, fenelar, patrol]" size="ship_xl" />
+        <quota galaxy="1" maxgalaxy="1" cluster="1" />
+        <location class="galaxy" macro="swi_galaxy_macro" faction="mandodw" relation="self" comparison="exact" matchextension="false" />
+        <environment buildatshipyard="true" />
+        <ship>
+          <select faction="mandodw" tags="[military, fenelar]" size="ship_xl" />
+          <loadout>
+            <level exact="1.0" />
+          </loadout>
+          <owner exact="mandodw" overridenpc="true" />
+        </ship>
+        <subordinates>
+          <subordinate job="mandodw_heavyescort_escort_light_l" />
+          <subordinate job="mandodw_heavyescort_escort_light_l" />
+          <subordinate job="mandodw_fighter_mixed_s" />
+          <subordinate job="mandodw_fighter_mixed_s" />
+          <subordinate job="mandodw_fighter_mixed_s" />
+          <subordinate job="mandodw_fighter_mixed_s" />
+          <subordinate job="mandodw_fighter_mixed_s" />
+          <subordinate job="mandodw_fighter_mixed_s" />
+          <subordinate job="mandodw_fighter_mixed_s" />
+          <subordinate job="mandodw_fighter_interceptors" />
+          <subordinate job="mandodw_fighter_interceptors" />
+          <subordinate job="mandodw_fighter_interceptors" />
+          <subordinate job="mandodw_fighter_interceptors" />
+          <subordinate job="mandodw_fighter_ywing" />
+          <subordinate job="mandodw_fighter_ywing" />
+          <subordinate job="mandodw_fighter_ywing" />
+        </subordinates>
+      </job>
+
+      <job id="hero_mandalore_patrol" name="{343006,1}">
+			<modifiers commandeerable="true"/>
+			<orders>
+				<order order="Patrol" default="true">
+					<param name="range" value="class.cluster"/>
+				</order>
+			</orders>
+			<category faction="mandodw" tags="[factionlogic, military, mandalore]" size="ship_xl"/>
+			<quota galaxy="1" maxgalaxy="1" sector="1"/>
+			<location class="galaxy" macro="swi_galaxy_macro" faction="mandodw" relation="self" comparison="exact" matchextension="false"/>
+			<environment buildatshipyard="true"/>
+			<ship>
+				<select faction="mandodw" tags="[military, mandalore]" size="ship_xl"/>
+				<loadout>
+					<level exact="1.0"/>
+					<variation exact="0"/>
+				</loadout>
+				<owner exact="mandodw" overridenpc="true"/>
+			</ship>
+			<subordinates>
+				<subordinate job="mandodw_kedlabe_patrol_2_xl"/>
+				<subordinate job="mandodw_fighter_mixed_s"/>
+				<subordinate job="mandodw_fighter_mixed_s"/>
+				<subordinate job="mandodw_fighter_mixed_s"/>
+				<subordinate job="mandodw_fighter_mixed_s"/>
+				<subordinate job="mandodw_fighter_mixed_s"/>
+				<subordinate job="mandodw_fighter_mixed_s"/>
+				<subordinate job="mandodw_fighter_interceptors"/>
+				<subordinate job="mandodw_fighter_interceptors"/>
+				<subordinate job="mandodw_fighter_interceptors"/>
+				<subordinate job="mandodw_fighter_interceptors"/>
+				<subordinate job="mandodw_fighter_interceptors"/>
+				<subordinate job="mandodw_fighter_interceptors"/>
+				<subordinate job="mandodw_fighter_interceptors"/>
+				<subordinate job="mandodw_fighter_interceptors"/>
+				<subordinate job="mandodw_fighter_ywing"/>
+				<subordinate job="mandodw_fighter_ywing"/>
+				<subordinate job="mandodw_fighter_ywing"/>
+				<subordinate job="mandodw_fighter_mixed_s"/>
+				<subordinate job="mandodw_fighter_mixed_s"/>
+				<subordinate job="mandodw_fighter_mixed_s"/>
+				<subordinate job="mandodw_fighter_mixed_s"/>
+				<subordinate job="mandodw_fighter_mixed_s"/>
+				<subordinate job="mandodw_fighter_mixed_s"/>
+				<subordinate job="mandodw_fighter_mixed_s"/>
+				<subordinate job="mandodw_fighter_interceptors"/>
+				<subordinate job="mandodw_fighter_interceptors"/>
+				<subordinate job="mandodw_fighter_interceptors"/>
+				<subordinate job="mandodw_fighter_interceptors"/>
+				<subordinate job="mandodw_fighter_ywing"/>
+				<subordinate job="mandodw_fighter_ywing"/>
+				<subordinate job="mandodw_fighter_ywing"/>
+			</subordinates>
+		</job>
+
+    <job id="hero_aeternum_patrol" name="{343006,1}">
+  <modifiers  commandeerable="false" rebuild="false"/>
+  <orders>
+    <order order="Patrol" default="true">
+      <param name="range" value="class.sector" />
+    </order>
+  </orders>
+  <category faction="galempire" tags="[aeternum]" size="ship_xl" />
+  <quota galaxy="1" maxgalaxy="1" sector="1" />
+  <location class="sector" macro="swi_clusterfirrerre_sector001_macro" matchextension="false"/>
+  <environment gate="true" buildatshipyard="false" />
+  <ship>  
+    <select faction="galempire" tags="[aeternum]" size="ship_xl" />
+    <loadout>
+      <level exact="1.0" />
+      <variation exact="0" />
+    </loadout>
+    <owner exact="galempire" overridenpc="true" />
+  </ship>
+  <subordinates>
+  <subordinate job="hero_exec_escort_xl" />
+    <subordinate job="hero_imp_tied_escort" />
+    <subordinate job="hero_imp_tied_escort" />
+    <subordinate job="hero_imp_tied_escort" />
+    <subordinate job="hero_imp_tied_escort" />
+    <subordinate job="hero_imp_tied_escort" />
+    <subordinate job="hero_conqueror_escort_xl" />
+    <subordinate job="hero_truesight_escort_s" />
+    <subordinate job="hero_truesight_escort_s" />
+    <subordinate job="hero_truesight_escort_s" />
+    <subordinate job="hero_truesight_escort_s" />
+    <subordinate job="hero_truesight_escort_s" />
+  </subordinates>
+</job>
+
+
+<job id="hero_truesight_escort_s" name="{343006,1}" startactive="false">
+        <orders>
+          <order order="Escort" default="true">
+            <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
+          </order>
+        </orders>
+        <quota wing="20" />
+        <category faction="galempire" tags="[military, truesight]" size="ship_s" />
+        <location class="galaxy" macro="swi_galaxy_macro" matchextension="false" />
+        <environment buildatshipyard="false" />
+        <modifiers subordinate="true" />
+        <ship>
+          <select faction="galempire" tags="[military, truesight]" size="ship_s" />
+          <loadout>
+            <level exact="1" />
+          </loadout>
+          <owner exact="galempire" overridenpc="true" />
+        </ship>
+      </job>
+
+<job id="hero_conqueror_escort_xl" name="{343006,1}" startactive="false">
+        <orders>
+          <order order="Escort" default="true">
+            <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
+          </order>
+        </orders>
+        <quota wing="10" />
+        <category faction="galempire" tags="[military, conqueror]" size="ship_xl" />
+        <location class="galaxy" macro="swi_galaxy_macro" matchextension="false" />
+        <environment buildatshipyard="false" />
+        <modifiers subordinate="true" />
+        <ship>
+          <select faction="galempire" tags="[military, conqueror]" size="ship_xl" />
+          <loadout>
+            <level exact="1" />
+          </loadout>
+          <owner exact="galempire" overridenpc="true" />
+        </ship>
+      </job>
+
+      <job id="hero_exec_escort_xl" name="{343006,1}" startactive="false">
+        <orders>
+          <order order="Escort" default="true">
+            <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
+          </order>
+        </orders>
+        <quota wing="3" />
+        <category faction="galempire" tags="[military, ssd]" size="ship_xl" />
+        <location class="galaxy" macro="swi_galaxy_macro" matchextension="false" />
+        <environment buildatshipyard="false" />
+        <modifiers subordinate="true" />
+        <ship>
+          <select faction="galempire" tags="[military, ssd]" size="ship_xl" />
+          <loadout>
+            <level exact="1" />
+          </loadout>
+          <owner exact="galempire" overridenpc="true" />
+        </ship>
+      </job>
+
+      <job id="hero_imperium_patrol" name="{343006,1}">
+  <modifiers  commandeerable="false" rebuild="false"/>
+  <orders>
+    <order order="Patrol" default="true">
+      <param name="range" value="class.sector" />
+    </order>
+  </orders>
+  <category faction="ascendancy" tags="[imperium]" size="ship_xl" />
+  <quota galaxy="1" maxgalaxy="1" sector="1" />
+  <location class="sector" macro="swi_clustersump_sector001_macro" matchextension="false"/>
+  <environment gate="true" buildatshipyard="false" />
+  <ship>  
+    <select faction="ascendancy" tags="[imperium]" size="ship_xl" />
+    <loadout>
+      <level exact="1.0" />
+      <variation exact="0" />
+    </loadout>
+    <owner exact="ascendancy" overridenpc="true" />
+  </ship>
+  <subordinates>
+    <subordinate job="hero_asc_tied_escort" />
+				<subordinate job="hero_asc_tied_escort" />
+				<subordinate job="hero_asc_tied_escort" />
+				<subordinate job="hero_asc_tied_escort" />
+				<subordinate job="hero_asc_tied_escort" />
+				<subordinate job="hero_asc_tied_escort" />
+				<subordinate job="hero_asc_tied_escort" />
+        <subordinate job="hero_asc_lancer_escort" />
+        <subordinate job="hero_asc_lancer_escort" />
+        <subordinate job="hero_asc_lancer_escort" />
+        <subordinate job="hero_asc_lancer_escort" />
+        <subordinate job="hero_asc_lancer_escort" />
+        <subordinate job="hero_asc_lancer_escort" />
+        <subordinate job="hero_asc_lancer_escort" />
+			
+  </subordinates>
+</job>
+
+
+<job id="hero_imp_tied_escort" name="{343006,1}" startactive="false">
+        <orders>
+          <order order="Escort" default="true">
+            <param name="formation" value="formationshape.triangle" />
+            <param name="overrideformationskill" value="true" />
+          </order>
+        </orders>
+        <quota wing="30" />
+        <category faction="galempire" tags="[military, tied]" size="ship_s" />
+        <location class="galaxy" macro="swi_galaxy_macro" matchextension="false" />
+        <environment buildatshipyard="false" />
+        <modifiers subordinate="true" />
+        <ship>
+          <select faction="galempire" tags="[military, tied]" size="ship_s" />
+          <loadout>
+            <level exact="1.0" />
+          </loadout>
+          <owner exact="galempire" overridenpc="true" />
+        </ship>
+      </job>
+
+      <job id="hero_asc_tied_escort" name="{343006,1}" startactive="false">
+        <orders>
+          <order order="Escort" default="true">
+            <param name="formation" value="formationshape.triangle" />
+            <param name="overrideformationskill" value="true" />
+          </order>
+        </orders>
+        <quota wing="30" />
+        <category faction="ascendancy" tags="[military, tied]" size="ship_s" />
+        <location class="galaxy" macro="swi_galaxy_macro" matchextension="false" />
+        <environment buildatshipyard="false" />
+        <modifiers subordinate="true" />
+        <ship>
+          <select faction="ascendancy" tags="[military, tied]" size="ship_s" />
+          <loadout>
+            <level exact="1.0" />
+          </loadout>
+          <owner exact="ascendancy" overridenpc="true" />
+        </ship>
+      </job>
+
+      <job id="hero_asc_lancer_escort" name="{343006,1}" startactive="false">
+        <orders>
+          <order order="Escort" default="true">
+            <param name="formation" value="formationshape.triangle" />
+            <param name="overrideformationskill" value="true" />
+          </order>
+        </orders>
+        <category faction="ascendancy" tags="[military, lancerfrigate]" size="ship_l" />
+        <quota wing="10" />
+        <location class="galaxy" macro="swi_galaxy_macro" matchextension="false" />
+        <environment buildatshipyard="false" />
+        <modifiers subordinate="true" />
+        <ship>
+          <select faction="ascendancy" tags="[military, lancerfrigate]" size="ship_l" />
+          <loadout>
+            <level exact="1.0" />
+          </loadout>
+          <owner exact="ascendancy" overridenpc="true" />
+        </ship>
+      </job>
+
+      <job id="hero_forsaken_escort_xl" name="{343006,1}" startactive="false">
+        <orders>
+          <order order="Escort" default="true">
+            <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
+          </order>
+        </orders>
+        <quota wing="1" />
+        <category faction="kamino" tags="[military, forsaken]" size="ship_xl" />
+        <location class="galaxy" macro="swi_galaxy_macro" matchextension="false" />
+        <environment buildatshipyard="false" />
+        <modifiers subordinate="true" />
+        <ship>
+          <select faction="kamino" tags="[military, forsaken]" size="ship_xl" />
+          <loadout>
+            <level exact="1" />
+          </loadout>
+          <owner exact="kamino" overridenpc="true" />
+        </ship>
+      </job>
+
+
+	</add>
+
+</diff>

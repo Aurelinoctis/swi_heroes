@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <add sel="//loadouts">
+
+    <loadout id="heroes_legion_loadout" description="" macro="heroes_legion_macro">
+      <macros>
+            <engine macro="heroes_engine_mandalore_macro" path="../con_engine_xl_enginegroup_1"/>
+            <shield macro="heroes_shield_mandalore_macro" path="../con_shieldgen_xl_1"/>
+          </macros>
+          <groups>
+            <shields macro="shield_m_kuatrc_02_macro" group="bot-back-edge-left-mtb" exact="2"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="bot-back-edge-left-s" exact="2"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="bot-back-edge-right-mtb" exact="2"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="bot-back-edge-right-s" exact="2"/>
+            <shields macro="shield_lh_cec5x20_macro" group="bot-flak"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="bot-front-edge-left-mtb" exact="2"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="bot-front-edge-left-s" exact="2"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="bot-front-edge-right-mtb" exact="2"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="bot-front-edge-right-s" exact="2"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="bot-front-hangar-mtb"/>
+            <shields macro="heroes_shield_lh_macro" group="bot-left-720tt"/>
+            <shields macro="shield_ll_mandalmotorssl300_macro" group="bot-left-hion"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="bot-mounts-left-mtb" exact="4"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="bot-mounts-right-mtb" exact="4"/>
+            <shields macro="shield_ll_mandalmotorssl300_macro" group="bot-rear-left-htb"/>
+            <shields macro="shield_ll_mandalmotorssl300_macro" group="bot-rear-right-htb"/>
+            <shields macro="heroes_shield_lh_macro" group="bot-right-720tt"/>
+            <shields macro="shield_ll_mandalmotorssl300_macro" group="bot-right-hion"/>
+            <shields macro="heroes_shield_lh_macro" group="bot-ss-axial-720tt"/>
+            <shields macro="shield_xll_pk721_macro" group="enginegroup" exact="2"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="top-back-edge-left-mtb" exact="2"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="top-back-edge-left-s" exact="2"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="top-back-edge-right-mtb" exact="2"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="top-back-edge-right-s" exact="2"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="top-front-edge-left-mtb" exact="2"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="top-front-edge-left-s" exact="2"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="top-front-edge-right-mtb" exact="2"/>
+            <shields macro="shield_m_kuatrc_02_macro" group="top-front-edge-right-s" exact="2"/>
+            <shields macro="heroes_shield_lh_macro" group="top-front-left-720tt" exact="2"/>
+            <shields macro="shield_ll_mandalmotorssl300_macro" group="top-front-left-htb"/>
+            <shields macro="heroes_shield_lh_macro" group="top-front-right-720tt" exact="2"/>
+            <shields macro="shield_ll_mandalmotorssl300_macro" group="top-front-right-htb"/>
+            <shields macro="shield_lh_cec5x20_macro" group="top-left-flak"/>
+            <shields macro="shield_ll_mandalmotorssl300_macro" group="top-left-hion" exact="2"/>
+            <shields macro="heroes_shield_lh_macro" group="top-rear-left-720tt" exact="2"/>
+            <shields macro="shield_ll_mandalmotorssl300_macro" group="top-rear-left-htb"/>
+            <shields macro="heroes_shield_lh_macro" group="top-rear-right-720tt" exact="2"/>
+            <shields macro="shield_ll_mandalmotorssl300_macro" group="top-rear-right-htb"/>
+            <shields macro="shield_lh_cec5x20_macro" group="top-right-flak"/>
+            <shields macro="shield_ll_mandalmotorssl300_macro" group="top-right-hion" exact="2"/>
+            <shields macro="shield_lh_cec5x20_macro" group="top-ss-axial-720tt"/>
+            <turrets macro="turret_m_mtbdual_blue_macro" group="bot-back-edge-left-mtb" exact="8"/>
+            <turrets macro="turret_m_duallaserrh8_red_02_macro" group="bot-back-edge-left-s" exact="18"/>
+            <turrets macro="turret_m_mtbdual_blue_macro" group="bot-back-edge-right-mtb" exact="8"/>
+            <turrets macro="turret_m_duallaserrh8_red_02_macro" group="bot-back-edge-right-s" exact="18"/>
+            <turrets macro="dabc_turret_l_quad_flak_orange_macro" group="bot-flak" exact="4"/>
+            <turrets macro="turret_m_mtbdual_blue_macro" group="bot-front-edge-left-mtb" exact="8"/>
+            <turrets macro="turret_m_duallaserrh8_red_02_macro" group="bot-front-edge-left-s" exact="18"/>
+            <turrets macro="turret_m_mtbdual_blue_macro" group="bot-front-edge-right-mtb" exact="8"/>
+            <turrets macro="turret_m_duallaserrh8_red_02_macro" group="bot-front-edge-right-s" exact="18"/>
+            <turrets macro="turret_m_mtbdual_blue_macro" group="bot-front-hangar-mtb" exact="4"/>
+            <turrets macro="heroes_turret_imperium_macro" group="bot-left-720tt" exact="5"/>
+            <turrets macro="turret_l_double_ionsw10_macro" group="bot-left-hion" exact="4"/>
+            <turrets macro="turret_m_mtbdual_blue_macro" group="bot-mounts-left-mtb" exact="16"/>
+            <turrets macro="turret_m_mtbdual_blue_macro" group="bot-mounts-right-mtb" exact="16"/>
+            <turrets macro="turret_l_doublelr_turbolaser_red_cis_macro" group="bot-rear-left-htb" exact="6"/>
+            <turrets macro="turret_l_doublelr_turbolaser_red_cis_macro" group="bot-rear-right-htb" exact="6"/>
+            <turrets macro="heroes_turret_imperium_macro" group="bot-right-720tt" exact="5"/>
+            <turrets macro="turret_l_double_ionsw10_macro" group="bot-right-hion" exact="4"/>
+            <turrets macro="heroes_turret_umbraxl_macro" group="bot-ss-axial-720tt" exact="4"/>
+            <turrets macro="turret_m_mtbdual_blue_macro" group="top-back-edge-left-mtb" exact="8"/>
+            <turrets macro="turret_m_duallaserrh8_red_02_macro" group="top-back-edge-left-s" exact="18"/>
+            <turrets macro="turret_m_mtbdual_blue_macro" group="top-back-edge-right-mtb" exact="8"/>
+            <turrets macro="turret_m_duallaserrh8_red_02_macro" group="top-back-edge-right-s" exact="18"/>
+            <turrets macro="turret_m_mtbdual_blue_macro" group="top-front-edge-left-mtb" exact="8"/>
+            <turrets macro="turret_m_duallaserrh8_red_02_macro" group="top-front-edge-left-s" exact="18"/>
+            <turrets macro="turret_m_mtbdual_blue_macro" group="top-front-edge-right-mtb" exact="8"/>
+            <turrets macro="turret_m_duallaserrh8_red_02_macro" group="top-front-edge-right-s" exact="18"/>
+            <turrets macro="heroes_turret_imperium_macro" group="top-front-left-720tt" exact="7"/>
+            <turrets macro="turret_l_doublelr_turbolaser_red_cis_macro" group="top-front-left-htb" exact="6"/>
+            <turrets macro="heroes_turret_imperium_macro" group="top-front-right-720tt" exact="7"/>
+            <turrets macro="turret_l_doublelr_turbolaser_red_cis_macro" group="top-front-right-htb" exact="6"/>
+            <turrets macro="dabc_turret_l_quad_flak_orange_macro" group="top-left-flak" exact="4"/>
+            <turrets macro="turret_l_double_ionsw10_macro" group="top-left-hion" exact="4"/>
+            <turrets macro="heroes_turret_imperium_macro" group="top-rear-left-720tt" exact="7"/>
+            <turrets macro="turret_l_doublelr_turbolaser_red_cis_macro" group="top-rear-left-htb" exact="6"/>
+            <turrets macro="heroes_turret_imperium_macro" group="top-rear-right-720tt" exact="7"/>
+            <turrets macro="turret_l_doublelr_turbolaser_red_cis_macro" group="top-rear-right-htb" exact="6"/>
+            <turrets macro="dabc_turret_l_quad_flak_orange_macro" group="top-right-flak" exact="4"/>
+            <turrets macro="turret_l_double_ionsw10_macro" group="top-right-hion" exact="4"/>
+            <turrets macro="heroes_turret_umbraxl_macro" group="top-ss-axial-720tt" exact="4"/>
+            <turrets macro="turret_m_tractor_heavy_macro" group="tractor" exact="20"/>
+          </groups>
+          <ammunition>
+            <ammunition macro="countermeasure_flares_01_macro" exact="300"/>
+            <unit macro="ship_gen_s_fightingdrone_01_a_macro" exact="120"/>
+            <unit macro="ship_gen_xs_repairdrone_01_a_macro" exact="60"/>
+          </ammunition>
+          <software>
+            <software ware="software_dockmk2"/>
+            <software ware="software_flightassistmk1"/>
+            <software ware="software_scannerlongrangemk2"/>
+            <software ware="software_scannerobjectmk2"/>
+            <software ware="software_targetmk1"/>
+            <software ware="software_trademk1"/>
+          </software>
+          <virtualmacros>
+            <thruster macro="thruster_gen_xl_allround_01_mk3_macro"/>
+          </virtualmacros>
+    </loadout>
+
+
+
+  </add>
+</diff>
